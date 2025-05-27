@@ -1,0 +1,424 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "general",
+      "question": {
+        "en": "What is the capital of France?",
+        "ar": "ما هي عاصمة فرنسا؟"
+      },
+      "options": [
+        {
+          "en": "Paris",
+          "ar": "باريس"
+        },
+        {
+          "en": "London",
+          "ar": "لندن"
+        },
+        {
+          "en": "Berlin",
+          "ar": "برلين"
+        },
+        {
+          "en": "Madrid",
+          "ar": "مدريد"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "general",
+      "question": {
+        "en": "How many days are there in a week?",
+        "ar": "كم عدد الأيام في الأسبوع؟"
+      },
+      "options": [
+        {
+          "en": "5",
+          "ar": "٥"
+        },
+        {
+          "en": "6",
+          "ar": "٦"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "8",
+          "ar": "٨"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "general",
+      "question": {
+        "en": "What color do you get when you mix red and blue?",
+        "ar": "ما هو اللون الذي تحصل عليه عند خلط الأحمر والأزرق؟"
+      },
+      "options": [
+        {
+          "en": "Green",
+          "ar": "أخضر"
+        },
+        {
+          "en": "Purple",
+          "ar": "بنفسجي"
+        },
+        {
+          "en": "Yellow",
+          "ar": "أصفر"
+        },
+        {
+          "en": "Orange",
+          "ar": "برتقالي"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "general",
+      "question": {
+        "en": "Which planet is closest to the Sun?",
+        "ar": "أي كوكب هو الأقرب إلى الشمس؟"
+      },
+      "options": [
+        {
+          "en": "Venus",
+          "ar": "الزهرة"
+        },
+        {
+          "en": "Mercury",
+          "ar": "عطارد"
+        },
+        {
+          "en": "Earth",
+          "ar": "الأرض"
+        },
+        {
+          "en": "Mars",
+          "ar": "المريخ"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "general",
+      "question": {
+        "en": "What is 2 + 2?",
+        "ar": "كم يساوي ٢ + ٢؟"
+      },
+      "options": [
+        {
+          "en": "3",
+          "ar": "٣"
+        },
+        {
+          "en": "4",
+          "ar": "٤"
+        },
+        {
+          "en": "5",
+          "ar": "٥"
+        },
+        {
+          "en": "6",
+          "ar": "٦"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "science",
+      "question": {
+        "en": "What is the chemical symbol for gold?",
+        "ar": "ما هو الرمز الكيميائي للذهب؟"
+      },
+      "options": [
+        {
+          "en": "Go",
+          "ar": "Go"
+        },
+        {
+          "en": "Au",
+          "ar": "Au"
+        },
+        {
+          "en": "Ag",
+          "ar": "Ag"
+        },
+        {
+          "en": "Gd",
+          "ar": "Gd"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "geography",
+      "question": {
+        "en": "Which river is the longest in the world?",
+        "ar": "أي نهر هو الأطول في العالم؟"
+      },
+      "options": [
+        {
+          "en": "Amazon",
+          "ar": "الأمازون"
+        },
+        {
+          "en": "Nile",
+          "ar": "النيل"
+        },
+        {
+          "en": "Mississippi",
+          "ar": "المسيسيبي"
+        },
+        {
+          "en": "Yangtze",
+          "ar": "اليانغتسي"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "history",
+      "question": {
+        "en": "In which year did World War II end?",
+        "ar": "في أي عام انتهت الحرب العالمية الثانية؟"
+      },
+      "options": [
+        {
+          "en": "1944",
+          "ar": "١٩٤٤"
+        },
+        {
+          "en": "1945",
+          "ar": "١٩٤٥"
+        },
+        {
+          "en": "1946",
+          "ar": "١٩٤٦"
+        },
+        {
+          "en": "1947",
+          "ar": "١٩٤٧"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "science",
+      "question": {
+        "en": "What is the hardest natural substance on Earth?",
+        "ar": "ما هي أصعب مادة طبيعية على الأرض؟"
+      },
+      "options": [
+        {
+          "en": "Gold",
+          "ar": "الذهب"
+        },
+        {
+          "en": "Iron",
+          "ar": "الحديد"
+        },
+        {
+          "en": "Diamond",
+          "ar": "الماس"
+        },
+        {
+          "en": "Platinum",
+          "ar": "البلاتين"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "literature",
+      "question": {
+        "en": "Who wrote the novel 'Pride and Prejudice'?",
+        "ar": "من كتب رواية 'كبرياء وتحامل'؟"
+      },
+      "options": [
+        {
+          "en": "Charlotte Brontë",
+          "ar": "شارلوت برونتي"
+        },
+        {
+          "en": "Jane Austen",
+          "ar": "جين أوستن"
+        },
+        {
+          "en": "Emily Dickinson",
+          "ar": "إميلي ديكنسون"
+        },
+        {
+          "en": "Virginia Woolf",
+          "ar": "فيرجينيا وولف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "category": "science",
+      "question": {
+        "en": "What is the speed of light in a vacuum?",
+        "ar": "ما هي سرعة الضوء في الفراغ؟"
+      },
+      "options": [
+        {
+          "en": "299,792,458 m/s",
+          "ar": "٢٩٩,٧٩٢,٤٥٨ م/ث"
+        },
+        {
+          "en": "300,000,000 m/s",
+          "ar": "٣٠٠,٠٠٠,٠٠٠ م/ث"
+        },
+        {
+          "en": "186,000 m/s",
+          "ar": "١٨٦,٠٠٠ م/ث"
+        },
+        {
+          "en": "299,000,000 m/s",
+          "ar": "٢٩٩,٠٠٠,٠٠٠ م/ث"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "category": "mathematics",
+      "question": {
+        "en": "What is the value of π (pi) to 5 decimal places?",
+        "ar": "ما هي قيمة π (باي) حتى ٥ منازل عشرية؟"
+      },
+      "options": [
+        {
+          "en": "3.14159",
+          "ar": "٣.١٤١٥٩"
+        },
+        {
+          "en": "3.14169",
+          "ar": "٣.١٤١٦٩"
+        },
+        {
+          "en": "3.14149",
+          "ar": "٣.١٤١٤٩"
+        },
+        {
+          "en": "3.14179",
+          "ar": "٣.١٤١٧٩"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "category": "history",
+      "question": {
+        "en": "Who was the first person to walk on the moon?",
+        "ar": "من كان أول شخص يمشي على القمر؟"
+      },
+      "options": [
+        {
+          "en": "Buzz Aldrin",
+          "ar": "باز ألدرين"
+        },
+        {
+          "en": "Neil Armstrong",
+          "ar": "نيل أرمسترونغ"
+        },
+        {
+          "en": "John Glenn",
+          "ar": "جون غلين"
+        },
+        {
+          "en": "Alan Shepard",
+          "ar": "آلان شيبارد"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "category": "geography",
+      "question": {
+        "en": "What is the smallest country in the world by area?",
+        "ar": "ما هي أصغر دولة في العالم من حيث المساحة؟"
+      },
+      "options": [
+        {
+          "en": "Monaco",
+          "ar": "موناكو"
+        },
+        {
+          "en": "Vatican City",
+          "ar": "مدينة الفاتيكان"
+        },
+        {
+          "en": "San Marino",
+          "ar": "سان مارينو"
+        },
+        {
+          "en": "Liechtenstein",
+          "ar": "ليختنشتاين"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "science",
+      "question": {
+        "en": "What is the most abundant gas in Earth's atmosphere?",
+        "ar": "ما هو الغاز الأكثر وفرة في الغلاف الجوي للأرض؟"
+      },
+      "options": [
+        {
+          "en": "Oxygen",
+          "ar": "الأكسجين"
+        },
+        {
+          "en": "Nitrogen",
+          "ar": "النيتروجين"
+        },
+        {
+          "en": "Carbon Dioxide",
+          "ar": "ثاني أكسيد الكربون"
+        },
+        {
+          "en": "Argon",
+          "ar": "الأرجون"
+        }
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

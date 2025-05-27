@@ -1,0 +1,33 @@
+{
+  "prizeAmounts": [
+    1,
+    2,
+    3,
+    5,
+
+    10,
+
+    15,
+    20,
+    25,
+    30,
+
+    50,
+
+    60,
+    70,
+    80,
+    90,
+
+    100
+  ],
+  "milestones": [
+    4,
+    9,
+    14
+  ],
+  "description": {
+    "en": "Classic Who Wants to Be a Millionaire prize structure",
+    "ar": "هيكل الجوائز الكلاسيكي لمن سيربح المليون"
+  }
+}

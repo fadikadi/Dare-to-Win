@@ -1,0 +1,2804 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Yunus?",
+        "ar": "أي نبي ذُكر في سورة يونس؟"
+      },
+      "options": [
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        },
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "difficulty": "medium",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Yaseen?",
+        "ar": "أي نبي ذُكر في سورة يس؟"
+      },
+      "options": [
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "difficulty": "medium",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Al-Fatiha?",
+        "ar": "أي نبي ذُكر في سورة الفاتحة؟"
+      },
+      "options": [
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "difficulty": "hard",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Yaseen?",
+        "ar": "كم عدد آيات سورة يس؟"
+      },
+      "options": [
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        },
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Yunus?",
+        "ar": "ما الموضوع الرئيسي في سورة يونس؟"
+      },
+      "options": [
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Mulk?",
+        "ar": "كم عدد آيات سورة الملك؟"
+      },
+      "options": [
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        },
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 78 in the Quran?",
+        "ar": "ما هي السورة رقم 78 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 107 in the Quran?",
+        "ar": "ما هي السورة رقم 107 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Mulk?",
+        "ar": "ما الموضوع الرئيسي في سورة الملك؟"
+      },
+      "options": [
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 37 in the Quran?",
+        "ar": "ما هي السورة رقم 37 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 54 in the Quran?",
+        "ar": "ما هي السورة رقم 54 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Yunus?",
+        "ar": "كم عدد آيات سورة يونس؟"
+      },
+      "options": [
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        },
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Taha?",
+        "ar": "كم عدد آيات سورة طه؟"
+      },
+      "options": [
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Maryam?",
+        "ar": "كم عدد آيات سورة مريم؟"
+      },
+      "options": [
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        },
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        },
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Taha?",
+        "ar": "أي نبي ذُكر في سورة طه؟"
+      },
+      "options": [
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 45 in the Quran?",
+        "ar": "ما هي السورة رقم 45 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Hud?",
+        "ar": "كم عدد آيات سورة هود؟"
+      },
+      "options": [
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        },
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 102 in the Quran?",
+        "ar": "ما هي السورة رقم 102 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 86 in the Quran?",
+        "ar": "ما هي السورة رقم 86 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Hud?",
+        "ar": "أي نبي ذُكر في سورة هود؟"
+      },
+      "options": [
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 81 in the Quran?",
+        "ar": "ما هي السورة رقم 81 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "difficulty": "hard",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Al-Baqarah?",
+        "ar": "كم عدد آيات سورة البقرة؟"
+      },
+      "options": [
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 113 in the Quran?",
+        "ar": "ما هي السورة رقم 113 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Al-Baqarah?",
+        "ar": "أي نبي ذُكر في سورة البقرة؟"
+      },
+      "options": [
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        },
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Maryam?",
+        "ar": "ما الموضوع الرئيسي في سورة مريم؟"
+      },
+      "options": [
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 39 in the Quran?",
+        "ar": "ما هي السورة رقم 39 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 47 in the Quran?",
+        "ar": "ما هي السورة رقم 47 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 8 in the Quran?",
+        "ar": "ما هي السورة رقم 8 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "difficulty": "easy",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Yaseen?",
+        "ar": "ما الموضوع الرئيسي في سورة يس؟"
+      },
+      "options": [
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 30 in the Quran?",
+        "ar": "ما هي السورة رقم 30 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "difficulty": "easy",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Taha?",
+        "ar": "ما الموضوع الرئيسي في سورة طه؟"
+      },
+      "options": [
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 60 in the Quran?",
+        "ar": "ما هي السورة رقم 60 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 50 in the Quran?",
+        "ar": "ما هي السورة رقم 50 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "difficulty": "easy",
+      "category": "verses",
+      "question": {
+        "en": "How many verses are there in Surah Al-Fatiha?",
+        "ar": "كم عدد آيات سورة الفاتحة؟"
+      },
+      "options": [
+        {
+          "en": "286",
+          "ar": "٢٨٦"
+        },
+        {
+          "en": "7",
+          "ar": "٧"
+        },
+        {
+          "en": "129",
+          "ar": "١٢٩"
+        },
+        {
+          "en": "165",
+          "ar": "١٦٥"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "difficulty": "easy",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Al-Fatiha?",
+        "ar": "ما الموضوع الرئيسي في سورة الفاتحة؟"
+      },
+      "options": [
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Hud?",
+        "ar": "ما الموضوع الرئيسي في سورة هود؟"
+      },
+      "options": [
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 40 in the Quran?",
+        "ar": "ما هي السورة رقم 40 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 103 in the Quran?",
+        "ar": "ما هي السورة رقم 103 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "category": "themes",
+      "question": {
+        "en": "What is the main theme of Surah Al-Baqarah?",
+        "ar": "ما الموضوع الرئيسي في سورة البقرة؟"
+      },
+      "options": [
+        {
+          "en": "Faith",
+          "ar": "الإيمان"
+        },
+        {
+          "en": "Stories",
+          "ar": "القصص"
+        },
+        {
+          "en": "Rules",
+          "ar": "الأحكام"
+        },
+        {
+          "en": "Prayers",
+          "ar": "الدعاء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Mulk?",
+        "ar": "أي نبي ذُكر في سورة الملك؟"
+      },
+      "options": [
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 99 in the Quran?",
+        "ar": "ما هي السورة رقم 99 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 55 in the Quran?",
+        "ar": "ما هي السورة رقم 55 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 108 in the Quran?",
+        "ar": "ما هي السورة رقم 108 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 61 in the Quran?",
+        "ar": "ما هي السورة رقم 61 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 3 in the Quran?",
+        "ar": "ما هي السورة رقم 3 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 67 in the Quran?",
+        "ar": "ما هي السورة رقم 67 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 24 in the Quran?",
+        "ar": "ما هي السورة رقم 24 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 32 in the Quran?",
+        "ar": "ما هي السورة رقم 32 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 43 in the Quran?",
+        "ar": "ما هي السورة رقم 43 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 89 in the Quran?",
+        "ar": "ما هي السورة رقم 89 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 92 in the Quran?",
+        "ar": "ما هي السورة رقم 92 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 6 in the Quran?",
+        "ar": "ما هي السورة رقم 6 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 33 in the Quran?",
+        "ar": "ما هي السورة رقم 33 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 80 in the Quran?",
+        "ar": "ما هي السورة رقم 80 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 55,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 69 in the Quran?",
+        "ar": "ما هي السورة رقم 69 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "category": "prophets",
+      "question": {
+        "en": "Which Prophet is mentioned in Surah Maryam?",
+        "ar": "أي نبي ذُكر في سورة مريم؟"
+      },
+      "options": [
+        {
+          "en": "Yunus",
+          "ar": "يونس"
+        },
+        {
+          "en": "Isa",
+          "ar": "عيسى"
+        },
+        {
+          "en": "Musa",
+          "ar": "موسى"
+        },
+        {
+          "en": "Ibrahim",
+          "ar": "إبراهيم"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 105 in the Quran?",
+        "ar": "ما هي السورة رقم 105 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 58,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 82 in the Quran?",
+        "ar": "ما هي السورة رقم 82 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 84 in the Quran?",
+        "ar": "ما هي السورة رقم 84 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 87 in the Quran?",
+        "ar": "ما هي السورة رقم 87 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 61,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 12 in the Quran?",
+        "ar": "ما هي السورة رقم 12 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 62,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 1 in the Quran?",
+        "ar": "ما هي السورة رقم 1 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 34 in the Quran?",
+        "ar": "ما هي السورة رقم 34 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 64,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 62 in the Quran?",
+        "ar": "ما هي السورة رقم 62 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 65,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 26 in the Quran?",
+        "ar": "ما هي السورة رقم 26 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 57 in the Quran?",
+        "ar": "ما هي السورة رقم 57 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 83 in the Quran?",
+        "ar": "ما هي السورة رقم 83 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 13 in the Quran?",
+        "ar": "ما هي السورة رقم 13 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 18 in the Quran?",
+        "ar": "ما هي السورة رقم 18 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 111 in the Quran?",
+        "ar": "ما هي السورة رقم 111 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 95 in the Quran?",
+        "ar": "ما هي السورة رقم 95 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 29 in the Quran?",
+        "ar": "ما هي السورة رقم 29 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 73,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 110 in the Quran?",
+        "ar": "ما هي السورة رقم 110 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 74,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 44 in the Quran?",
+        "ar": "ما هي السورة رقم 44 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 75,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 51 in the Quran?",
+        "ar": "ما هي السورة رقم 51 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 48 in the Quran?",
+        "ar": "ما هي السورة رقم 48 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 77,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 73 in the Quran?",
+        "ar": "ما هي السورة رقم 73 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 49 in the Quran?",
+        "ar": "ما هي السورة رقم 49 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 31 in the Quran?",
+        "ar": "ما هي السورة رقم 31 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 17 in the Quran?",
+        "ar": "ما هي السورة رقم 17 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 81,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 58 in the Quran?",
+        "ar": "ما هي السورة رقم 58 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 82,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 70 in the Quran?",
+        "ar": "ما هي السورة رقم 70 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 83,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 7 in the Quran?",
+        "ar": "ما هي السورة رقم 7 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 84,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 14 in the Quran?",
+        "ar": "ما هي السورة رقم 14 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 85,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 112 in the Quran?",
+        "ar": "ما هي السورة رقم 112 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 101 in the Quran?",
+        "ar": "ما هي السورة رقم 101 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 85 in the Quran?",
+        "ar": "ما هي السورة رقم 85 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 10 in the Quran?",
+        "ar": "ما هي السورة رقم 10 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 28 in the Quran?",
+        "ar": "ما هي السورة رقم 28 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 68 in the Quran?",
+        "ar": "ما هي السورة رقم 68 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 91,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 46 in the Quran?",
+        "ar": "ما هي السورة رقم 46 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 92,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 96 in the Quran?",
+        "ar": "ما هي السورة رقم 96 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 93,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 77 in the Quran?",
+        "ar": "ما هي السورة رقم 77 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 90 in the Quran?",
+        "ar": "ما هي السورة رقم 90 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 95,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 5 in the Quran?",
+        "ar": "ما هي السورة رقم 5 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 96,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 38 in the Quran?",
+        "ar": "ما هي السورة رقم 38 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 97,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 74 in the Quran?",
+        "ar": "ما هي السورة رقم 74 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 98,
+      "difficulty": "hard",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 88 in the Quran?",
+        "ar": "ما هي السورة رقم 88 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "difficulty": "medium",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 64 in the Quran?",
+        "ar": "ما هي السورة رقم 64 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 100,
+      "difficulty": "easy",
+      "category": "surahs",
+      "question": {
+        "en": "Which Surah is number 97 in the Quran?",
+        "ar": "ما هي السورة رقم 97 في القرآن؟"
+      },
+      "options": [
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nisa",
+          "ar": "النساء"
+        }
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

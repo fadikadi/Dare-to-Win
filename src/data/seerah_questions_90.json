@@ -1,0 +1,2528 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "birth",
+      "question": {
+        "en": "In which city was Prophet Muhammad ﷺ born?",
+        "ar": "في أي مدينة وُلد النبي محمد ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Makkah",
+          "ar": "مكة"
+        },
+        {
+          "en": "Madinah",
+          "ar": "المدينة"
+        },
+        {
+          "en": "Ta'if",
+          "ar": "الطائف"
+        },
+        {
+          "en": "Jerusalem",
+          "ar": "القدس"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "birth",
+      "question": {
+        "en": "The Prophet ﷺ was born in which famous year?",
+        "ar": "وُلد النبي ﷺ في أي عام مشهور؟"
+      },
+      "options": [
+        {
+          "en": "Year of the Elephant",
+          "ar": "عام الفيل"
+        },
+        {
+          "en": "Year of Sadness",
+          "ar": "عام الحزن"
+        },
+        {
+          "en": "Hijrah Year",
+          "ar": "عام الهجرة"
+        },
+        {
+          "en": "Year of Victory",
+          "ar": "عام الفتح"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "family",
+      "question": {
+        "en": "What was the name of the Prophet ﷺ’s mother?",
+        "ar": "ما اسم والدة النبي ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Aminah bint Wahb",
+          "ar": "آمنة بنت وهب"
+        },
+        {
+          "en": "Khadijah",
+          "ar": "خديجة"
+        },
+        {
+          "en": "Fatimah",
+          "ar": "فاطمة"
+        },
+        {
+          "en": "Halimah",
+          "ar": "حليمة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "family",
+      "question": {
+        "en": "Who was the first wife of the Prophet ﷺ?",
+        "ar": "من هي أول زوجات النبي ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Khadijah",
+          "ar": "خديجة"
+        },
+        {
+          "en": "Aishah",
+          "ar": "عائشة"
+        },
+        {
+          "en": "Hafsah",
+          "ar": "حفصة"
+        },
+        {
+          "en": "Zaynab",
+          "ar": "زينب"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "character",
+      "question": {
+        "en": "What title did Quraysh give the Prophet ﷺ for his honesty?",
+        "ar": "ما اللقب الذي أطلقته قريش على النبي ﷺ لصدقه؟"
+      },
+      "options": [
+        {
+          "en": "Al‑Amin",
+          "ar": "الأمين"
+        },
+        {
+          "en": "Al‑Qawi",
+          "ar": "القوي"
+        },
+        {
+          "en": "Al‑Hakim",
+          "ar": "الحكيم"
+        },
+        {
+          "en": "Al‑Mujahid",
+          "ar": "المجاهد"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "revelation",
+      "question": {
+        "en": "In which cave did the first revelation occur?",
+        "ar": "في أي غار نزل الوحي أول مرة؟"
+      },
+      "options": [
+        {
+          "en": "Hira",
+          "ar": "حراء"
+        },
+        {
+          "en": "Thawr",
+          "ar": "ثور"
+        },
+        {
+          "en": "Sawwa'",
+          "ar": "سواء"
+        },
+        {
+          "en": "Uhud",
+          "ar": "أحد"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "category": "companions",
+      "question": {
+        "en": "Who accompanied the Prophet ﷺ during Hijrah?",
+        "ar": "من صاحب النبي ﷺ في الهجرة؟"
+      },
+      "options": [
+        {
+          "en": "Abu Bakr",
+          "ar": "أبو بكر"
+        },
+        {
+          "en": "Umar",
+          "ar": "عمر"
+        },
+        {
+          "en": "Ali",
+          "ar": "علي"
+        },
+        {
+          "en": "Uthman",
+          "ar": "عثمان"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "category": "mosques",
+      "question": {
+        "en": "First mosque built in Madinah by the Prophet ﷺ?",
+        "ar": "ما أول مسجد بناه النبي ﷺ في المدينة؟"
+      },
+      "options": [
+        {
+          "en": "Masjid Quba",
+          "ar": "مسجد قباء"
+        },
+        {
+          "en": "Masjid Nabawi",
+          "ar": "المسجد النبوي"
+        },
+        {
+          "en": "Masjid Qiblatayn",
+          "ar": "مسجد القبلتين"
+        },
+        {
+          "en": "Masjid Haram",
+          "ar": "المسجد الحرام"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "category": "battles",
+      "question": {
+        "en": "First major battle in Islam?",
+        "ar": "ما أول غزوة في الإسلام؟"
+      },
+      "options": [
+        {
+          "en": "Badr",
+          "ar": "بدر"
+        },
+        {
+          "en": "Uhud",
+          "ar": "أحد"
+        },
+        {
+          "en": "Khaybar",
+          "ar": "خيبر"
+        },
+        {
+          "en": "Hunayn",
+          "ar": "حنين"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "category": "miracles",
+      "question": {
+        "en": "Which miracle involved the splitting of the moon?",
+        "ar": "أي معجزة انشق فيها القمر؟"
+      },
+      "options": [
+        {
+          "en": "Shaqq al‑Qamar",
+          "ar": "شق القمر"
+        },
+        {
+          "en": "Isra",
+          "ar": "الإسراء"
+        },
+        {
+          "en": "Mi'raj",
+          "ar": "المعراج"
+        },
+        {
+          "en": "Water from fingers",
+          "ar": "خرج الماء من الأصابع"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 11",
+        "ar": "معلومة سيرة سهلة 11"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 12",
+        "ar": "معلومة سيرة سهلة 12"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 13",
+        "ar": "معلومة سيرة سهلة 13"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 14",
+        "ar": "معلومة سيرة سهلة 14"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 15",
+        "ar": "معلومة سيرة سهلة 15"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 16",
+        "ar": "معلومة سيرة سهلة 16"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 17",
+        "ar": "معلومة سيرة سهلة 17"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 18",
+        "ar": "معلومة سيرة سهلة 18"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 19",
+        "ar": "معلومة سيرة سهلة 19"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 20",
+        "ar": "معلومة سيرة سهلة 20"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 21",
+        "ar": "معلومة سيرة سهلة 21"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 22",
+        "ar": "معلومة سيرة سهلة 22"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 23",
+        "ar": "معلومة سيرة سهلة 23"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 24",
+        "ar": "معلومة سيرة سهلة 24"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 25",
+        "ar": "معلومة سيرة سهلة 25"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 26",
+        "ar": "معلومة سيرة سهلة 26"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 27",
+        "ar": "معلومة سيرة سهلة 27"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 28",
+        "ar": "معلومة سيرة سهلة 28"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 29",
+        "ar": "معلومة سيرة سهلة 29"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "difficulty": "easy",
+      "category": "fact",
+      "question": {
+        "en": "Simple Seerah fact 30",
+        "ar": "معلومة سيرة سهلة 30"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "en": "No",
+          "ar": "لا"
+        },
+        {
+          "en": "Maybe",
+          "ar": "ربما"
+        },
+        {
+          "en": "Unknown",
+          "ar": "غير معروف"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "category": "revelation",
+      "question": {
+        "en": "Who was the first male adult to embrace Islam?",
+        "ar": "من أول من أسلم من الرجال؟"
+      },
+      "options": [
+        {
+          "en": "Abu Bakr",
+          "ar": "أبو بكر"
+        },
+        {
+          "en": "Ali",
+          "ar": "علي"
+        },
+        {
+          "en": "Umar",
+          "ar": "عمر"
+        },
+        {
+          "en": "Zayd",
+          "ar": "زيد"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "category": "migration",
+      "question": {
+        "en": "Name the tribe that hosted the Prophet ﷺ in Madinah.",
+        "ar": "ما اسم القبيلة التي استضافت النبي ﷺ في المدينة؟"
+      },
+      "options": [
+        {
+          "en": "Al‑Aus",
+          "ar": "الأوس"
+        },
+        {
+          "en": "Al‑Khazraj",
+          "ar": "الخزرج"
+        },
+        {
+          "en": "Quraysh",
+          "ar": "قريش"
+        },
+        {
+          "en": "Thaqif",
+          "ar": "ثقيف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "category": "treaties",
+      "question": {
+        "en": "How many years of truce were agreed at Hudaybiyyah?",
+        "ar": "كم سنة نصَّ عليها صلح الحديبية؟"
+      },
+      "options": [
+        {
+          "en": "10 years",
+          "ar": "عشر سنوات"
+        },
+        {
+          "en": "5 years",
+          "ar": "خمس سنوات"
+        },
+        {
+          "en": "3 years",
+          "ar": "ثلاث سنوات"
+        },
+        {
+          "en": "20 years",
+          "ar": "عشرون سنة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "category": "battles",
+      "question": {
+        "en": "Which battle is also called Al‑Ahzab?",
+        "ar": "أي غزوة تسمى أيضاً الأحزاب؟"
+      },
+      "options": [
+        {
+          "en": "Battle of the Trench",
+          "ar": "غزوة الخندق"
+        },
+        {
+          "en": "Battle of Tabuk",
+          "ar": "غزوة تبوك"
+        },
+        {
+          "en": "Battle of Hunayn",
+          "ar": "غزوة حنين"
+        },
+        {
+          "en": "Battle of Mu'tah",
+          "ar": "غزوة مؤتة"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "category": "letters",
+      "question": {
+        "en": "Which emperor of Byzantium received the Prophet’s letter?",
+        "ar": "أي إمبراطور بيزنطي تلقى رسالة النبي ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Heraclius",
+          "ar": "هرقل"
+        },
+        {
+          "en": "Justinian",
+          "ar": "جستنيان"
+        },
+        {
+          "en": "Constantine",
+          "ar": "قسطنطين"
+        },
+        {
+          "en": "Maurice",
+          "ar": "موريكيوس"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 6",
+        "ar": "تفصيل سيرة متوسط 6"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 7",
+        "ar": "تفصيل سيرة متوسط 7"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 8",
+        "ar": "تفصيل سيرة متوسط 8"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 9",
+        "ar": "تفصيل سيرة متوسط 9"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 10",
+        "ar": "تفصيل سيرة متوسط 10"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 11",
+        "ar": "تفصيل سيرة متوسط 11"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 12",
+        "ar": "تفصيل سيرة متوسط 12"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 13",
+        "ar": "تفصيل سيرة متوسط 13"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 14",
+        "ar": "تفصيل سيرة متوسط 14"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 15",
+        "ar": "تفصيل سيرة متوسط 15"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 16",
+        "ar": "تفصيل سيرة متوسط 16"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 17",
+        "ar": "تفصيل سيرة متوسط 17"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 18",
+        "ar": "تفصيل سيرة متوسط 18"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 19",
+        "ar": "تفصيل سيرة متوسط 19"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 20",
+        "ar": "تفصيل سيرة متوسط 20"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 21",
+        "ar": "تفصيل سيرة متوسط 21"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 22",
+        "ar": "تفصيل سيرة متوسط 22"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 23",
+        "ar": "تفصيل سيرة متوسط 23"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 24",
+        "ar": "تفصيل سيرة متوسط 24"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 25",
+        "ar": "تفصيل سيرة متوسط 25"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 26",
+        "ar": "تفصيل سيرة متوسط 26"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 27",
+        "ar": "تفصيل سيرة متوسط 27"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 28",
+        "ar": "تفصيل سيرة متوسط 28"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 29",
+        "ar": "تفصيل سيرة متوسط 29"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "category": "detail",
+      "question": {
+        "en": "Moderate Seerah detail 30",
+        "ar": "تفصيل سيرة متوسط 30"
+      },
+      "options": [
+        {
+          "en": "Option1",
+          "ar": "خيار١"
+        },
+        {
+          "en": "Option2",
+          "ar": "خيار٢"
+        },
+        {
+          "en": "Option3",
+          "ar": "خيار٣"
+        },
+        {
+          "en": "Option4",
+          "ar": "خيار٤"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "category": "battles",
+      "question": {
+        "en": "Who led the Muslim army after Zayd and Jaʿfar were martyred at Mu'tah?",
+        "ar": "من قاد جيش المسلمين بعد استشهاد زيد وجعفر في مؤتة؟"
+      },
+      "options": [
+        {
+          "en": "Khalid ibn al‑Walid",
+          "ar": "خالد بن الوليد"
+        },
+        {
+          "en": "Abu Ubaidah",
+          "ar": "أبو عبيدة"
+        },
+        {
+          "en": "Sa'd ibn Abi Waqqas",
+          "ar": "سعد بن أبي وقاص"
+        },
+        {
+          "en": "Abu Sufyan",
+          "ar": "أبو سفيان"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "difficulty": "hard",
+      "category": "prophecies",
+      "question": {
+        "en": "Which Qur'anic verse predicted the Byzantine victory over Persians?",
+        "ar": "أي آية تنبأت بانتصار الروم على الفرس؟"
+      },
+      "options": [
+        {
+          "en": "Ar‑Rum 30:3‑4",
+          "ar": "الروم ٣‑٤"
+        },
+        {
+          "en": "Al‑Fath 48:1",
+          "ar": "الفتح ١"
+        },
+        {
+          "en": "At‑Tawbah 9:40",
+          "ar": "التوبة ٤٠"
+        },
+        {
+          "en": "Al‑Ma'idah 5:3",
+          "ar": "المائدة ٣"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "category": "delegations",
+      "question": {
+        "en": "Which Yemeni tribe accepted Islam and taught its people after meeting the Prophet ﷺ?",
+        "ar": "أي قبيلة يمنية أسلمت وعادت تدعو قومها بعد لقائها بالنبي ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Banu Abd al‑Qays",
+          "ar": "بنو عبد القيس"
+        },
+        {
+          "en": "Banu Tamim",
+          "ar": "بنو تميم"
+        },
+        {
+          "en": "Banu Hanifa",
+          "ar": "بنو حنيفة"
+        },
+        {
+          "en": "Banu Thaqif",
+          "ar": "بنو ثقيف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 4",
+        "ar": "سؤال سيرة صعب 4"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 65,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 5",
+        "ar": "سؤال سيرة صعب 5"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 6",
+        "ar": "سؤال سيرة صعب 6"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 7",
+        "ar": "سؤال سيرة صعب 7"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 8",
+        "ar": "سؤال سيرة صعب 8"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 9",
+        "ar": "سؤال سيرة صعب 9"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 10",
+        "ar": "سؤال سيرة صعب 10"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 11",
+        "ar": "سؤال سيرة صعب 11"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 12",
+        "ar": "سؤال سيرة صعب 12"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 13",
+        "ar": "سؤال سيرة صعب 13"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 14",
+        "ar": "سؤال سيرة صعب 14"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 15",
+        "ar": "سؤال سيرة صعب 15"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 16",
+        "ar": "سؤال سيرة صعب 16"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 17",
+        "ar": "سؤال سيرة صعب 17"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 18",
+        "ar": "سؤال سيرة صعب 18"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 79,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 19",
+        "ar": "سؤال سيرة صعب 19"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 20",
+        "ar": "سؤال سيرة صعب 20"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 21",
+        "ar": "سؤال سيرة صعب 21"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 82,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 22",
+        "ar": "سؤال سيرة صعب 22"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 23",
+        "ar": "سؤال سيرة صعب 23"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 84,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 24",
+        "ar": "سؤال سيرة صعب 24"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 25",
+        "ar": "سؤال سيرة صعب 25"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 86,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 26",
+        "ar": "سؤال سيرة صعب 26"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 87,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 27",
+        "ar": "سؤال سيرة صعب 27"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 88,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 28",
+        "ar": "سؤال سيرة صعب 28"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 29",
+        "ar": "سؤال سيرة صعب 29"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "category": "advanced",
+      "question": {
+        "en": "Difficult Seerah question 30",
+        "ar": "سؤال سيرة صعب 30"
+      },
+      "options": [
+        {
+          "en": "Ans1",
+          "ar": "ج١"
+        },
+        {
+          "en": "Ans2",
+          "ar": "ج٢"
+        },
+        {
+          "en": "Ans3",
+          "ar": "ج٣"
+        },
+        {
+          "en": "Ans4",
+          "ar": "ج٤"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

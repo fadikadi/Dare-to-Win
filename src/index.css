@@ -1,0 +1,176 @@
+:root {
+  font-family: 'Arial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #ffffff;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Game color variables */
+  --primary-gold: #ffd700;
+  --secondary-gold: #ffed4e;
+  --dark-blue: #001133;
+  --medium-blue: #003366;
+  --light-blue: #4488cc;
+  --correct-green: #00ff00;
+  --wrong-red: #ff0000;
+  --text-white: #ffffff;
+  --text-gray: #cccccc;
+  --border-gold: #b8860b;
+  --shadow-dark: rgba(0, 0, 0, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: radial-gradient(ellipse at center, #001133 0%, #000011 70%, #000000 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+  width: 100%;
+}
+
+/* Game-specific styling */
+.game-container {
+  background: linear-gradient(135deg, 
+    rgba(0, 17, 51, 0.9) 0%, 
+    rgba(0, 0, 17, 0.95) 50%, 
+    rgba(0, 0, 0, 0.98) 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+.game-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffd700" fill-opacity="0.02"><circle cx="30" cy="30" r="2"/></g></g></svg>') repeat;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Button styling */
+button {
+  border-radius: 8px;
+  border: 2px solid var(--border-gold);
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(135deg, var(--dark-blue) 0%, var(--medium-blue) 100%);
+  color: var(--primary-gold);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px var(--shadow-dark);
+}
+
+button:hover {
+  background: linear-gradient(135deg, var(--medium-blue) 0%, var(--light-blue) 100%);
+  border-color: var(--secondary-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--shadow-dark);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px var(--shadow-dark);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: 0 2px 10px var(--shadow-dark) !important;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--primary-gold);
+  text-shadow: 2px 2px 4px var(--shadow-dark);
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Lifeline buttons */
+.lifeline-button {
+  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  border: 2px solid var(--primary-gold);
+  color: var(--primary-gold);
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.lifeline-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #A0522D 0%, #CD853F 100%);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.lifeline-button:disabled {
+  background: #333;
+  border-color: #666;
+  color: #666;
+}
+
+/* Prize display */
+.prize-display {
+  background: linear-gradient(135deg, 
+    rgba(255, 215, 0, 0.1) 0%, 
+    rgba(0, 17, 51, 0.9) 100%);
+  border: 2px solid var(--primary-gold);
+  color: var(--primary-gold);
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* RTL Support */
+html[dir="rtl"] {
+  text-align: right;
+}
+
+html[dir="rtl"] .answer-option {
+  text-align: right;
+}
+
+/* Remove light theme media query completely - force dark theme */
