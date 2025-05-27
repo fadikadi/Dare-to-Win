@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-defaults": "node update-defaults.js"
+    "update-defaults": "node update-defaults.js",
+    "deploy": "npm run build && powershell -Command \"Remove-Item -Path docs -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item -Path dist -Destination docs -Recurse\""
   },
   "dependencies": {
     "i18next": "^25.2.1",
