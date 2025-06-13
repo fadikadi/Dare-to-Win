@@ -4,6 +4,7 @@ import QuestionCard from './QuestionCard';
 import Lifelines from './Lifelines';
 import GameControls from './GameControls';
 import MilestoneBar from './MilestoneBar';
+import SoundManager from '../utils/SoundManager';
 
 export default function GameScreen({ 
   questions, 
@@ -33,6 +34,16 @@ export default function GameScreen({
   const formatMoney = (amount) => {
     return new Intl.NumberFormat().format(amount);
   };
+
+  const handleAnswer = (answer, isCorrect) => {
+    if (isCorrect) {
+      SoundManager.playSuccess();
+    } else {
+      SoundManager.playIncorrect();
+    }
+    onAnswer(answer);
+  };
+
   if (gameState === 'ended') {
     return (
       <div className="end-screen">
@@ -119,7 +130,7 @@ export default function GameScreen({
           />          <QuestionCard
             question={currentQuestion}
             currentQuestionIndex={currentQuestionIndex}
-            onAnswer={onAnswer}
+            onAnswer={handleAnswer}
             hiddenOptions={hiddenOptions}
             audienceResults={audienceResults}
             friendSuggestion={friendSuggestion}

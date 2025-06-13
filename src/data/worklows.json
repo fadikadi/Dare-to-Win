@@ -1,0 +1,174 @@
+﻿{
+  "nodes": [
+    {
+      "parameters": {
+        "path": "chat-start",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "Webhook_Start",
+      "name": "Start Chat (Webhook)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [ 200, 300 ]
+    },
+    {
+      "parameters": {
+        "responseData": "={{ { message: 'Welcome! Please enter your email to start a support request.' } }}"
+      },
+      "id": "Intro_Message",
+      "name": "Send Welcome Message",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [ 400, 300 ]
+    },
+    {
+      "parameters": {
+        "path": "chat-step-2",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "Webhook_Email",
+      "name": "Receive Email",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [ 200, 500 ]
+    },
+    {
+      "parameters": {
+        "responseData": "={{ { message: 'Thanks! Now enter a short subject for your issue.' } }}"
+      },
+      "id": "Ask_Subject",
+      "name": "Ask Issue Subject",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [ 400, 500 ]
+    },
+    {
+      "parameters": {
+        "path": "chat-step-3",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "Webhook_Subject",
+      "name": "Receive Subject",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [ 200, 700 ]
+    },
+    {
+      "parameters": {
+        "responseData": "={{ { message: 'Got it. Please describe the issue in more detail.' } }}"
+      },
+      "id": "Ask_Description",
+      "name": "Ask Description",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [ 400, 700 ]
+    },
+    {
+      "parameters": {
+        "path": "chat-submit",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "Webhook_Description",
+      "name": "Receive Description",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [ 200, 900 ]
+    },
+    {
+      "parameters": {
+        "authentication": "basicAuth",
+        "url": "https://helpdesk.expert.om/api/v2/tickets",
+        "method": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyContent": "={\n  \"email\": \"{{$json[\"email\"]}}\",\n  \"subject\": \"{{$json[\"subject\"]}}\",\n  \"description\": \"{{$json[\"description\"]}}\",\n  \"priority\": 1,\n  \"status\": 2\n}"
+      },
+      "id": "Submit_Ticket",
+      "name": "Create Ticket in Freshdesk",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [ 400, 900 ],
+      "credentials": {
+        "httpBasicAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "iYY5gUAhV5cZOl4zLvv8"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "responseData": "={{ { message: 'Your support ticket has been created. Our team will get back to you soon!' } }}"
+      },
+      "id": "Confirm_Submission",
+      "name": "Send Confirmation",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [ 600, 900 ]
+    }
+  ],
+  "connections": {
+    "Start Chat (Webhook)": {
+      "main": [
+        [
+          {
+            "node": "Send Welcome Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Receive Email": {
+      "main": [
+        [
+          {
+            "node": "Ask Issue Subject",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Receive Subject": {
+      "main": [
+        [
+          {
+            "node": "Ask Description",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Receive Description": {
+      "main": [
+        [
+          {
+            "node": "Create Ticket in Freshdesk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Ticket in Freshdesk": {
+      "main": [
+        [
+          {
+            "node": "Send Confirmation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "name": "Chat-Based Freshdesk Ticket",
+  "version": 1
+}

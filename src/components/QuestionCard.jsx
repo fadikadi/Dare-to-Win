@@ -18,12 +18,14 @@ export default function QuestionCard({
   const formatMoney = (amount) => {
     return new Intl.NumberFormat().format(amount);
   };
+
   const handleOptionClick = (index) => {
     if (hiddenOptions.includes(index) || isProcessingAnswer || selectedAnswer !== null) {
       return;
     }
     
-    onAnswer(index);
+    const isCorrect = index === question.correctIndex;
+    onAnswer(index, isCorrect);
   };
 
   const getOptionClassName = (index) => {
