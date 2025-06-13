@@ -1,8 +1,8 @@
 // Sound effects manager
 class SoundManager {
     static sounds = {
-        success: new Audio('/assets/sounds/success.mp3'),
-        incorrect: new Audio('/assets/sounds/incorrect.mp3')
+        success: new Audio('assets/sounds/success.mp3'),
+        incorrect: new Audio('assets/sounds/incorrect.mp3')
     };
 
     static playSound(soundName) {
