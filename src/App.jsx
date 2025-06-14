@@ -10,7 +10,7 @@ import FileReplacer from './components/FileReplacer';
 import defaultQuestionsData from './data/questions.json';
 import defaultMilestoneData from './data/milestone.json';
 import './App.css';
-import SoundManager from './utils/SoundManager';
+// import SoundManager from './utils/SoundManager';
 
 function AppContent() {
   const [language, setLanguage] = useState('en');
@@ -180,9 +180,9 @@ function AppContent() {
       // Play sound after answer is revealed
       const isCorrect = selectedIndex === currentQuestion.correctIndex;
       if (isCorrect) {
-        SoundManager.playSuccess();
+        // SoundManager.playSuccess();
       } else {
-        SoundManager.playIncorrect();
+        // SoundManager.playIncorrect();
       }
       
       // Use the configurable result delay for showing correct/incorrect answer
