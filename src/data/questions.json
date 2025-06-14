@@ -3,7 +3,7 @@
     {
       "id": 1,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to knowledge as one of the minor signs of the Hour?",
         "ar": "ماذا سيحدث للعلم كأحد علامات الساعة الصغرى؟"
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "difficulty": "medium",
-      "category": "major_signs",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "Which of the following is one of the ten major signs of the Hour?",
         "ar": "أي مما يلي هو أحد العلامات العشر الكبرى للساعة؟"
@@ -59,7 +59,7 @@
     {
       "id": 3,
       "difficulty": "easy",
-      "category": "dajjal",
+      "category": {"en":"dajjal","ar":""},
       "question": {
         "en": "How many days will Al-Dajjal stay on Earth?",
         "ar": "كم يوماً سيمكث الدجال على الأرض؟"
@@ -87,7 +87,10 @@
     {
       "id": 4,
       "difficulty": "hard",
-      "category": "mahdi",
+      "category": {
+        "en": "minor_signs",
+        "ar": ""
+      },
       "question": {
         "en": "What is the name of Al-Mahdi?",
         "ar": "ما اسم المهدي؟"
@@ -115,7 +118,7 @@
     {
       "id": 5,
       "difficulty": "medium",
-      "category": "isa_return",
+      "category": {"en":"isa_return","ar":""},
       "question": {
         "en": "Where will Prophet Isa (Jesus) descend?",
         "ar": "أين سينزل النبي عيسى عليه السلام؟"
@@ -143,7 +146,7 @@
     {
       "id": 6,
       "difficulty": "hard",
-      "category": "ya'juj_ma'juj",
+      "category": {"en":"ya'juj_ma'juj","ar":""},
       "question": {
         "en": "What will Gog and Magog (Ya'juj wa Ma'juj) drink when they emerge?",
         "ar": "ماذا سيشرب يأجوج ومأجوج عند خروجهم؟"
@@ -171,7 +174,7 @@
     {
       "id": 7,
       "difficulty": "medium",
-      "category": "sun_west",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "From where will the sun rise as one of the signs of the Hour?",
         "ar": "من أين ستشرق الشمس كإحدى علامات الساعة؟"
@@ -199,7 +202,7 @@
     {
       "id": 8,
       "difficulty": "hard",
-      "category": "beast",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What is the name of the creature that will emerge near the end of time?",
         "ar": "ما اسم الدابة التي ستخرج في آخر الزمان؟"
@@ -227,7 +230,7 @@
     {
       "id": 9,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will spread as a minor sign of the Hour?",
         "ar": "ماذا سينتشر كعلامة صغرى من علامات الساعة؟"
@@ -255,7 +258,7 @@
     {
       "id": 10,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will people commonly drink as one of the minor signs?",
         "ar": "ماذا سيشرب الناس كثيراً كإحدى العلامات الصغرى؟"
@@ -283,7 +286,10 @@
     {
       "id": 11,
       "difficulty": "easy",
-      "category": "zina",
+      "category": {
+        "en": "minor_signs",
+        "ar": ""
+      },
       "question": {
         "en": "What sin will become widespread according to the Hadith?",
         "ar": "ما هي المعصية التي ستصبح منتشرة حسب الحديث؟"
@@ -311,7 +317,7 @@
     {
       "id": 12,
       "difficulty": "easy",
-      "category": "parents",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the respect towards parents as a minor sign?",
         "ar": "ماذا سيحدث لاحترام الوالدين كإحدى العلامات الصغرى؟"
@@ -339,7 +345,7 @@
     {
       "id": 13,
       "difficulty": "medium",
-      "category": "lying",
+      "category": {"en":"General","ar":""},
       "question": {
         "en": "What will lying lead to according to the Hadith?",
         "ar": "إلى ماذا يؤدي الكذب حسب الحديث؟"
@@ -367,7 +373,7 @@
     {
       "id": 14,
       "difficulty": "medium",
-      "category": "false_testimony",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What type of testimony will become common?",
         "ar": "ما نوع الشهادة التي ستصبح شائعة؟"
@@ -395,7 +401,7 @@
     {
       "id": 15,
       "difficulty": "easy",
-      "category": "severing_kinship",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to ties of kinship near the end of times?",
         "ar": "ماذا سيحدث لصلة الأرحام قرب نهاية الزمان؟"
@@ -423,7 +429,7 @@
     {
       "id": 16,
       "difficulty": "easy",
-      "category": "riba",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What type of transaction will become widespread?",
         "ar": "ما هو نوع المعاملة التي ستنتشر؟"
@@ -451,7 +457,10 @@
     {
       "id": 17,
       "difficulty": "medium",
-      "category": "al_harj",
+      "category": {
+        "en": "minor_signs",
+        "ar": ""
+      },
       "question": {
         "en": "What is Al-Harj according to the Hadith?",
         "ar": "ما هو الهرج حسب الحديث؟"
@@ -479,7 +488,7 @@
     {
       "id": 18,
       "difficulty": "easy",
-      "category": "major_signs",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "From where will the Beast emerge?",
         "ar": "من أين ستخرج الدابة؟"
@@ -507,7 +516,7 @@
     {
       "id": 19,
       "difficulty": "medium",
-      "category": "isa_return",
+      "category": {"en":"isa_return","ar":""},
       "question": {
         "en": "What will Prophet Isa do to the cross upon his return?",
         "ar": "ماذا سيفعل النبي عيسى بالصليب عند عودته؟"
@@ -535,7 +544,7 @@
     {
       "id": 20,
       "difficulty": "hard",
-      "category": "dajjal",
+      "category": {"en":"dajjal","ar":""},
       "question": {
         "en": "How many days will the Dajjal stay on Earth?",
         "ar": "كم يوماً سيمكث الدجال على الأرض؟"
@@ -563,7 +572,7 @@
     {
       "id": 21,
       "difficulty": "medium",
-      "category": "dajjal",
+      "category": {"en":"dajjal","ar":""},
       "question": {
         "en": "Where will Dajjal not be able to enter?",
         "ar": "ما هي الأماكن التي لا يستطيع الدجال دخولها؟"
@@ -591,7 +600,7 @@
     {
       "id": 22,
       "difficulty": "easy",
-      "category": "isa_return",
+      "category": {"en":"isa_return","ar":""},
       "question": {
         "en": "Who will Prophet Isa kill upon his return?",
         "ar": "من سيقتل النبي عيسى عند عودته؟"
@@ -619,7 +628,7 @@
     {
       "id": 23,
       "difficulty": "medium",
-      "category": "major_signs",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "Which sign involves the sun changing its rising direction?",
         "ar": "أي علامة تتعلق بتغير مكان شروق الشمس؟"
@@ -647,7 +656,10 @@
     {
       "id": 24,
       "difficulty": "hard",
-      "category": "smoke",
+      "category": {
+        "en": "major_signs",
+        "ar": ""
+      },
       "question": {
         "en": "What will the smoke do to disbelievers?",
         "ar": "ماذا سيفعل الدخان بالكفار؟"
@@ -675,7 +687,7 @@
     {
       "id": 25,
       "difficulty": "hard",
-      "category": "beast",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What will the Beast (Ad-Daabbah) do when it appears?",
         "ar": "ماذا ستفعل الدابة عندما تظهر؟"
@@ -703,7 +715,7 @@
     {
       "id": 26,
       "difficulty": "medium",
-      "category": "ya'juj_ma'juj",
+      "category": {"en":"ya'juj_ma'juj","ar":""},
       "question": {
         "en": "Where will Ya'juj and Ma'juj be released from?",
         "ar": "من أين سيخرج يأجوج ومأجوج؟"
@@ -731,7 +743,10 @@
     {
       "id": 27,
       "difficulty": "hard",
-      "category": "kaaba_destruction",
+      "category": {
+        "en": "General",
+        "ar": ""
+      },
       "question": {
         "en": "Who will destroy the Kaaba according to Hadith?",
         "ar": "من سيهدم الكعبة حسب الحديث؟"
@@ -759,7 +774,10 @@
     {
       "id": 28,
       "difficulty": "medium",
-      "category": "mahdi",
+      "category": {
+        "en": "major_signs",
+        "ar": ""
+      },
       "question": {
         "en": "Where will Al-Mahdi appear?",
         "ar": "أين سيظهر المهدي؟"
@@ -787,7 +805,10 @@
     {
       "id": 29,
       "difficulty": "medium",
-      "category": "plague",
+      "category": {
+        "en": "general",
+        "ar": ""
+      },
       "question": {
         "en": "Which major plague occurred in Ash-Shaam?",
         "ar": "ما اسم الطاعون الكبير الذي حدث في الشام؟"
@@ -815,7 +836,10 @@
     {
       "id": 30,
       "difficulty": "easy",
-      "category": "angel_trumpet",
+      "category": {
+        "en": "general",
+        "ar": ""
+      },
       "question": {
         "en": "Which angel will blow the trumpet?",
         "ar": "أي ملك سينفخ في الصور؟"
@@ -843,7 +867,10 @@
     {
       "id": 31,
       "difficulty": "medium",
-      "category": "judgment_day",
+      "category": {
+        "en": "al aakhera",
+        "ar": ""
+      },
       "question": {
         "en": "What will happen between the two trumpet blasts?",
         "ar": "ماذا سيحدث بين النفختين؟"
@@ -871,7 +898,7 @@
     {
       "id": 32,
       "difficulty": "easy",
-      "category": "judgment_day",
+      "category": {"en":"judgment_day","ar":""},
       "question": {
         "en": "Who will be the first to be resurrected?",
         "ar": "من أول من يُبعث من القبور؟"
@@ -899,7 +926,7 @@
     {
       "id": 33,
       "difficulty": "medium",
-      "category": "heavenly_blessings",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What will Prophet Isa bring to Earth during his time?",
         "ar": "ماذا سيجلب النبي عيسى إلى الأرض في زمانه؟"
@@ -927,7 +954,7 @@
     {
       "id": 34,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Which quality will decrease with time?",
         "ar": "أي صفة ستقل مع مرور الوقت؟"
@@ -955,7 +982,7 @@
     {
       "id": 35,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to time near the end?",
         "ar": "ماذا سيحدث للزمن قرب النهاية؟"
@@ -983,7 +1010,7 @@
     {
       "id": 36,
       "difficulty": "hard",
-      "category": "judgment_day",
+      "category": {"en":"judgment_day","ar":""},
       "question": {
         "en": "On what type of land will people be gathered on Judgment Day?",
         "ar": "على أي نوع من الأرض سيُحشر الناس يوم القيامة؟"
@@ -1011,7 +1038,7 @@
     {
       "id": 37,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Which action becomes more common: greeting only known people or everyone?",
         "ar": "ما هو الفعل الشائع: التسليم على المعروفين فقط أم الجميع؟"
@@ -1039,7 +1066,7 @@
     {
       "id": 38,
       "difficulty": "medium",
-      "category": "fitnah",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What is the greatest Fitnah (trial) mentioned by the Prophet ﷺ?",
         "ar": "ما أعظم فتنة ذكرها النبي ﷺ؟"
@@ -1067,7 +1094,7 @@
     {
       "id": 39,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to neighborly treatment as a minor sign?",
         "ar": "ماذا سيحدث لحسن معاملة الجار كعلامة صغرى؟"
@@ -1095,7 +1122,7 @@
     {
       "id": 40,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to trust (Amanah) in society?",
         "ar": "ماذا سيحدث للأمانة في المجتمع؟"
@@ -1123,7 +1150,7 @@
     {
       "id": 41,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to alcohol consumption?",
         "ar": "ماذا سيحدث لشرب الخمر؟"
@@ -1151,7 +1178,7 @@
     {
       "id": 42,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to adultery near the end of time?",
         "ar": "ماذا سيحدث للزنا قرب نهاية الزمان؟"
@@ -1179,7 +1206,7 @@
     {
       "id": 43,
       "difficulty": "medium",
-      "category": "major_signs",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What will happen when the sun rises from the west?",
         "ar": "ماذا سيحدث عندما تشرق الشمس من الغرب؟"
@@ -1207,7 +1234,7 @@
     {
       "id": 44,
       "difficulty": "hard",
-      "category": "ya'juj_ma'juj",
+      "category": {"en":"ya'juj_ma'juj","ar":""},
       "question": {
         "en": "What will happen to Lake Tiberias when Ya'juj wa Ma'juj appear?",
         "ar": "ماذا سيحدث لبحيرة طبريا عند ظهور يأجوج ومأجوج؟"
@@ -1235,7 +1262,7 @@
     {
       "id": 45,
       "difficulty": "easy",
-      "category": "isa_return",
+      "category": {"en":"isa_return","ar":""},
       "question": {
         "en": "From where will Isa descend?",
         "ar": "من أين سينزل عيسى؟"
@@ -1263,7 +1290,7 @@
     {
       "id": 46,
       "difficulty": "medium",
-      "category": "fitnah",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "What is the recommended protection from Dajjal's Fitnah?",
         "ar": "ما هي الحماية الموصى بها من فتنة الدجال؟"
@@ -1291,7 +1318,10 @@
     {
       "id": 47,
       "difficulty": "hard",
-      "category": "kaaba_destruction",
+      "category": {
+        "en": "major_signs",
+        "ar": ""
+      },
       "question": {
         "en": "Who narrated that a man from Abyssinia will destroy the Kaaba?",
         "ar": "من روى أن رجلاً من الحبشة سيهدم الكعبة؟"
@@ -1319,7 +1349,7 @@
     {
       "id": 48,
       "difficulty": "easy",
-      "category": "mahdi",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "Who will Al-Mahdi assist in defeating Dajjal?",
         "ar": "من سيساعد المهدي في هزيمة الدجال؟"
@@ -1347,7 +1377,7 @@
     {
       "id": 49,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How will trade change near the end of times?",
         "ar": "كيف سيتغير حال التجارة قرب نهاية الزمان؟"
@@ -1375,7 +1405,7 @@
     {
       "id": 50,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What is the meaning of 'Al-Harj'?",
         "ar": "ما معنى 'الهرج'؟"
@@ -1399,7 +1429,7 @@
     {
       "id": 51,
       "difficulty": "hard",
-      "category": "dajjal",
+      "category": {"en":"dajjal","ar":""},
       "question": {
         "en": "What will be written between Dajjal's eyes?",
         "ar": "ما الذي سيكون مكتوباً بين عيني الدجال؟"
@@ -1427,7 +1457,7 @@
     {
       "id": 52,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How many pillars of Salah were listed in the slides?",
         "ar": "كم عدد أركان الصلاة المذكورة في الشرائح؟"
@@ -1455,7 +1485,10 @@
     {
       "id": 53,
       "difficulty": "hard",
-      "category": "angel_trumpet",
+      "category": {
+        "en": "major_signs",
+        "ar": ""
+      },
       "question": {
         "en": "How many blasts of the trumpet are mentioned?",
         "ar": "كم عدد نفخات الصور المذكورة؟"
@@ -1483,7 +1516,7 @@
     {
       "id": 54,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the number of women compared to men?",
         "ar": "ماذا سيحدث لعدد النساء مقارنة بالرجال؟"
@@ -1511,7 +1544,7 @@
     {
       "id": 55,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How will miserliness (stinginess) change near the end times?",
         "ar": "كيف سيتغير البخل قرب نهاية الزمان؟"
@@ -1539,7 +1572,7 @@
     {
       "id": 56,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How will time feel near the end of times according to the Hadith?",
         "ar": "كيف سيشعر الناس بالزمن قرب نهاية الزمان حسب الحديث؟"
@@ -1567,7 +1600,7 @@
     {
       "id": 57,
       "difficulty": "hard",
-      "category": "fitnah",
+      "category": {"en":"major_signs","ar":""},
       "question": {
         "en": "How will the young believer confront Dajjal according to Hadith?",
         "ar": "كيف سيواجه الشاب المؤمن الدجال حسب الحديث؟"
@@ -1595,7 +1628,7 @@
     {
       "id": 58,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will increase in public spaces as a minor sign?",
         "ar": "ما الذي سيزداد في الأماكن العامة كعلامة صغرى؟"
@@ -1623,7 +1656,7 @@
     {
       "id": 59,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What kind of language will become common among people?",
         "ar": "ما نوع اللغة التي ستصبح شائعة بين الناس؟"
@@ -1651,7 +1684,7 @@
     {
       "id": 60,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the respect for elders?",
         "ar": "ماذا سيحدث لاحترام الكبار؟"
@@ -1679,7 +1712,7 @@
     {
       "id": 61,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the number of scholars before the Hour?",
         "ar": "ماذا سيحدث لعدد العلماء قبل قيام الساعة؟"
@@ -1707,7 +1740,7 @@
     {
       "id": 62,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to truthful speech?",
         "ar": "ماذا سيحدث للصدق في الحديث؟"
@@ -1735,7 +1768,7 @@
     {
       "id": 63,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the number of false witnesses?",
         "ar": "ماذا سيحدث لعدد شهود الزور؟"
@@ -1763,7 +1796,7 @@
     {
       "id": 64,
       "difficulty": "hard",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How will women's number compare to men's near the end times?",
         "ar": "كيف سيكون عدد النساء مقارنة بالرجال قرب نهاية الزمان؟"
@@ -1791,7 +1824,7 @@
     {
       "id": 65,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How many women will be under one man's care as per Hadith?",
         "ar": "كم امرأة ستكون تحت رعاية رجل واحد حسب الحديث؟"
@@ -1819,7 +1852,7 @@
     {
       "id": 66,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What is one of the signs of the loss of trust?",
         "ar": "ما هي إحدى علامات فقدان الأمانة؟"
@@ -1847,7 +1880,7 @@
     {
       "id": 67,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to greeting strangers?",
         "ar": "ماذا سيحدث لتحية الغرباء؟"
@@ -1875,7 +1908,7 @@
     {
       "id": 68,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "How will cheating in business change?",
         "ar": "كيف سيتغير الغش في التجارة؟"
@@ -1903,7 +1936,7 @@
     {
       "id": 70,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to people's trustworthiness?",
         "ar": "ماذا سيحدث لأمانة الناس؟"
@@ -1931,7 +1964,7 @@
     {
       "id": 71,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Which relationship will suffer in the end times?",
         "ar": "أي علاقة ستتدهور في آخر الزمان؟"
@@ -1959,7 +1992,7 @@
     {
       "id": 72,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will increase in the market?",
         "ar": "ما الذي سيزداد في السوق؟"
@@ -1987,7 +2020,7 @@
     {
       "id": 73,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Which type of usury will spread?",
         "ar": "أي نوع من الربا سينتشر؟"
@@ -2015,7 +2048,7 @@
     {
       "id": 74,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to scholars of truth?",
         "ar": "ماذا سيحدث لعلماء الحق؟"
@@ -2043,7 +2076,7 @@
     {
       "id": 75,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to the quality of speech?",
         "ar": "ماذا سيحدث لجودة الحديث؟"
@@ -2071,7 +2104,7 @@
     {
       "id": 76,
       "difficulty": "hard",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Who will drink alcohol according to Hadith?",
         "ar": "من سيشرب الخمر حسب الحديث؟"
@@ -2099,7 +2132,7 @@
     {
       "id": 77,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to time management?",
         "ar": "ماذا سيحدث لإدارة الوقت؟"
@@ -2127,7 +2160,7 @@
     {
       "id": 78,
       "difficulty": "easy",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to lying?",
         "ar": "ماذا سيحدث للكذب؟"
@@ -2155,7 +2188,7 @@
     {
       "id": 79,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to family ties?",
         "ar": "ماذا سيحدث لصلة الأرحام؟"
@@ -2183,7 +2216,7 @@
     {
       "id": 80,
       "difficulty": "hard",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "Which chapter is protection from Dajjal?",
         "ar": "أي سورة تحمي من الدجال؟"
@@ -2211,7 +2244,7 @@
     {
       "id": 81,
       "difficulty": "medium",
-      "category": "minor_signs",
+      "category": {"en":"minor_signs","ar":""},
       "question": {
         "en": "What will happen to oppression (zulm)?",
         "ar": "ماذا سيحدث للظلم؟"

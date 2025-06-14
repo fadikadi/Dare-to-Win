@@ -54,11 +54,16 @@ export default function QuestionCard({
     <div className="game-left-column">
       <div className="question-section">        <div className="question-number">
           {t('question')} {currentQuestionIndex + 1} - ${formatMoney(question.prize || 0)}
+          {question.category && (
+            <span className="question-category">
+              {question.category[currentLang === 'ar' ? 'ar' : 'en']}
+            </span>
+          )}
         </div>
         
         <div className="question-text">
           {question.question[currentLang === 'ar' ? 'ar' : 'en']}
-        </div>        <div className="answer-options">
+        </div><div className="answer-options">
           {question.options.map((option, index) => {
             const isHidden = hiddenOptions.includes(index);
             

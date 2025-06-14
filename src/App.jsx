@@ -105,6 +105,7 @@ function AppContent() {
         return {
           question: q.question, // Keep the {en, ar} structure
           options: q.options, // Keep the options array with {en, ar} structure
+          category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctIndex,
           prize: prize
         };
@@ -119,6 +120,7 @@ function AppContent() {
             en: answer,
             ar: answer // For old structure, use same text for both languages
           })),
+          category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctAnswer || q.correctIndex,
           prize: prize
         };
@@ -341,6 +343,7 @@ function AppContent() {
         return {
           question: q.question, // Keep the {en, ar} structure
           options: q.options, // Keep the options array with {en, ar} structure
+          category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctIndex,
           prize: prize
         };
@@ -355,6 +358,7 @@ function AppContent() {
             en: answer,
             ar: answer // For old structure, use same text for both languages
           })),
+          category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctAnswer || q.correctIndex,
           prize: prize
         };
