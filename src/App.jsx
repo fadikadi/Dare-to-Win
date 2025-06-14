@@ -168,12 +168,6 @@ function AppContent() {
 
   const handleAnswer = (selectedIndex) => {
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
-    // Play sound immediately on answer
-    if (selectedIndex === currentQuestion.correctIndex) {
-      SoundManager.playSuccess();
-    } else {
-      SoundManager.playIncorrect();
-    }
     // Set selected answer and start processing
     setSelectedAnswer(selectedIndex);
     setIsProcessingAnswer(true);
@@ -183,10 +177,16 @@ function AppContent() {
       setShowCorrectAnswer(true);
       setIsProcessingAnswer(false);
       
+      // Play sound after answer is revealed
+      const isCorrect = selectedIndex === currentQuestion.correctIndex;
+      if (isCorrect) {
+        SoundManager.playSuccess();
+      } else {
+        SoundManager.playIncorrect();
+      }
+      
       // Use the configurable result delay for showing correct/incorrect answer
       setTimeout(() => {
-        const isCorrect = selectedIndex === currentQuestion.correctIndex;
-        
         if (isCorrect) {
           setFinalPrize(currentQuestion.prize);
           if (currentQuestionIndex === shuffledQuestions.length - 1) {
