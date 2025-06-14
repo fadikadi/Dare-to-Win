@@ -22,10 +22,11 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-# Step 3: Copy dist to docs (removing old docs first)
+# Step 3: Copy dist contents to docs (removing old docs first)
 Write-Host "📁 Updating docs folder..." -ForegroundColor Blue
 Remove-Item -Path "docs" -Recurse -Force -ErrorAction SilentlyContinue
-Copy-Item -Path "dist" -Destination "docs" -Recurse
+New-Item -ItemType Directory -Path "docs" | Out-Null
+robocopy dist docs /E
 
 # Step 4: Remove root index.html to prevent GitHub Pages conflicts
 Write-Host "🧹 Removing root index.html to prevent conflicts..." -ForegroundColor Yellow
