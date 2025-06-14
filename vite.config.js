@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/Dare-to-Win/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     emptyOutDir: true,
     assetsDir: 'assets'
   }
