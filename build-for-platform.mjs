@@ -88,23 +88,78 @@ try {
     } else {
       console.log('⚠️ index.html not found in docs folder');
     }
-    
-    // Ensure icons directory exists and favicon is copied
-    console.log('🔧 Copying favicon and other custom assets');
+      // Ensure icons directory exists and favicons are copied
+    console.log('🔧 Copying favicons and other custom assets');
     const docsIconsDir = path.join('docs', 'icons');
     if (!fs.existsSync(docsIconsDir)) {
       fs.mkdirSync(docsIconsDir, { recursive: true });
     }
     
-    // Copy favicon if it exists
-    const faviconSrc = path.join('public', 'icons', 'favicon.svg');
-    const faviconDest = path.join('docs', 'icons', 'favicon.svg');
-    if (fs.existsSync(faviconSrc)) {
-      fs.copyFileSync(faviconSrc, faviconDest);
-      console.log('✅ Copied favicon to docs/icons');
-    } else {
-      console.log('⚠️ favicon.svg not found in public/icons');
+    // List of favicon files to copy
+    const faviconFiles = [
+      'favicon.svg',
+      'favicon.ico',
+      'favicon-16x16.png',
+      'favicon-32x32.png',
+      'apple-touch-icon.png'
+    ];
+    
+    // Copy all favicon files
+    let faviconsFound = 0;
+    for (const file of faviconFiles) {
+      const srcPath = path.join('public', 'icons', file);
+      const destPath = path.join('docs', 'icons', file);
+      if (fs.existsSync(srcPath)) {
+        fs.copyFileSync(srcPath, destPath);
+        faviconsFound++;
+      } else {
+        console.log(`⚠️ ${file} not found in public/icons`);
+      }
     }
+    
+    console.log(`✅ Copied ${faviconsFound} favicon files to docs/icons`);
+      // Also copy sounds and other assets from public if they exist
+    const publicAssetsDir = path.join('public', 'assets');
+    if (fs.existsSync(publicAssetsDir)) {
+      const docsAssetsDir = path.join('docs', 'assets');
+      copyRecursive(publicAssetsDir, docsAssetsDir);
+      console.log('✅ Copied additional assets from public/assets');
+    }
+    
+    // Copy manifest file with GitHub Pages specific paths
+    console.log('🔧 Creating GitHub Pages specific manifest.json');
+    const manifestData = {
+      name: "Dare to Win - Millionaire Game",
+      short_name: "Dare to Win",
+      description: "A bilingual (English/Arabic) Who Wants to Be a Millionaire? game with Islamic knowledge questions.",
+      start_url: "/Dare-to-Win/",
+      display: "standalone",
+      background_color: "#1a1aff",
+      theme_color: "#1a1aff",
+      icons: [
+        {
+          src: "/Dare-to-Win/icons/favicon-16x16.png",
+          sizes: "16x16",
+          type: "image/png"
+        },
+        {
+          src: "/Dare-to-Win/icons/favicon-32x32.png",
+          sizes: "32x32",
+          type: "image/png"
+        },
+        {
+          src: "/Dare-to-Win/icons/apple-touch-icon.png",
+          sizes: "180x180",
+          type: "image/png"
+        }
+      ]
+    };
+    
+    fs.writeFileSync(
+      path.join('docs', 'manifest.json'), 
+      JSON.stringify(manifestData, null, 2)
+    );
+    console.log('✅ Created GitHub Pages specific manifest.json');
     
     console.log('✅ Copied build to docs folder');
   }
