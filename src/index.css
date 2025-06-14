@@ -55,10 +55,18 @@ body {
 
 /* Game-specific styling */
 .game-container {
-  background: linear-gradient(135deg, 
-    rgba(0, 17, 51, 0.9) 0%, 
-    rgba(0, 0, 17, 0.95) 50%, 
-    rgba(0, 0, 0, 0.98) 100%);
+  background: 
+    /* Overlay gradient for readability */
+    linear-gradient(135deg, 
+      rgba(0, 17, 51, 0.85) 0%, 
+      rgba(0, 0, 17, 0.90) 50%, 
+      rgba(0, 0, 0, 0.95) 100%),
+    /* Islamic background image */
+    url("/assets/images/game-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   position: relative;
 }
