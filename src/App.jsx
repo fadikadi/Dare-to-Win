@@ -423,17 +423,17 @@ function AppContent() {
       {gameState === 'menu' && (
         <div className="game-header">
           <div className="game-title">
-            Dare to Win with Sheikh Riyad | تجرأ واربح مع الشيخ رياض
+            {t('game_title')} | تجرأ واربح مع الشيخ رياض
           </div>
           <LanguageToggle language={language} setLanguage={setLanguage} />
         </div>
       )}        {gameState === 'menu' && (
         <div className="end-screen">
           <h1>
-            Dare to Win with Sheikh Riyad
+            {t('game_title')}
           </h1>
           <h2 style={{ color: 'var(--secondary-gold)', fontSize: '1.8rem', marginBottom: '2rem' }}>
-            متجرأ واربح مع الشيخ رياض
+            {language === 'ar' ? t('game_title') : 'تجرأ واربح مع الشيخ رياض'}
           </h2>
           
           {showAdditionalContent && (
