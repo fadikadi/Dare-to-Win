@@ -72,8 +72,7 @@ try {
     };
     
     copyRecursive('dist', 'docs');
-    
-    // Fix asset paths in index.html for GitHub Pages
+      // Fix asset paths in index.html for GitHub Pages
     console.log('🔧 Fixing asset paths in index.html for GitHub Pages');
     const indexPath = path.join('docs', 'index.html');
     if (fs.existsSync(indexPath)) {
@@ -88,6 +87,23 @@ try {
       console.log('✅ Fixed asset paths in index.html');
     } else {
       console.log('⚠️ index.html not found in docs folder');
+    }
+    
+    // Ensure icons directory exists and favicon is copied
+    console.log('🔧 Copying favicon and other custom assets');
+    const docsIconsDir = path.join('docs', 'icons');
+    if (!fs.existsSync(docsIconsDir)) {
+      fs.mkdirSync(docsIconsDir, { recursive: true });
+    }
+    
+    // Copy favicon if it exists
+    const faviconSrc = path.join('public', 'icons', 'favicon.svg');
+    const faviconDest = path.join('docs', 'icons', 'favicon.svg');
+    if (fs.existsSync(faviconSrc)) {
+      fs.copyFileSync(faviconSrc, faviconDest);
+      console.log('✅ Copied favicon to docs/icons');
+    } else {
+      console.log('⚠️ favicon.svg not found in public/icons');
     }
     
     console.log('✅ Copied build to docs folder');
