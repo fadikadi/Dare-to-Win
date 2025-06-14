@@ -40,7 +40,6 @@ try {
   const buildCommand = buildMode ? `vite build --mode ${buildMode}` : 'vite build';
   execSync(buildCommand, { stdio: 'inherit' });
   console.log('✅ Build completed successfully');
-
   // Special handling for GitHub Pages
   if (platform === 'github') {
     console.log('📦 Copying build to docs folder for GitHub Pages');
@@ -73,6 +72,24 @@ try {
     };
     
     copyRecursive('dist', 'docs');
+    
+    // Fix asset paths in index.html for GitHub Pages
+    console.log('🔧 Fixing asset paths in index.html for GitHub Pages');
+    const indexPath = path.join('docs', 'index.html');
+    if (fs.existsSync(indexPath)) {
+      let indexContent = fs.readFileSync(indexPath, 'utf8');
+      
+      // Replace incorrect asset paths - ensure they have the base path
+      indexContent = indexContent.replace(/src="\/assets\//g, 'src="/Dare-to-Win/assets/');
+      indexContent = indexContent.replace(/href="\/assets\//g, 'href="/Dare-to-Win/assets/');
+      
+      // Save the fixed index.html
+      fs.writeFileSync(indexPath, indexContent);
+      console.log('✅ Fixed asset paths in index.html');
+    } else {
+      console.log('⚠️ index.html not found in docs folder');
+    }
+    
     console.log('✅ Copied build to docs folder');
   }
 
