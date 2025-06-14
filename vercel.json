@@ -3,7 +3,12 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "installCommand": "npm install",
-  "buildCommand": "npm run build",
+  "buildCommand": "cp vercel-index.html index.html && npm run build",
   "outputDirectory": "dist",
-  "framework": "vite"
+  "framework": "vite",
+  "build": {
+    "env": {
+      "VITE_BASE": "/"
+    }
+  }
 }
