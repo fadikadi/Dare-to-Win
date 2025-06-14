@@ -3,8 +3,7 @@
 /**
  * Utility script to update default questions.json and milestone.json files
  * with uploaded versions from the Downloads folder
- * 
- * Usage:
+ *  * Usage:
  * node update-defaults.js
  * 
  * This script will:
@@ -13,9 +12,13 @@
  * 3. Create backups of original files
  */
 
-const fs = require('fs');
-const path = require('path');
-const os = require('os');
+import fs from 'fs';
+import path from 'path';
+import os from 'os';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const downloadsFolder = path.join(os.homedir(), 'Downloads');
 const dataFolder = path.join(__dirname, 'src', 'data');
@@ -102,8 +105,7 @@ function main() {
   console.log('4. Restart the development server');
 }
 
-if (require.main === module) {
-  main();
-}
+// Run main function if this file is executed directly
+main();
 
-module.exports = { updateFile, createBackup };
+export { updateFile, createBackup };

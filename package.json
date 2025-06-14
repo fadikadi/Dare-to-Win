@@ -12,6 +12,7 @@
     "deploy": "npm run build && powershell -Command \"Remove-Item -Path docs -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item -Path dist -Destination docs -Recurse\""
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
     "i18next": "^25.2.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

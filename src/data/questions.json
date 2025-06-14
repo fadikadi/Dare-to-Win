@@ -3,251 +3,251 @@
     {
       "id": 1,
       "difficulty": "easy",
-      "category": "birth_early_life",
+      "category": "minor_signs",
       "question": {
-        "en": "In which city was Prophet Mohammed (peace be upon him) born?",
-        "ar": "في أي مدينة وُلد النبي محمد صلى الله عليه وسلم؟"
+        "en": "What will happen to knowledge as one of the minor signs of the Hour?",
+        "ar": "ماذا سيحدث للعلم كأحد علامات الساعة الصغرى؟"
       },
       "options": [
         {
-          "en": "Medina",
-          "ar": "المدينة"
+          "en": "It will increase",
+          "ar": "سوف يزداد"
         },
         {
-          "en": "Mecca",
-          "ar": "مكة"
+          "en": "It will be preserved",
+          "ar": "سيتم حفظه"
         },
         {
-          "en": "Taif",
-          "ar": "الطائف"
+          "en": "It will disappear",
+          "ar": "سيُرفع العلم"
         },
         {
-          "en": "Damascus",
-          "ar": "دمشق"
+          "en": "It will be translated into many languages",
+          "ar": "سيُترجم إلى لغات كثيرة"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 2,
-      "difficulty": "easy",
-      "category": "family",
+      "difficulty": "medium",
+      "category": "major_signs",
       "question": {
-        "en": "What was the name of Prophet Mohammed's father?",
-        "ar": "ما اسم والد النبي محمد صلى الله عليه وسلم؟"
+        "en": "Which of the following is one of the ten major signs of the Hour?",
+        "ar": "أي مما يلي هو أحد العلامات العشر الكبرى للساعة؟"
       },
       "options": [
         {
-          "en": "Abu Talib",
-          "ar": "أبو طالب"
+          "en": "Emergence of Al-Dajjal",
+          "ar": "ظهور الدجال"
         },
         {
-          "en": "Abdullah",
-          "ar": "عبد الله"
+          "en": "Writing of the Quran will increase",
+          "ar": "سيزداد كتابة القرآن"
         },
         {
-          "en": "Abdul Muttalib",
-          "ar": "عبد المطلب"
+          "en": "More animals will appear",
+          "ar": "ظهور المزيد من الحيوانات"
         },
         {
-          "en": "Abu Bakr",
-          "ar": "أبو بكر"
+          "en": "Trade will decrease",
+          "ar": "سيقلّ التجارة"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 3,
       "difficulty": "easy",
-      "category": "family",
+      "category": "dajjal",
       "question": {
-        "en": "What was the name of Prophet Mohammed's mother?",
-        "ar": "ما اسم والدة النبي محمد صلى الله عليه وسلم؟"
+        "en": "How many days will Al-Dajjal stay on Earth?",
+        "ar": "كم يوماً سيمكث الدجال على الأرض؟"
       },
       "options": [
         {
-          "en": "Khadijah",
-          "ar": "خديجة"
+          "en": "10 days",
+          "ar": "١٠ أيام"
         },
         {
-          "en": "Aisha",
-          "ar": "عائشة"
+          "en": "20 days",
+          "ar": "٢٠ يوماً"
         },
         {
-          "en": "Aminah",
-          "ar": "آمنة"
+          "en": "30 days",
+          "ar": "٣٠ يوماً"
         },
         {
-          "en": "Fatimah",
-          "ar": "فاطمة"
+          "en": "40 days",
+          "ar": "٤٠ يوماً"
         }
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": 4,
-      "difficulty": "easy",
-      "category": "revelation",
+      "difficulty": "hard",
+      "category": "mahdi",
       "question": {
-        "en": "In which cave did Prophet Mohammed receive his first revelation?",
-        "ar": "في أي غار تلقى النبي محمد أول وحي؟"
+        "en": "What is the name of Al-Mahdi?",
+        "ar": "ما اسم المهدي؟"
       },
       "options": [
         {
-          "en": "Cave of Thawr",
-          "ar": "غار ثور"
+          "en": "Isa Ibn Maryam",
+          "ar": "عيسى بن مريم"
         },
         {
-          "en": "Cave of Hira",
-          "ar": "غار حراء"
+          "en": "Muhammad Ibn Abdullah",
+          "ar": "محمد بن عبد الله"
         },
         {
-          "en": "Cave of Uhud",
-          "ar": "غار أحد"
-        },
-        {
-          "en": "Cave of Quba",
-          "ar": "غار قباء"
-        }
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": 5,
-      "difficulty": "easy",
-      "category": "migration",
-      "question": {
-        "en": "What is the Arabic term for Prophet Mohammed's migration from Mecca to Medina?",
-        "ar": "ما المصطلح العربي لهجرة النبي محمد من مكة إلى المدينة؟"
-      },
-      "options": [
-        {
-          "en": "Isra",
-          "ar": "الإسراء"
-        },
-        {
-          "en": "Miraj",
-          "ar": "المعراج"
-        },
-        {
-          "en": "Hijra",
-          "ar": "الهجرة"
-        },
-        {
-          "en": "Jihad",
-          "ar": "الجهاد"
-        }
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": 6,
-      "difficulty": "easy",
-      "category": "companions",
-      "question": {
-        "en": "Who was the first person to accept Islam?",
-        "ar": "من أول من آمن بالإسلام؟"
-      },
-      "options": [
-        {
-          "en": "Abu Bakr",
-          "ar": "أبو بكر"
-        },
-        {
-          "en": "Khadijah",
-          "ar": "خديجة"
-        },
-        {
-          "en": "Ali ibn Abi Talib",
+          "en": "Ali Ibn Abi Talib",
           "ar": "علي بن أبي طالب"
         },
         {
-          "en": "Umar ibn al-Khattab",
+          "en": "Omar Ibn Al-Khattab",
           "ar": "عمر بن الخطاب"
         }
       ],
       "correctIndex": 1
     },
     {
-      "id": 7,
-      "difficulty": "easy",
-      "category": "attributes",
+      "id": 5,
+      "difficulty": "medium",
+      "category": "isa_return",
       "question": {
-        "en": "What was Prophet Mohammed known as before receiving revelation?",
-        "ar": "بماذا كان يُعرف النبي محمد قبل تلقي الوحي؟"
+        "en": "Where will Prophet Isa (Jesus) descend?",
+        "ar": "أين سينزل النبي عيسى عليه السلام؟"
       },
       "options": [
         {
-          "en": "Al-Amin (The Trustworthy)",
-          "ar": "الأمين"
+          "en": "Kaaba",
+          "ar": "الكعبة"
         },
         {
-          "en": "Al-Hakeem (The Wise)",
-          "ar": "الحكيم"
+          "en": "Masjid al-Aqsa",
+          "ar": "المسجد الأقصى"
         },
         {
-          "en": "Al-Qadeer (The Powerful)",
-          "ar": "القدير"
+          "en": "White Minaret of Damascus",
+          "ar": "المنارة البيضاء في دمشق"
         },
         {
-          "en": "Al-Kareem (The Generous)",
-          "ar": "الكريم"
+          "en": "Mount Sinai",
+          "ar": "جبل طور سيناء"
         }
       ],
-      "correctIndex": 0
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "difficulty": "hard",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "What will Gog and Magog (Ya'juj wa Ma'juj) drink when they emerge?",
+        "ar": "ماذا سيشرب يأجوج ومأجوج عند خروجهم؟"
+      },
+      "options": [
+        {
+          "en": "Milk",
+          "ar": "الحليب"
+        },
+        {
+          "en": "Water from Lake Tiberias",
+          "ar": "مياه بحيرة طبريا"
+        },
+        {
+          "en": "River Nile water",
+          "ar": "مياه نهر النيل"
+        },
+        {
+          "en": "Oil from olive trees",
+          "ar": "زيت أشجار الزيتون"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "sun_west",
+      "question": {
+        "en": "From where will the sun rise as one of the signs of the Hour?",
+        "ar": "من أين ستشرق الشمس كإحدى علامات الساعة؟"
+      },
+      "options": [
+        {
+          "en": "From the East",
+          "ar": "من الشرق"
+        },
+        {
+          "en": "From the North",
+          "ar": "من الشمال"
+        },
+        {
+          "en": "From the South",
+          "ar": "من الجنوب"
+        },
+        {
+          "en": "From the West",
+          "ar": "من الغرب"
+        }
+      ],
+      "correctIndex": 3
     },
     {
       "id": 8,
-      "difficulty": "easy",
-      "category": "death",
+      "difficulty": "hard",
+      "category": "beast",
       "question": {
-        "en": "In which city did Prophet Mohammed pass away?",
-        "ar": "في أي مدينة توفي النبي محمد صلى الله عليه وسلم؟"
+        "en": "What is the name of the creature that will emerge near the end of time?",
+        "ar": "ما اسم الدابة التي ستخرج في آخر الزمان؟"
       },
       "options": [
         {
-          "en": "Mecca",
-          "ar": "مكة"
+          "en": "Al-Jassassah",
+          "ar": "الجساسة"
         },
         {
-          "en": "Medina",
-          "ar": "المدينة"
+          "en": "Ad-Daabbah",
+          "ar": "الدابة"
         },
         {
-          "en": "Jerusalem",
-          "ar": "القدس"
+          "en": "Al-Khidr",
+          "ar": "الخضر"
         },
         {
-          "en": "Taif",
-          "ar": "الطائف"
+          "en": "Al-Buraq",
+          "ar": "البراق"
         }
       ],
       "correctIndex": 1
     },
     {
       "id": 9,
-      "difficulty": "medium",
-      "category": "early_life",
+      "difficulty": "easy",
+      "category": "minor_signs",
       "question": {
-        "en": "At what age did Prophet Mohammed become an orphan (lost both parents)?",
-        "ar": "في أي عمر أصبح النبي محمد يتيماً (فقد كلا الوالدين)؟"
+        "en": "What will spread as a minor sign of the Hour?",
+        "ar": "ماذا سينتشر كعلامة صغرى من علامات الساعة؟"
       },
       "options": [
         {
-          "en": "4 years old",
-          "ar": "٤ سنوات"
+          "en": "Knowledge",
+          "ar": "العلم"
         },
         {
-          "en": "6 years old",
-          "ar": "٦ سنوات"
+          "en": "Ignorance",
+          "ar": "الجهل"
         },
         {
-          "en": "8 years old",
-          "ar": "٨ سنوات"
+          "en": "Justice",
+          "ar": "العدل"
         },
         {
-          "en": "10 years old",
-          "ar": "١٠ سنوات"
+          "en": "Mercy",
+          "ar": "الرحمة"
         }
       ],
       "correctIndex": 1
@@ -255,250 +255,1983 @@
     {
       "id": 10,
       "difficulty": "medium",
-      "category": "revelation",
+      "category": "minor_signs",
       "question": {
-        "en": "At what age did Prophet Mohammed receive his first revelation?",
-        "ar": "في أي عمر تلقى النبي محمد أول وحي؟"
+        "en": "What will people commonly drink as one of the minor signs?",
+        "ar": "ماذا سيشرب الناس كثيراً كإحدى العلامات الصغرى؟"
       },
       "options": [
         {
-          "en": "35 years old",
-          "ar": "٣٥ سنة"
+          "en": "Milk",
+          "ar": "الحليب"
         },
         {
-          "en": "40 years old",
-          "ar": "٤٠ سنة"
+          "en": "Water",
+          "ar": "الماء"
         },
         {
-          "en": "45 years old",
-          "ar": "٤٥ سنة"
+          "en": "Wine (alcohol)",
+          "ar": "الخمر"
         },
         {
-          "en": "50 years old",
-          "ar": "٥٠ سنة"
+          "en": "Honey",
+          "ar": "العسل"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 11,
-      "difficulty": "medium",
-      "category": "battles",
+      "difficulty": "easy",
+      "category": "zina",
       "question": {
-        "en": "What was the first major battle in Islamic history?",
-        "ar": "ما أول معركة كبرى في التاريخ الإسلامي؟"
+        "en": "What sin will become widespread according to the Hadith?",
+        "ar": "ما هي المعصية التي ستصبح منتشرة حسب الحديث؟"
       },
       "options": [
         {
-          "en": "Battle of Uhud",
-          "ar": "غزوة أحد"
+          "en": "Zina (adultery)",
+          "ar": "الزنا"
         },
         {
-          "en": "Battle of Badr",
-          "ar": "غزوة بدر"
+          "en": "Murder",
+          "ar": "القتل"
         },
         {
-          "en": "Battle of Khandaq",
-          "ar": "غزوة الخندق"
+          "en": "Theft",
+          "ar": "السرقة"
         },
         {
-          "en": "Battle of Khaybar",
-          "ar": "غزوة خيبر"
+          "en": "Gambling",
+          "ar": "القمار"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 12,
-      "difficulty": "medium",
-      "category": "marriage",
+      "difficulty": "easy",
+      "category": "parents",
       "question": {
-        "en": "How old was Khadijah when she married Prophet Mohammed?",
-        "ar": "كم كان عمر خديجة عندما تزوجت النبي محمد؟"
+        "en": "What will happen to the respect towards parents as a minor sign?",
+        "ar": "ماذا سيحدث لاحترام الوالدين كإحدى العلامات الصغرى؟"
       },
       "options": [
         {
-          "en": "35 years old",
-          "ar": "٣٥ سنة"
+          "en": "It will increase",
+          "ar": "سيزداد"
         },
         {
-          "en": "40 years old",
-          "ar": "٤٠ سنة"
+          "en": "It will stay the same",
+          "ar": "سيبقى كما هو"
         },
         {
-          "en": "45 years old",
-          "ar": "٤٥ سنة"
+          "en": "It will decrease",
+          "ar": "سينقص"
         },
         {
-          "en": "50 years old",
-          "ar": "٥٠ سنة"
+          "en": "It will not be affected",
+          "ar": "لن يتأثر"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 13,
       "difficulty": "medium",
-      "category": "persecution",
+      "category": "lying",
       "question": {
-        "en": "Which companion was known as 'Sayyed al-Shuhada' (Master of Martyrs)?",
-        "ar": "أي صحابي عُرف بـ 'سيد الشهداء'؟"
+        "en": "What will lying lead to according to the Hadith?",
+        "ar": "إلى ماذا يؤدي الكذب حسب الحديث؟"
       },
       "options": [
         {
-          "en": "Hamza ibn Abdul-Muttalib",
-          "ar": "حمزة بن عبد المطلب"
+          "en": "Paradise",
+          "ar": "الجنة"
         },
         {
-          "en": "Mus'ab ibn Umair",
-          "ar": "مصعب بن عمير"
+          "en": "Good deeds",
+          "ar": "الأعمال الصالحة"
         },
         {
-          "en": "Sa'd ibn Abi Waqqas",
-          "ar": "سعد بن أبي وقاص"
+          "en": "Hellfire",
+          "ar": "النار"
         },
         {
-          "en": "Bilal ibn Rabah",
-          "ar": "بلال بن رباح"
+          "en": "Knowledge",
+          "ar": "العلم"
         }
       ],
-      "correctIndex": 0
-    },{
+      "correctIndex": 2
+    },
+    {
       "id": 14,
-      "difficulty": "hard",
-      "category": "treaties",
+      "difficulty": "medium",
+      "category": "false_testimony",
       "question": {
-        "en": "In which year (Hijri) was the Treaty of Hudaybiyyah signed?",
-        "ar": "في أي سنة هجرية تم توقيع معاهدة الحديبية؟"
+        "en": "What type of testimony will become common?",
+        "ar": "ما نوع الشهادة التي ستصبح شائعة؟"
       },
       "options": [
         {
-          "en": "5 AH",
-          "ar": "٥ هـ"
+          "en": "Truthful testimony",
+          "ar": "شهادة الحق"
         },
         {
-          "en": "6 AH",
-          "ar": "٦ هـ"
+          "en": "Witness without knowledge",
+          "ar": "شهادة بدون علم"
         },
         {
-          "en": "7 AH",
-          "ar": "٧ هـ"
+          "en": "False testimony",
+          "ar": "شهادة الزور"
         },
         {
-          "en": "8 AH",
-          "ar": "٨ هـ"
+          "en": "Silent testimony",
+          "ar": "شهادة صامتة"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 15,
-      "difficulty": "hard",
-      "category": "night_journey",
+      "difficulty": "easy",
+      "category": "severing_kinship",
       "question": {
-        "en": "From which mosque did the Night Journey (Isra) begin?",
-        "ar": "من أي مسجد بدأت رحلة الإسراء؟"
+        "en": "What will happen to ties of kinship near the end of times?",
+        "ar": "ماذا سيحدث لصلة الأرحام قرب نهاية الزمان؟"
       },
       "options": [
         {
-          "en": "Masjid al-Nabawi",
-          "ar": "المسجد النبوي"
+          "en": "They will strengthen",
+          "ar": "ستقوى"
         },
         {
-          "en": "Masjid al-Haram",
-          "ar": "المسجد الحرام"
+          "en": "They will weaken",
+          "ar": "ستضعف"
         },
         {
-          "en": "Masjid al-Aqsa",
-          "ar": "المسجد الأقصى"
+          "en": "They will disappear",
+          "ar": "ستختفي"
         },
         {
-          "en": "Masjid Quba",
-          "ar": "مسجد قباء"
+          "en": "They will improve",
+          "ar": "ستتحسن"
         }
       ],
       "correctIndex": 1
     },
     {
       "id": 16,
-      "difficulty": "hard",
-      "category": "conquest",
+      "difficulty": "easy",
+      "category": "riba",
       "question": {
-        "en": "In which year did the Conquest of Mecca take place?",
-        "ar": "في أي سنة حدث فتح مكة؟"
+        "en": "What type of transaction will become widespread?",
+        "ar": "ما هو نوع المعاملة التي ستنتشر؟"
       },
       "options": [
         {
-          "en": "6 AH",
-          "ar": "٦ هـ"
+          "en": "Barter trade",
+          "ar": "تجارة المقايضة"
         },
         {
-          "en": "7 AH",
-          "ar": "٧ هـ"
+          "en": "Charity",
+          "ar": "الصدقة"
         },
         {
-          "en": "8 AH",
-          "ar": "٨ هـ"
+          "en": "Riba (usury)",
+          "ar": "الربا"
         },
         {
-          "en": "9 AH",
-          "ar": "٩ هـ"
+          "en": "Zakat",
+          "ar": "الزكاة"
         }
       ],
       "correctIndex": 2
     },
     {
       "id": 17,
-      "difficulty": "hard",
-      "category": "genealogy",
+      "difficulty": "medium",
+      "category": "al_harj",
       "question": {
-        "en": "What was the name of Prophet Mohammed's great-grandfather?",
-        "ar": "ما اسم جد النبي محمد الأكبر؟"
+        "en": "What is Al-Harj according to the Hadith?",
+        "ar": "ما هو الهرج حسب الحديث؟"
       },
       "options": [
         {
-          "en": "Hashim",
-          "ar": "هاشم"
+          "en": "Trade",
+          "ar": "التجارة"
         },
         {
-          "en": "Qusai",
-          "ar": "قصي"
+          "en": "Killing",
+          "ar": "القتل"
         },
         {
-          "en": "Abd Manaf",
-          "ar": "عبد مناف"
+          "en": "Charity",
+          "ar": "الصدقة"
         },
         {
-          "en": "Kilab",
-          "ar": "كلاب"
+          "en": "Knowledge",
+          "ar": "العلم"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "From where will the Beast emerge?",
+        "ar": "من أين ستخرج الدابة؟"
+      },
+      "options": [
+        {
+          "en": "Kaaba",
+          "ar": "الكعبة"
+        },
+        {
+          "en": "Earth",
+          "ar": "الأرض"
+        },
+        {
+          "en": "Sky",
+          "ar": "السماء"
+        },
+        {
+          "en": "Mountain",
+          "ar": "جبل"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "category": "isa_return",
+      "question": {
+        "en": "What will Prophet Isa do to the cross upon his return?",
+        "ar": "ماذا سيفعل النبي عيسى بالصليب عند عودته؟"
+      },
+      "options": [
+        {
+          "en": "He will worship it",
+          "ar": "سيعبده"
+        },
+        {
+          "en": "He will carry it",
+          "ar": "سيحمله"
+        },
+        {
+          "en": "He will break it",
+          "ar": "سيكسره"
+        },
+        {
+          "en": "He will hide it",
+          "ar": "سيخفيه"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "How many days will the Dajjal stay on Earth?",
+        "ar": "كم يوماً سيمكث الدجال على الأرض؟"
+      },
+      "options": [
+        {
+          "en": "30 days",
+          "ar": "٣٠ يوماً"
+        },
+        {
+          "en": "33 days",
+          "ar": "٣٣ يوماً"
+        },
+        {
+          "en": "40 days",
+          "ar": "٤٠ يوماً"
+        },
+        {
+          "en": "70 days",
+          "ar": "٧٠ يوماً"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "category": "dajjal",
+      "question": {
+        "en": "Where will Dajjal not be able to enter?",
+        "ar": "ما هي الأماكن التي لا يستطيع الدجال دخولها؟"
+      },
+      "options": [
+        {
+          "en": "Jerusalem and Madinah",
+          "ar": "القدس والمدينة"
+        },
+        {
+          "en": "Mecca and Madinah",
+          "ar": "مكة والمدينة"
+        },
+        {
+          "en": "Sham and Yemen",
+          "ar": "الشام واليمن"
+        },
+        {
+          "en": "Iraq and Hijaz",
+          "ar": "العراق والحجاز"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "category": "isa_return",
+      "question": {
+        "en": "Who will Prophet Isa kill upon his return?",
+        "ar": "من سيقتل النبي عيسى عند عودته؟"
+      },
+      "options": [
+        {
+          "en": "Iblis",
+          "ar": "إبليس"
+        },
+        {
+          "en": "Dajjal",
+          "ar": "الدجال"
+        },
+        {
+          "en": "Ya'juj wa Ma'juj",
+          "ar": "يأجوج ومأجوج"
+        },
+        {
+          "en": "Pharaoh",
+          "ar": "فرعون"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "category": "major_signs",
+      "question": {
+        "en": "Which sign involves the sun changing its rising direction?",
+        "ar": "أي علامة تتعلق بتغير مكان شروق الشمس؟"
+      },
+      "options": [
+        {
+          "en": "Sun rising from the west",
+          "ar": "شروق الشمس من الغرب"
+        },
+        {
+          "en": "Sun rising at night",
+          "ar": "شروق الشمس ليلاً"
+        },
+        {
+          "en": "Sun rising twice",
+          "ar": "شروق الشمس مرتين"
+        },
+        {
+          "en": "Sun not rising at all",
+          "ar": "عدم شروق الشمس إطلاقاً"
         }
       ],
       "correctIndex": 0
     },
     {
-      "id": 18,
+      "id": 24,
       "difficulty": "hard",
-      "category": "farewell_pilgrimage",
+      "category": "smoke",
       "question": {
-        "en": "In which year did Prophet Mohammed perform his Farewell Pilgrimage (Hajjat al-Wada)?",
-        "ar": "في أي سنة أدى النبي محمد حجة الوداع؟"
+        "en": "What will the smoke do to disbelievers?",
+        "ar": "ماذا سيفعل الدخان بالكفار؟"
       },
       "options": [
         {
-          "en": "8 AH",
-          "ar": "٨ هـ"
+          "en": "Make them sleep",
+          "ar": "يجعلهم ينامون"
         },
         {
-          "en": "9 AH",
-          "ar": "٩ هـ"
+          "en": "Cause swelling",
+          "ar": "يسبب التورم"
         },
         {
-          "en": "10 AH",
-          "ar": "١٠ هـ"
+          "en": "Cause blindness",
+          "ar": "يسبب العمى"
         },
         {
-          "en": "11 AH",
-          "ar": "١١ هـ"
+          "en": "Cause instant death",
+          "ar": "يسبب الموت الفوري"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "category": "beast",
+      "question": {
+        "en": "What will the Beast (Ad-Daabbah) do when it appears?",
+        "ar": "ماذا ستفعل الدابة عندما تظهر؟"
+      },
+      "options": [
+        {
+          "en": "Lead prayers",
+          "ar": "تؤم الصلاة"
+        },
+        {
+          "en": "Call people to prayer",
+          "ar": "تنادي للصلاة"
+        },
+        {
+          "en": "Mark people with belief or disbelief",
+          "ar": "تميّز الناس بالإيمان أو الكفر"
+        },
+        {
+          "en": "Destroy idols",
+          "ar": "تحطم الأصنام"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Where will Ya'juj and Ma'juj be released from?",
+        "ar": "من أين سيخرج يأجوج ومأجوج؟"
+      },
+      "options": [
+        {
+          "en": "From the East",
+          "ar": "من الشرق"
+        },
+        {
+          "en": "Behind a barrier",
+          "ar": "من وراء السد"
+        },
+        {
+          "en": "From the sky",
+          "ar": "من السماء"
+        },
+        {
+          "en": "From a cave",
+          "ar": "من كهف"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Who will destroy the Kaaba according to Hadith?",
+        "ar": "من سيهدم الكعبة حسب الحديث؟"
+      },
+      "options": [
+        {
+          "en": "A Persian ruler",
+          "ar": "حاكم فارسي"
+        },
+        {
+          "en": "A Roman king",
+          "ar": "ملك رومي"
+        },
+        {
+          "en": "Dhul-Suwaiqatayn from Ethiopia",
+          "ar": "ذو السويقتين من الحبشة"
+        },
+        {
+          "en": "A false prophet",
+          "ar": "نبي كاذب"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "category": "mahdi",
+      "question": {
+        "en": "Where will Al-Mahdi appear?",
+        "ar": "أين سيظهر المهدي؟"
+      },
+      "options": [
+        {
+          "en": "Madina",
+          "ar": "المدينة"
+        },
+        {
+          "en": "Jerusalem",
+          "ar": "القدس"
+        },
+        {
+          "en": "Damascus",
+          "ar": "دمشق"
+        },
+        {
+          "en": "Mecca",
+          "ar": "مكة"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "category": "plague",
+      "question": {
+        "en": "Which major plague occurred in Ash-Shaam?",
+        "ar": "ما اسم الطاعون الكبير الذي حدث في الشام؟"
+      },
+      "options": [
+        {
+          "en": "Ta'un al-Hijaz",
+          "ar": "طاعون الحجاز"
+        },
+        {
+          "en": "Ta'un Amwas",
+          "ar": "طاعون عمواس"
+        },
+        {
+          "en": "Black Death",
+          "ar": "الموت الأسود"
+        },
+        {
+          "en": "Ta'un Baghdad",
+          "ar": "طاعون بغداد"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "difficulty": "easy",
+      "category": "angel_trumpet",
+      "question": {
+        "en": "Which angel will blow the trumpet?",
+        "ar": "أي ملك سينفخ في الصور؟"
+      },
+      "options": [
+        {
+          "en": "Jibreel",
+          "ar": "جبريل"
+        },
+        {
+          "en": "Israfil",
+          "ar": "إسرافيل"
+        },
+        {
+          "en": "Mika'il",
+          "ar": "ميكائيل"
+        },
+        {
+          "en": "Malik",
+          "ar": "مالك"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "category": "judgment_day",
+      "question": {
+        "en": "What will happen between the two trumpet blasts?",
+        "ar": "ماذا سيحدث بين النفختين؟"
+      },
+      "options": [
+        {
+          "en": "Nothing",
+          "ar": "لا شيء"
+        },
+        {
+          "en": "40 years will pass",
+          "ar": "يمر ٤٠ سنة"
+        },
+        {
+          "en": "The sky will collapse",
+          "ar": "تنهار السماء"
+        },
+        {
+          "en": "Everyone will revive",
+          "ar": "يُبعث الجميع"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "difficulty": "easy",
+      "category": "judgment_day",
+      "question": {
+        "en": "Who will be the first to be resurrected?",
+        "ar": "من أول من يُبعث من القبور؟"
+      },
+      "options": [
+        {
+          "en": "Adam (A.S)",
+          "ar": "آدم عليه السلام"
+        },
+        {
+          "en": "Ibrahim (A.S)",
+          "ar": "إبراهيم عليه السلام"
+        },
+        {
+          "en": "Musa (A.S)",
+          "ar": "موسى عليه السلام"
+        },
+        {
+          "en": "Prophet Muhammad ﷺ",
+          "ar": "النبي محمد ﷺ"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "category": "heavenly_blessings",
+      "question": {
+        "en": "What will Prophet Isa bring to Earth during his time?",
+        "ar": "ماذا سيجلب النبي عيسى إلى الأرض في زمانه؟"
+      },
+      "options": [
+        {
+          "en": "Rain and vegetation",
+          "ar": "المطر والنبات"
+        },
+        {
+          "en": "Punishment",
+          "ar": "العذاب"
+        },
+        {
+          "en": "Earthquakes",
+          "ar": "الزلازل"
+        },
+        {
+          "en": "Drought",
+          "ar": "الجفاف"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "Which quality will decrease with time?",
+        "ar": "أي صفة ستقل مع مرور الوقت؟"
+      },
+      "options": [
+        {
+          "en": "Greed",
+          "ar": "الطمع"
+        },
+        {
+          "en": "Patience",
+          "ar": "الصبر"
+        },
+        {
+          "en": "Knowledge",
+          "ar": "العلم"
+        },
+        {
+          "en": "Wealth",
+          "ar": "المال"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to time near the end?",
+        "ar": "ماذا سيحدث للزمن قرب النهاية؟"
+      },
+      "options": [
+        {
+          "en": "It will slow down",
+          "ar": "سيتباطأ"
+        },
+        {
+          "en": "It will stretch",
+          "ar": "سيطول"
+        },
+        {
+          "en": "It will contract",
+          "ar": "سينقبض"
+        },
+        {
+          "en": "It will stop",
+          "ar": "سيتوقف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 36,
+      "difficulty": "hard",
+      "category": "judgment_day",
+      "question": {
+        "en": "On what type of land will people be gathered on Judgment Day?",
+        "ar": "على أي نوع من الأرض سيُحشر الناس يوم القيامة؟"
+      },
+      "options": [
+        {
+          "en": "Rocky and dark",
+          "ar": "صخرية ومظلمة"
+        },
+        {
+          "en": "White and flat",
+          "ar": "بيضاء ومسطحة"
+        },
+        {
+          "en": "Muddy and hilly",
+          "ar": "موحلة وتلال"
+        },
+        {
+          "en": "Sandy and burning",
+          "ar": "رملية وحارقة"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "Which action becomes more common: greeting only known people or everyone?",
+        "ar": "ما هو الفعل الشائع: التسليم على المعروفين فقط أم الجميع؟"
+      },
+      "options": [
+        {
+          "en": "Greeting everyone",
+          "ar": "التسليم على الجميع"
+        },
+        {
+          "en": "Ignoring all greetings",
+          "ar": "تجاهل الجميع"
+        },
+        {
+          "en": "Greeting only known people",
+          "ar": "التسليم على المعروفين فقط"
+        },
+        {
+          "en": "No greetings at all",
+          "ar": "عدم التسليم نهائياً"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "category": "fitnah",
+      "question": {
+        "en": "What is the greatest Fitnah (trial) mentioned by the Prophet ﷺ?",
+        "ar": "ما أعظم فتنة ذكرها النبي ﷺ؟"
+      },
+      "options": [
+        {
+          "en": "Greed",
+          "ar": "الطمع"
+        },
+        {
+          "en": "Dajjal",
+          "ar": "الدجال"
+        },
+        {
+          "en": "Ya'juj and Ma'juj",
+          "ar": "يأجوج ومأجوج"
+        },
+        {
+          "en": "Plague",
+          "ar": "الطاعون"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to neighborly treatment as a minor sign?",
+        "ar": "ماذا سيحدث لحسن معاملة الجار كعلامة صغرى؟"
+      },
+      "options": [
+        {
+          "en": "It will improve",
+          "ar": "ستتحسن"
+        },
+        {
+          "en": "It will remain the same",
+          "ar": "ستبقى كما هي"
+        },
+        {
+          "en": "It will worsen",
+          "ar": "ستسوء"
+        },
+        {
+          "en": "It will disappear",
+          "ar": "ستختفي"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to trust (Amanah) in society?",
+        "ar": "ماذا سيحدث للأمانة في المجتمع؟"
+      },
+      "options": [
+        {
+          "en": "It will increase",
+          "ar": "ستزداد"
+        },
+        {
+          "en": "It will remain constant",
+          "ar": "ستبقى ثابتة"
+        },
+        {
+          "en": "It will disappear",
+          "ar": "ستختفي"
+        },
+        {
+          "en": "It will be strengthened",
+          "ar": "ستتقوى"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 41,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to alcohol consumption?",
+        "ar": "ماذا سيحدث لشرب الخمر؟"
+      },
+      "options": [
+        {
+          "en": "It will disappear",
+          "ar": "سيختفي"
+        },
+        {
+          "en": "It will become widespread",
+          "ar": "سيصبح واسع الانتشار"
+        },
+        {
+          "en": "It will become rare",
+          "ar": "سيصبح نادراً"
+        },
+        {
+          "en": "It will be banned",
+          "ar": "سيُمنع"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to adultery near the end of time?",
+        "ar": "ماذا سيحدث للزنا قرب نهاية الزمان؟"
+      },
+      "options": [
+        {
+          "en": "It will be hidden",
+          "ar": "سيكون مخفياً"
+        },
+        {
+          "en": "It will be punished",
+          "ar": "سيُعاقب عليه"
+        },
+        {
+          "en": "It will become widespread",
+          "ar": "سيصبح واسع الانتشار"
+        },
+        {
+          "en": "It will be forgotten",
+          "ar": "سينسى"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "category": "major_signs",
+      "question": {
+        "en": "What will happen when the sun rises from the west?",
+        "ar": "ماذا سيحدث عندما تشرق الشمس من الغرب؟"
+      },
+      "options": [
+        {
+          "en": "People will convert to Islam",
+          "ar": "سيدخل الناس في الإسلام"
+        },
+        {
+          "en": "No repentance will be accepted",
+          "ar": "لن تُقبل التوبة"
+        },
+        {
+          "en": "People will flee the cities",
+          "ar": "سيهرب الناس من المدن"
+        },
+        {
+          "en": "The moon will disappear",
+          "ar": "سيختفي القمر"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "What will happen to Lake Tiberias when Ya'juj wa Ma'juj appear?",
+        "ar": "ماذا سيحدث لبحيرة طبريا عند ظهور يأجوج ومأجوج؟"
+      },
+      "options": [
+        {
+          "en": "It will dry up",
+          "ar": "ستجف"
+        },
+        {
+          "en": "It will flood",
+          "ar": "ستفيض"
+        },
+        {
+          "en": "It will become salty",
+          "ar": "ستصبح مالحة"
+        },
+        {
+          "en": "It will be frozen",
+          "ar": "ستتجمد"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "difficulty": "easy",
+      "category": "isa_return",
+      "question": {
+        "en": "From where will Isa descend?",
+        "ar": "من أين سينزل عيسى؟"
+      },
+      "options": [
+        {
+          "en": "White Minaret in Damascus",
+          "ar": "المنارة البيضاء بدمشق"
+        },
+        {
+          "en": "Kaaba",
+          "ar": "الكعبة"
+        },
+        {
+          "en": "Mount Uhud",
+          "ar": "جبل أحد"
+        },
+        {
+          "en": "Mount Sinai",
+          "ar": "جبل الطور"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "category": "fitnah",
+      "question": {
+        "en": "What is the recommended protection from Dajjal's Fitnah?",
+        "ar": "ما هي الحماية الموصى بها من فتنة الدجال؟"
+      },
+      "options": [
+        {
+          "en": "Surah Al-Fatiha",
+          "ar": "سورة الفاتحة"
+        },
+        {
+          "en": "Surah Al-Baqarah",
+          "ar": "سورة البقرة"
+        },
+        {
+          "en": "Surah Al-Kahf",
+          "ar": "سورة الكهف"
+        },
+        {
+          "en": "Surah Al-Ikhlas",
+          "ar": "سورة الإخلاص"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Who narrated that a man from Abyssinia will destroy the Kaaba?",
+        "ar": "من روى أن رجلاً من الحبشة سيهدم الكعبة؟"
+      },
+      "options": [
+        {
+          "en": "Abu Huraira",
+          "ar": "أبو هريرة"
+        },
+        {
+          "en": "Ibn Abbas",
+          "ar": "ابن عباس"
+        },
+        {
+          "en": "Anas ibn Malik",
+          "ar": "أنس بن مالك"
+        },
+        {
+          "en": "Ali ibn Abi Talib",
+          "ar": "علي بن أبي طالب"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "difficulty": "easy",
+      "category": "mahdi",
+      "question": {
+        "en": "Who will Al-Mahdi assist in defeating Dajjal?",
+        "ar": "من سيساعد المهدي في هزيمة الدجال؟"
+      },
+      "options": [
+        {
+          "en": "Prophet Muhammad ﷺ",
+          "ar": "النبي محمد ﷺ"
+        },
+        {
+          "en": "Prophet Musa",
+          "ar": "النبي موسى"
+        },
+        {
+          "en": "Prophet Isa",
+          "ar": "النبي عيسى"
+        },
+        {
+          "en": "Angel Jibreel",
+          "ar": "الملك جبريل"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "How will trade change near the end of times?",
+        "ar": "كيف سيتغير حال التجارة قرب نهاية الزمان؟"
+      },
+      "options": [
+        {
+          "en": "It will decrease",
+          "ar": "ستنقص"
+        },
+        {
+          "en": "It will stop",
+          "ar": "ستتوقف"
+        },
+        {
+          "en": "It will become widespread",
+          "ar": "ستنتشر"
+        },
+        {
+          "en": "It will become illegal",
+          "ar": "ستصبح غير شرعية"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 50,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What is the meaning of 'Al-Harj'?",
+        "ar": "ما معنى 'الهرج'؟"
+      },
+      "options": [
+        {
+          "en": "Killing",
+          "ar": "القتل"
+        },
+        {
+          "en": "Stealing",
+          "ar": "السرقة"
+        },
+        {
+          "en": "Adultery",
+          "ar": "الزنا"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "What will be written between Dajjal's eyes?",
+        "ar": "ما الذي سيكون مكتوباً بين عيني الدجال؟"
+      },
+      "options": [
+        {
+          "en": "Muhammad",
+          "ar": "محمد"
+        },
+        {
+          "en": "Kafir",
+          "ar": "كافر"
+        },
+        {
+          "en": "Allah",
+          "ar": "الله"
+        },
+        {
+          "en": "Jahannam",
+          "ar": "جهنم"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "How many pillars of Salah were listed in the slides?",
+        "ar": "كم عدد أركان الصلاة المذكورة في الشرائح؟"
+      },
+      "options": [
+        {
+          "en": "6",
+          "ar": "٦"
+        },
+        {
+          "en": "8",
+          "ar": "٨"
+        },
+        {
+          "en": "10",
+          "ar": "١٠"
+        },
+        {
+          "en": "12",
+          "ar": "١٢"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "category": "angel_trumpet",
+      "question": {
+        "en": "How many blasts of the trumpet are mentioned?",
+        "ar": "كم عدد نفخات الصور المذكورة؟"
+      },
+      "options": [
+        {
+          "en": "One",
+          "ar": "واحدة"
+        },
+        {
+          "en": "Two",
+          "ar": "اثنتان"
+        },
+        {
+          "en": "Three",
+          "ar": "ثلاث"
+        },
+        {
+          "en": "Four",
+          "ar": "أربع"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to the number of women compared to men?",
+        "ar": "ماذا سيحدث لعدد النساء مقارنة بالرجال؟"
+      },
+      "options": [
+        {
+          "en": "Equal",
+          "ar": "متساوٍ"
+        },
+        {
+          "en": "Women will be more",
+          "ar": "سيكون عدد النساء أكثر"
+        },
+        {
+          "en": "Men will be more",
+          "ar": "سيكون عدد الرجال أكثر"
+        },
+        {
+          "en": "Women will disappear",
+          "ar": "ستختفي النساء"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "How will miserliness (stinginess) change near the end times?",
+        "ar": "كيف سيتغير البخل قرب نهاية الزمان؟"
+      },
+      "options": [
+        {
+          "en": "It will disappear",
+          "ar": "سيختفي"
+        },
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will spread",
+          "ar": "سينتشر"
+        },
+        {
+          "en": "It will stay the same",
+          "ar": "سيبقى كما هو"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 56,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "How will time feel near the end of times according to the Hadith?",
+        "ar": "كيف سيشعر الناس بالزمن قرب نهاية الزمان حسب الحديث؟"
+      },
+      "options": [
+        {
+          "en": "As if it is passing very slowly",
+          "ar": "كأنه يمر ببطء شديد"
+        },
+        {
+          "en": "As if a year is like a month",
+          "ar": "كأن السنة كشهر"
+        },
+        {
+          "en": "As if a month is like a day",
+          "ar": "كأن الشهر كيوم"
+        },
+        {
+          "en": "All of the above",
+          "ar": "جميع ما سبق"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "category": "fitnah",
+      "question": {
+        "en": "How will the young believer confront Dajjal according to Hadith?",
+        "ar": "كيف سيواجه الشاب المؤمن الدجال حسب الحديث؟"
+      },
+      "options": [
+        {
+          "en": "By reciting Surah Yasin",
+          "ar": "بتلاوة سورة يس"
+        },
+        {
+          "en": "By challenging his false miracles",
+          "ar": "بتحدي معجزاته الباطلة"
+        },
+        {
+          "en": "By hiding in Madinah",
+          "ar": "بالاختباء في المدينة"
+        },
+        {
+          "en": "By performing Hajj",
+          "ar": "بأداء الحج"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will increase in public spaces as a minor sign?",
+        "ar": "ما الذي سيزداد في الأماكن العامة كعلامة صغرى؟"
+      },
+      "options": [
+        {
+          "en": "Knowledge circles",
+          "ar": "حلقات العلم"
+        },
+        {
+          "en": "Zina (adultery)",
+          "ar": "الزنا"
+        },
+        {
+          "en": "Charity collections",
+          "ar": "جمع الصدقات"
+        },
+        {
+          "en": "Quran recitation",
+          "ar": "تلاوة القرآن"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What kind of language will become common among people?",
+        "ar": "ما نوع اللغة التي ستصبح شائعة بين الناس؟"
+      },
+      "options": [
+        {
+          "en": "Polite language",
+          "ar": "اللغة المؤدبة"
+        },
+        {
+          "en": "Formal language",
+          "ar": "اللغة الرسمية"
+        },
+        {
+          "en": "Obscene and vulgar language",
+          "ar": "اللغة الفاحشة والبذيئة"
+        },
+        {
+          "en": "Poetic language",
+          "ar": "اللغة الشعرية"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to the respect for elders?",
+        "ar": "ماذا سيحدث لاحترام الكبار؟"
+      },
+      "options": [
+        {
+          "en": "It will increase",
+          "ar": "سيزداد"
+        },
+        {
+          "en": "It will stay the same",
+          "ar": "سيبقى كما هو"
+        },
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will completely disappear",
+          "ar": "سيختفي تماماً"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to the number of scholars before the Hour?",
+        "ar": "ماذا سيحدث لعدد العلماء قبل قيام الساعة؟"
+      },
+      "options": [
+        {
+          "en": "It will increase",
+          "ar": "سيزداد"
+        },
+        {
+          "en": "It will remain constant",
+          "ar": "سيبقى ثابتاً"
+        },
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will not change",
+          "ar": "لن يتغير"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 62,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to truthful speech?",
+        "ar": "ماذا سيحدث للصدق في الحديث؟"
+      },
+      "options": [
+        {
+          "en": "It will increase",
+          "ar": "سيزداد"
+        },
+        {
+          "en": "It will remain the same",
+          "ar": "سيبقى كما هو"
+        },
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will become mandatory",
+          "ar": "سيصبح إلزامياً"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 63,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to the number of false witnesses?",
+        "ar": "ماذا سيحدث لعدد شهود الزور؟"
+      },
+      "options": [
+        {
+          "en": "They will decrease",
+          "ar": "سينقصون"
+        },
+        {
+          "en": "They will stay the same",
+          "ar": "سيبقون كما هم"
+        },
+        {
+          "en": "They will increase",
+          "ar": "سيزدادون"
+        },
+        {
+          "en": "They will disappear",
+          "ar": "سيختفون"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "How will women's number compare to men's near the end times?",
+        "ar": "كيف سيكون عدد النساء مقارنة بالرجال قرب نهاية الزمان؟"
+      },
+      "options": [
+        {
+          "en": "Less than men",
+          "ar": "أقل من الرجال"
+        },
+        {
+          "en": "Equal to men",
+          "ar": "مساوٍ للرجال"
+        },
+        {
+          "en": "More than men",
+          "ar": "أكثر من الرجال"
+        },
+        {
+          "en": "Women will disappear",
+          "ar": "ستختفي النساء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 65,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "How many women will be under one man's care as per Hadith?",
+        "ar": "كم امرأة ستكون تحت رعاية رجل واحد حسب الحديث؟"
+      },
+      "options": [
+        {
+          "en": "10",
+          "ar": "١٠"
+        },
+        {
+          "en": "20",
+          "ar": "٢٠"
+        },
+        {
+          "en": "30",
+          "ar": "٣٠"
+        },
+        {
+          "en": "50",
+          "ar": "٥٠"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What is one of the signs of the loss of trust?",
+        "ar": "ما هي إحدى علامات فقدان الأمانة؟"
+      },
+      "options": [
+        {
+          "en": "When leadership is given to those unfit",
+          "ar": "عندما تسند الأمور إلى غير أهلها"
+        },
+        {
+          "en": "When charity increases",
+          "ar": "عندما تزداد الصدقات"
+        },
+        {
+          "en": "When markets expand",
+          "ar": "عندما تتوسع الأسواق"
+        },
+        {
+          "en": "When education spreads",
+          "ar": "عندما ينتشر التعليم"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to greeting strangers?",
+        "ar": "ماذا سيحدث لتحية الغرباء؟"
+      },
+      "options": [
+        {
+          "en": "It will disappear",
+          "ar": "ستختفي"
+        },
+        {
+          "en": "It will be limited to known people",
+          "ar": "ستقتصر على المعروفين"
+        },
+        {
+          "en": "It will increase",
+          "ar": "ستزداد"
+        },
+        {
+          "en": "It will be replaced by shaking hands only",
+          "ar": "سيستبدل بالمصافحة فقط"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "How will cheating in business change?",
+        "ar": "كيف سيتغير الغش في التجارة؟"
+      },
+      "options": [
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will stay the same",
+          "ar": "سيبقى كما هو"
+        },
+        {
+          "en": "It will increase",
+          "ar": "سيزداد"
+        },
+        {
+          "en": "It will be eliminated",
+          "ar": "سيُقضى عليه"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 70,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to people's trustworthiness?",
+        "ar": "ماذا سيحدث لأمانة الناس؟"
+      },
+      "options": [
+        {
+          "en": "It will increase",
+          "ar": "ستزداد"
+        },
+        {
+          "en": "It will remain constant",
+          "ar": "ستبقى كما هي"
+        },
+        {
+          "en": "It will be lost",
+          "ar": "ستُفقد"
+        },
+        {
+          "en": "It will become global",
+          "ar": "ستصبح عالمية"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 71,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "Which relationship will suffer in the end times?",
+        "ar": "أي علاقة ستتدهور في آخر الزمان؟"
+      },
+      "options": [
+        {
+          "en": "Between scholars",
+          "ar": "بين العلماء"
+        },
+        {
+          "en": "Between neighbors",
+          "ar": "بين الجيران"
+        },
+        {
+          "en": "Between spouses",
+          "ar": "بين الأزواج"
+        },
+        {
+          "en": "Between parents and children",
+          "ar": "بين الوالدين والأبناء"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 72,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will increase in the market?",
+        "ar": "ما الذي سيزداد في السوق؟"
+      },
+      "options": [
+        {
+          "en": "Charity",
+          "ar": "الصدقة"
+        },
+        {
+          "en": "Cheating",
+          "ar": "الغش"
+        },
+        {
+          "en": "Knowledge",
+          "ar": "العلم"
+        },
+        {
+          "en": "Trustworthiness",
+          "ar": "الأمانة"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "Which type of usury will spread?",
+        "ar": "أي نوع من الربا سينتشر؟"
+      },
+      "options": [
+        {
+          "en": "Riba al-Fadl",
+          "ar": "ربا الفضل"
+        },
+        {
+          "en": "Riba al-Nasi'ah",
+          "ar": "ربا النسيئة"
+        },
+        {
+          "en": "Both types",
+          "ar": "النوعان معاً"
+        },
+        {
+          "en": "None",
+          "ar": "لا شيء"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 74,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to scholars of truth?",
+        "ar": "ماذا سيحدث لعلماء الحق؟"
+      },
+      "options": [
+        {
+          "en": "They will increase",
+          "ar": "سيزدادون"
+        },
+        {
+          "en": "They will remain",
+          "ar": "سيبقون"
+        },
+        {
+          "en": "They will die",
+          "ar": "سيموتون"
+        },
+        {
+          "en": "They will travel",
+          "ar": "سيسافرون"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 75,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to the quality of speech?",
+        "ar": "ماذا سيحدث لجودة الحديث؟"
+      },
+      "options": [
+        {
+          "en": "It will become better",
+          "ar": "ستتحسن"
+        },
+        {
+          "en": "It will become widespread",
+          "ar": "ستنتشر"
+        },
+        {
+          "en": "It will become empty of meaning",
+          "ar": "ستصبح فارغة المعنى"
+        },
+        {
+          "en": "It will stop",
+          "ar": "ستتوقف"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Who will drink alcohol according to Hadith?",
+        "ar": "من سيشرب الخمر حسب الحديث؟"
+      },
+      "options": [
+        {
+          "en": "Few people",
+          "ar": "قلة قليلة"
+        },
+        {
+          "en": "The pious",
+          "ar": "الأتقياء"
+        },
+        {
+          "en": "The majority",
+          "ar": "الأغلبية"
+        },
+        {
+          "en": "Children only",
+          "ar": "الأطفال فقط"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 77,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to time management?",
+        "ar": "ماذا سيحدث لإدارة الوقت؟"
+      },
+      "options": [
+        {
+          "en": "Time will be blessed",
+          "ar": "سيكون الوقت مباركاً"
+        },
+        {
+          "en": "Time will be wasted",
+          "ar": "سيُهدر الوقت"
+        },
+        {
+          "en": "Time will be respected",
+          "ar": "سيُحترم الوقت"
+        },
+        {
+          "en": "Time will be rare",
+          "ar": "سيصبح الوقت نادراً"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "difficulty": "easy",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to lying?",
+        "ar": "ماذا سيحدث للكذب؟"
+      },
+      "options": [
+        {
+          "en": "It will decrease",
+          "ar": "سينقص"
+        },
+        {
+          "en": "It will stay the same",
+          "ar": "سيبقى كما هو"
+        },
+        {
+          "en": "It will spread",
+          "ar": "سينتشر"
+        },
+        {
+          "en": "It will be forbidden",
+          "ar": "سيُحرم"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to family ties?",
+        "ar": "ماذا سيحدث لصلة الأرحام؟"
+      },
+      "options": [
+        {
+          "en": "They will be maintained",
+          "ar": "ستُحفظ"
+        },
+        {
+          "en": "They will weaken",
+          "ar": "ستضعف"
+        },
+        {
+          "en": "They will grow stronger",
+          "ar": "ستتقوى"
+        },
+        {
+          "en": "They will be forgotten",
+          "ar": "ستُنسى"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Which chapter is protection from Dajjal?",
+        "ar": "أي سورة تحمي من الدجال؟"
+      },
+      "options": [
+        {
+          "en": "Al-Fatiha",
+          "ar": "الفاتحة"
+        },
+        {
+          "en": "Al-Baqarah",
+          "ar": "البقرة"
+        },
+        {
+          "en": "Al-Kahf",
+          "ar": "الكهف"
+        },
+        {
+          "en": "An-Nas",
+          "ar": "الناس"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 81,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "What will happen to oppression (zulm)?",
+        "ar": "ماذا سيحدث للظلم؟"
+      },
+      "options": [
+        {
+          "en": "It will disappear",
+          "ar": "سيختفي"
+        },
+        {
+          "en": "It will remain the same",
+          "ar": "سيبقى كما هو"
+        },
+        {
+          "en": "It will spread",
+          "ar": "سينتشر"
+        },
+        {
+          "en": "It will be punished immediately",
+          "ar": "سيُعاقب فوراً"
         }
       ],
       "correctIndex": 2
