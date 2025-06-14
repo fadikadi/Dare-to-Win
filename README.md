@@ -1,6 +1,6 @@
-# Millionaire Game
+# Dare to Win - Millionaire Game
 
-This is a bilingual (English/Arabic) version of "Who Wants to Be a Millionaire?" built with React and Vite.
+This is a bilingual (English/Arabic) version of "Who Wants to Be a Millionaire?" built with React and Vite, featuring Islamic knowledge questions.
 
 ## Features
 - 15 questions per game with difficulty-based progression
@@ -11,6 +11,14 @@ This is a bilingual (English/Arabic) version of "Who Wants to Be a Millionaire?"
 - **File Upload System**: Upload custom questions and milestone configurations
 - **Sample File Downloads**: Download templates and examples
 - **Persistent Settings**: Uploaded files become the new defaults
+
+## Live Deployments
+
+The game is deployed to multiple platforms:
+
+- **GitHub Pages**: [https://fadikadi.github.io/Dare-to-Win/](https://fadikadi.github.io/Dare-to-Win/)
+- **Vercel**: [https://dare-to-win.vercel.app/](https://dare-to-win.vercel.app/)
+- **Netlify**: [https://dare-to-win.netlify.app/](https://dare-to-win.netlify.app/)
 
 ## Getting Started
 
@@ -144,3 +152,66 @@ Built with:
 ---
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).
+
+## Deployment
+
+### Unified Deployment Script
+
+The easiest way to deploy is to use the unified deployment script that can deploy to all platforms at once:
+
+```powershell
+# Deploy to all platforms
+.\deploy-all.ps1 -all
+
+# Or deploy to specific platforms
+.\deploy-all.ps1 -github -vercel
+```
+
+### Platform-Specific Deployments
+
+#### GitHub Pages
+
+Deploy to GitHub Pages:
+```powershell
+npm run build:github
+# OR
+npm run deploy
+```
+
+This builds the project and copies the output to the `/docs` folder, which is configured for GitHub Pages.
+
+#### Vercel
+
+Deploy to Vercel:
+```powershell
+npm run build:vercel
+```
+
+Then push your changes to GitHub, and Vercel will automatically build and deploy from your repository.
+
+#### Netlify
+
+Deploy to Netlify:
+```powershell
+npm run build:netlify
+```
+
+Then push your changes to GitHub, and Netlify will automatically build and deploy from your repository.
+
+### Verifying Deployments
+
+To check if your deployments have the correct MIME types:
+
+```powershell
+npm run verify:mime
+```
+
+This will check all your deployments and report if the JavaScript files are being served with the correct MIME types.
+
+### Local Testing
+
+To test the Vercel configuration locally:
+
+```powershell
+npm run test:vercel
+```

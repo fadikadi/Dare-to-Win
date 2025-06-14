@@ -9,8 +9,14 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "update-defaults": "node update-defaults.js",
-    "deploy": "npm run build && powershell -Command \"Remove-Item -Path docs -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item -Path dist -Destination docs -Recurse\"",
-    "deploy-github": "powershell -ExecutionPolicy Bypass -File deploy.ps1"
+    "deploy": "node build-for-platform.mjs github",
+    "test:vercel": "node build-for-platform.mjs vercel && node test-vercel.js",
+    "prepare:vercel": "node prepare-vercel.js",
+    "verify:mime": "node verify-mime-types.mjs",
+    "quick-verify": "node quick-verify.mjs",
+    "build:github": "node build-for-platform.mjs github",
+    "build:vercel": "node build-for-platform.mjs vercel",
+    "build:netlify": "node build-for-platform.mjs netlify"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
