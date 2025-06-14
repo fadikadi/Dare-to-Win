@@ -15,6 +15,7 @@ import SoundManager from './utils/SoundManager';
 function AppContent() {
   const [language, setLanguage] = useState('en');
   const [gameState, setGameState] = useState('menu');
+  const [showAdditionalContent, setShowAdditionalContent] = useState(false); // New state for toggling content visibility
   // Add timing configurations
   const [processingDelay, setProcessingDelay] = useState(5000); // 5 seconds default
   const [resultDelay, setResultDelay] = useState(5000); // 5 seconds default
@@ -435,27 +436,37 @@ function AppContent() {
             متجرأ واربح مع الشيخ رياض
           </h2>
           
-          <FileUpload 
-            onQuestionsLoaded={handleQuestionsLoaded}
-            currentQuestionsCount={
-              questionsData.questions 
-                ? questionsData.questions.length 
-                : (questionsData.easy?.length || 0) + (questionsData.medium?.length || 0) + (questionsData.hard?.length || 0)
-            }
-          />
+          {showAdditionalContent && (
+            <>
+              <FileUpload 
+                onQuestionsLoaded={handleQuestionsLoaded}
+                currentQuestionsCount={
+                  questionsData.questions 
+                    ? questionsData.questions.length 
+                    : (questionsData.easy?.length || 0) + (questionsData.medium?.length || 0) + (questionsData.hard?.length || 0)
+                }
+              />
+              
+              <MilestoneUpload 
+                onMilestoneLoaded={handleMilestoneLoaded}
+                currentMilestone={milestoneData}
+              />
+              
+              <DownloadSamples />
+              
+              <FileReplacer />
+            </>
+          )}
           
-          <MilestoneUpload 
-            onMilestoneLoaded={handleMilestoneLoaded}
-            currentMilestone={milestoneData}
-          />
-          
-          <DownloadSamples />
-          
-          <FileReplacer />
-          
-          <button onClick={startGame}>
-            {t('start_game')}
-          </button>
+          <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <button onClick={startGame}>
+              {t('start_game')}
+            </button>
+            
+            <button onClick={() => setShowAdditionalContent(!showAdditionalContent)}>
+              {showAdditionalContent ? t('hide_settings') || 'Hide Settings' : t('show_settings') || 'Show Settings'}
+            </button>
+          </div>
         </div>
       )}
 

@@ -577,6 +577,8 @@
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.5) !important;
 }
 
+/* Settings styles moved to default button styling */
+
 /* Prize Ladder / Milestone Bar Styling */
 .prize-ladder {
   background: linear-gradient(135deg, 

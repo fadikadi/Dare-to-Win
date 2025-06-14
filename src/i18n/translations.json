@@ -65,8 +65,9 @@
   "milestone_saved_instructions": { "en": "Milestone file downloaded! Replace the 'milestone.json' file in your project's 'src/data' folder with the downloaded file to make it the default.", "ar": "تم تحميل ملف المحطات المهمة! استبدل ملف 'milestone.json' في مجلد 'src/data' بالمشروع بالملف المحمل لجعله الافتراضي." },
   "download_instructions": { "en": "Download sample files to understand the required format for questions and milestones", "ar": "قم بتحميل ملفات العينة لفهم التنسيق المطلوب للأسئلة والمحطات المهمة" },
   "restart": { "en": "Restart", "ar": "إعادة" },
-  "quit": { "en": "Quit", "ar": "انسحاب" },
-  "processing_time": { "en": "Processing Time", "ar": "وقت المعالجة" },
+  "quit": { "en": "Quit", "ar": "انسحاب" },  "processing_time": { "en": "Processing Time", "ar": "وقت المعالجة" },
   "result_time": { "en": "Result Time", "ar": "وقت النتيجة" },
-  "seconds": { "en": "seconds", "ar": "ثواني" }
+  "seconds": { "en": "seconds", "ar": "ثواني" },
+  "show_settings": { "en": "Show Settings", "ar": "إظهار الإعدادات" },
+  "hide_settings": { "en": "Hide Settings", "ar": "إخفاء الإعدادات" }
 }
