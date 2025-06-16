@@ -55,7 +55,7 @@ body {
 
 /* Game-specific styling */
 .game-container {
-  background: url("/assets/images/game-background.jpg") no-repeat center center fixed !important;
+  background: url("/assets/images/game-background_ok.jpg") no-repeat center center fixed !important;
   background-size: cover !important;
   margin: 0;
   padding: 0;
