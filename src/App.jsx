@@ -28,6 +28,9 @@ function AppContent() {
   // Milestone display state
   const [showMilestoneDisplay, setShowMilestoneDisplay] = useState(false);
   const [milestoneReached, setMilestoneReached] = useState(null);
+  // Answer confirmation states
+  const [showConfirmation, setShowConfirmation] = useState(false);
+  const [pendingAnswer, setPendingAnswer] = useState(null);
   // Add timing configurations
   const [processingDelay, setProcessingDelay] = useState(5000); // 5 seconds default
   const [resultDelay, setResultDelay] = useState(5000); // 5 seconds default
@@ -246,6 +249,8 @@ function AppContent() {
       setSelectedAnswer(null);
       setShowCorrectAnswer(false);
       setIsProcessingAnswer(false);
+      setShowConfirmation(false);
+      setPendingAnswer(null);
       // Reset milestone display states
       setShowMilestoneDisplay(false);
       setMilestoneReached(null);
@@ -259,13 +264,26 @@ function AppContent() {
   };
 
   const handleAnswer = (selectedIndex) => {
-    const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    // Store the selected answer for confirmation
+    setPendingAnswer(selectedIndex);
+    setSelectedAnswer(selectedIndex);
+    setShowConfirmation(true);
     
-    // Play waiting result sound when answer is selected
+    // Play confirm answer sound when confirmation screen appears
+    SoundManager.playConfirmAnswer();
+  };
+
+  const confirmAnswer = () => {
+    const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    const selectedIndex = pendingAnswer;
+    
+    // Hide confirmation dialog
+    setShowConfirmation(false);
+    
+    // Play waiting result sound when answer is confirmed
     SoundManager.playWaitingResult();
     
-    // Set selected answer and start processing
-    setSelectedAnswer(selectedIndex);
+    // Start processing
     setIsProcessingAnswer(true);
     
     // Use the configurable processing delay
@@ -295,7 +313,6 @@ function AppContent() {
             setGameState('ended');
           } else if (isMilestone) {
             // Milestone reached - show milestone display for 10 seconds
-            console.log('Milestone reached! Playing milestone sound...');
             setMilestoneReached({
               questionNumber: currentQuestionIndex + 1,
               prize: currentQuestion.prize,
@@ -338,6 +355,16 @@ function AppContent() {
     }, processingDelay);
   };
 
+  const cancelAnswer = () => {
+    // Play question start sound when user chooses to change answer
+    SoundManager.playQuestionStart();
+    
+    // Reset selection and hide confirmation
+    setShowConfirmation(false);
+    setSelectedAnswer(null);
+    setPendingAnswer(null);
+  };
+
   const resetQuestionStates = () => {
     setSelectedAnswer(null);
     setShowCorrectAnswer(false);
@@ -347,6 +374,8 @@ function AppContent() {
     setFriendSuggestion(null); // Reset friend suggestion display
     setShowMilestoneDisplay(false); // Reset milestone display
     setMilestoneReached(null); // Reset milestone data
+    setShowConfirmation(false); // Reset confirmation dialog
+    setPendingAnswer(null); // Reset pending answer
     // Note: lifelines state remains unchanged - once used, they stay disabled
   };
 
@@ -438,6 +467,8 @@ function AppContent() {
     setSelectedAnswer(null);
     setShowCorrectAnswer(false);
     setIsProcessingAnswer(false);
+    setShowConfirmation(false);
+    setPendingAnswer(null);
     // Reset milestone display states
     setShowMilestoneDisplay(false);
     setMilestoneReached(null);
@@ -535,6 +566,8 @@ function AppContent() {
     setSelectedAnswer(null);
     setShowCorrectAnswer(false);
     setIsProcessingAnswer(false);
+    setShowConfirmation(false);
+    setPendingAnswer(null);
     // Reset milestone display states
     setShowMilestoneDisplay(false);
     setMilestoneReached(null);
@@ -639,6 +672,10 @@ function AppContent() {
           onResultDelayChange={setResultDelay}
           showMilestoneDisplay={showMilestoneDisplay}
           milestoneReached={milestoneReached}
+          showConfirmation={showConfirmation}
+          pendingAnswer={pendingAnswer}
+          onConfirmAnswer={confirmAnswer}
+          onCancelAnswer={cancelAnswer}
         />
       )}
 

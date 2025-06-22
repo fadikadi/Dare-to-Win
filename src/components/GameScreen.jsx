@@ -29,9 +29,13 @@ export default function GameScreen({
   onProcessingDelayChange,
   onResultDelayChange,
   showMilestoneDisplay,
-  milestoneReached
+  milestoneReached,
+  showConfirmation,
+  pendingAnswer,
+  onConfirmAnswer,
+  onCancelAnswer
 }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const formatMoney = (amount) => {
     return new Intl.NumberFormat().format(amount);
@@ -90,9 +94,7 @@ export default function GameScreen({
         <button onClick={onPlayAgain}>
           {t('play_again')}
         </button>
-      </div>    );  }
-
-  // Milestone display screen
+      </div>    );  }  // Milestone display screen
   if (showMilestoneDisplay && milestoneReached) {
     return (
       <div className="milestone-display">
@@ -145,8 +147,7 @@ export default function GameScreen({
     );
   }
   
-  return (
-    <div className="game-screen">
+  return (    <div className="game-screen">
       {/* Main Game Area with Two-Column Layout */}
       <div className="game-main">
         {/* Left Column - Lifelines and Question */}
@@ -155,7 +156,8 @@ export default function GameScreen({
           <Lifelines 
             lifelines={lifelines}
             onUseLifeline={onUseLifeline}
-          />          <QuestionCard
+          />          
+          <QuestionCard
             question={currentQuestion}
             currentQuestionIndex={currentQuestionIndex}
             onAnswer={handleAnswer}
@@ -166,6 +168,33 @@ export default function GameScreen({
             showCorrectAnswer={showCorrectAnswer}
             isProcessingAnswer={isProcessingAnswer}
           />
+
+          {/* Answer Confirmation Section - appears under question */}
+          {showConfirmation && pendingAnswer !== null && (
+            <div className="question-confirmation">
+              <div className="confirmation-content">
+                <h3 className="confirmation-title">{t('confirm_answer')}</h3>
+                <div className="selected-answer">
+                  <div className="answer-label">{t('your_answer')}:</div>
+                  <div className="answer-option">
+                    <span className="option-letter">
+                      {String.fromCharCode(65 + pendingAnswer)}
+                    </span>                    <span className="option-text">
+                      {currentQuestion.options[pendingAnswer][i18n.language] || currentQuestion.options[pendingAnswer].en || currentQuestion.options[pendingAnswer]}
+                    </span>
+                  </div>
+                </div>
+                <div className="confirmation-buttons">
+                  <button className="confirm-btn" onClick={onConfirmAnswer}>
+                    {t('final_answer')}
+                  </button>
+                  <button className="cancel-btn" onClick={onCancelAnswer}>
+                    {t('change_answer')}
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Right Column - Game Controls and Milestone Ladder */}

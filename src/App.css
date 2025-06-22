@@ -1132,6 +1132,184 @@
   }
 }
 
+/* Answer Confirmation Section (under question) */
+.question-confirmation {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.question-confirmation .confirmation-content {
+  background: linear-gradient(135deg, 
+    rgba(255, 215, 0, 0.1) 0%, 
+    rgba(184, 134, 11, 0.1) 100%);
+  border: 2px solid var(--primary-gold);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  animation: slideDown 0.3s ease-out;
+}
+
+.question-confirmation .confirmation-title {
+  color: var(--primary-gold);
+  font-size: 1.8em;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px var(--shadow-dark);
+  text-align: center;
+}
+
+.question-confirmation .selected-answer {
+  margin: 1.5rem 0;
+}
+
+.question-confirmation .answer-label {
+  color: var(--secondary-gold);
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.question-confirmation .answer-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, 
+    rgba(255, 215, 0, 0.15) 0%, 
+    rgba(184, 134, 11, 0.15) 100%);
+  border: 2px solid var(--primary-gold);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.question-confirmation .answer-option .option-letter {
+  background: var(--primary-gold);
+  color: var(--text-dark);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  flex-shrink: 0;
+}
+
+.question-confirmation .answer-option .option-text {
+  color: var(--text-light);
+  font-size: 1em;
+  text-align: left;
+  flex: 1;
+}
+
+.question-confirmation .confirmation-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.question-confirmation .confirm-btn, 
+.question-confirmation .cancel-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.question-confirmation .confirm-btn {
+  background: linear-gradient(135deg, 
+    var(--primary-gold) 0%, 
+    var(--secondary-gold) 100%);
+  color: var(--text-dark);
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.question-confirmation .confirm-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+.question-confirmation .cancel-btn {
+  background: linear-gradient(135deg, 
+    rgba(220, 53, 69, 0.8) 0%, 
+    rgba(176, 42, 55, 0.8) 100%);
+  color: var(--text-light);
+  border: 1px solid rgba(220, 53, 69, 0.5);
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.2);
+}
+
+.question-confirmation .cancel-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 53, 69, 0.3);
+  background: linear-gradient(135deg, 
+    rgba(220, 53, 69, 1) 0%, 
+    rgba(176, 42, 55, 1) 100%);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Question Confirmation Responsive Design */
+@media (max-width: 768px) {
+  .question-confirmation .confirmation-content {
+    padding: 1.5rem;
+  }
+  
+  .question-confirmation .confirmation-title {
+    font-size: 1.5em;
+  }
+  
+  .question-confirmation .confirmation-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .question-confirmation .confirm-btn, 
+  .question-confirmation .cancel-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-confirmation .confirmation-content {
+    padding: 1rem;
+  }
+  
+  .question-confirmation .confirmation-title {
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+  }
+  
+  .question-confirmation .answer-option {
+    padding: 0.8rem 1rem;
+  }
+  
+  .question-confirmation .answer-option .option-letter {
+    width: 30px;
+    height: 30px;
+    font-size: 1em;
+  }
+  
+  .question-confirmation .answer-option .option-text {
+    font-size: 0.9em;
+  }
+}
+
 /* Responsive design */
 @media (max-width: 1200px) {
   .game-main {

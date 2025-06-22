@@ -6,7 +6,8 @@ class SoundManager {    static sounds = {
         questionReveal: new Audio('/assets/sounds/questionon.mp3'),
         questionStart: new Audio('/assets/sounds/questionstart.mp3'),
         waitingResult: new Audio('/assets/sounds/waitingresult.mp3'),
-        milestone: new Audio('/assets/sounds/milestone.mp3'), // Now loaded
+        milestone: new Audio('/assets/sounds/milestone.mp3'),
+        confirmAnswer: new Audio('/assets/sounds/confirmanswer.mp3'), // Confirm answer sound
         // Additional sounds (you can add more sound files later)
         lifeline: null, // Placeholder for lifeline sound
         finalAnswer: null, // Placeholder for final answer confirmation
@@ -113,8 +114,11 @@ class SoundManager {    static sounds = {
     static playFinalAnswer() {
         this.playSound('finalAnswer');
     }    static playMilestone() {
-        console.log('Playing milestone sound...');
         return this.playSound('milestone');
+    }
+
+    static playConfirmAnswer() {
+        return this.playSound('confirmAnswer');
     }
 
     static playGameOver() {
