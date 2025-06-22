@@ -27,20 +27,18 @@ export default function GameScreen({
   processingDelay,
   resultDelay,
   onProcessingDelayChange,
-  onResultDelayChange
+  onResultDelayChange,
+  showMilestoneDisplay,
+  milestoneReached
 }) {
   const { t } = useTranslation();
 
   const formatMoney = (amount) => {
     return new Intl.NumberFormat().format(amount);
   };
-
   const handleAnswer = (answer, isCorrect) => {
-    if (isCorrect) {
-      SoundManager.playSuccess();
-    } else {
-      SoundManager.playIncorrect();
-    }
+    // Pass the answer to the main game logic without playing sounds here
+    // Sounds will be handled by the main App component
     onAnswer(answer);
   };
 
@@ -55,8 +53,7 @@ export default function GameScreen({
         </div>
         <div className="timing-controls">
           <div className="timing-control">
-            <label htmlFor="processingDelay">{t('processing_time')}</label>
-            <select 
+            <label htmlFor="processingDelay">{t('processing_time')}</label>            <select 
               id="processingDelay"
               value={processingDelay}
               onChange={(e) => onProcessingDelayChange(Number(e.target.value))}
@@ -66,11 +63,14 @@ export default function GameScreen({
               <option value="4000">4 {t('seconds')}</option>
               <option value="5000">5 {t('seconds')}</option>
               <option value="6000">6 {t('seconds')}</option>
+              <option value="7000">7 {t('seconds')}</option>
+              <option value="8000">8 {t('seconds')}</option>
+              <option value="9000">9 {t('seconds')}</option>
+              <option value="10000">10 {t('seconds')}</option>
             </select>
           </div>
           <div className="timing-control">
-            <label htmlFor="resultDelay">{t('result_time')}</label>
-            <select 
+            <label htmlFor="resultDelay">{t('result_time')}</label>            <select 
               id="resultDelay"
               value={resultDelay}
               onChange={(e) => onResultDelayChange(Number(e.target.value))}
@@ -80,14 +80,42 @@ export default function GameScreen({
               <option value="4000">4 {t('seconds')}</option>
               <option value="5000">5 {t('seconds')}</option>
               <option value="6000">6 {t('seconds')}</option>
+              <option value="7000">7 {t('seconds')}</option>
+              <option value="8000">8 {t('seconds')}</option>
+              <option value="9000">9 {t('seconds')}</option>
+              <option value="10000">10 {t('seconds')}</option>
             </select>
           </div>
         </div>
         <button onClick={onPlayAgain}>
           {t('play_again')}
         </button>
+      </div>    );  }
+
+  // Milestone display screen
+  if (showMilestoneDisplay && milestoneReached) {
+    return (
+      <div className="milestone-display">
+        <div className="milestone-content">
+          <h1 className="milestone-title">{t('milestone_reached')}</h1>
+          <div className="milestone-info">
+            <div className="milestone-question">
+              {t('question')} {milestoneReached.questionNumber}
+            </div>
+            <div className="milestone-prize">
+              ${formatMoney(milestoneReached.prize)}
+            </div>
+            <div className="milestone-guaranteed">
+              {t('guaranteed_prize')}
+            </div>
+          </div>
+          <div className="milestone-message">
+            {t('milestone_message')}
+          </div>
+        </div>
       </div>
-    );  }
+    );
+  }
   
   const currentQuestion = questions[currentQuestionIndex];
   

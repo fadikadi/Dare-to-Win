@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import i18n from './i18n/i18n';
 import LanguageToggle from './components/LanguageToggle';
+import SoundToggle from './components/SoundToggle';
 import GameScreen from './components/GameScreen';
 import FileUpload from './components/FileUpload';
 import MilestoneUpload from './components/MilestoneUpload';
@@ -13,9 +14,20 @@ import './App.css';
 import SoundManager from './utils/SoundManager';
 
 function AppContent() {
+  
+  // Initialize sound manager as early as possible
+  React.useEffect(() => {
+    SoundManager.init();
+  }, []);
+  
   const [language, setLanguage] = useState('en');
   const [gameState, setGameState] = useState('menu');
+  const [isStartingGame, setIsStartingGame] = useState(false);
+  const [soundPlayed, setSoundPlayed] = useState(false);
   const [showAdditionalContent, setShowAdditionalContent] = useState(false); // New state for toggling content visibility
+  // Milestone display state
+  const [showMilestoneDisplay, setShowMilestoneDisplay] = useState(false);
+  const [milestoneReached, setMilestoneReached] = useState(null);
   // Add timing configurations
   const [processingDelay, setProcessingDelay] = useState(5000); // 5 seconds default
   const [resultDelay, setResultDelay] = useState(5000); // 5 seconds default
@@ -60,12 +72,68 @@ function AppContent() {
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [isProcessingAnswer, setIsProcessingAnswer] = useState(false);
   
+  
   const { t, i18n: i18next } = useTranslation();
 
   useEffect(() => {
+    
     i18next.changeLanguage(language);
     document.body.dir = language === 'ar' ? 'rtl' : 'ltr';
   }, [language, i18next]);
+
+  // Play start sound when the app first loads - simplified approach
+  useEffect(() => {
+    if (gameState === 'menu') {
+      let hasPlayed = false;
+      
+      const playStartSound = () => {
+        if (!hasPlayed) {
+          SoundManager.playStart().then(() => {
+            console.log('Start sound played successfully');
+            hasPlayed = true;
+            setSoundPlayed(true);
+            cleanup();
+          }).catch(() => {
+            console.log('Start sound failed, will try on user interaction');
+          });
+        }
+      };
+      
+      const cleanup = () => {
+        document.removeEventListener('click', playStartSound);
+        document.removeEventListener('touchstart', playStartSound);
+        document.removeEventListener('keydown', playStartSound);
+        document.removeEventListener('mouseover', playStartSound);
+        document.removeEventListener('mouseenter', playStartSound);
+      };
+      
+      // Try to play immediately
+      playStartSound();
+      
+      // If immediate play fails, set up listeners for first user interaction
+      if (!hasPlayed) {
+        document.addEventListener('click', playStartSound, { passive: true });
+        document.addEventListener('touchstart', playStartSound, { passive: true });
+        document.addEventListener('keydown', playStartSound, { passive: true });
+        document.addEventListener('mouseover', playStartSound, { passive: true });
+        document.addEventListener('mouseenter', playStartSound, { passive: true });
+      }
+      
+      return cleanup;
+    }
+  }, []); // Only run once when component mounts
+
+  // Play question start sound when a new question appears
+  useEffect(() => {
+    if (gameState === 'playing') {
+      // Add a small delay to let the UI update first
+      const timer = setTimeout(() => {
+        SoundManager.playQuestionStart();
+      }, 500);
+      
+      return () => clearTimeout(timer);
+    }
+  }, [currentQuestionIndex, gameState]);
 
   const handleQuestionsLoaded = (newQuestionsData) => {
     setQuestionsData(newQuestionsData);
@@ -76,6 +144,12 @@ function AppContent() {
   };
 
   const startGame = () => {
+    // Play start game sound immediately when button is clicked
+    SoundManager.playStart();
+    
+    // Set loading state
+    setIsStartingGame(true);
+    
     // Use dynamic milestone data from loaded file
     const prizeAmounts = milestoneData.prizeAmounts;
     
@@ -125,6 +199,8 @@ function AppContent() {
           prize: prize
         };
       }
+
+      
     };
     
     // Questions 1-5: Easy (first milestone at $1,000)
@@ -152,25 +228,42 @@ function AppContent() {
     }
     
     setShuffledQuestions(gameQuestions);
-    setGameState('playing');
-    setCurrentQuestionIndex(0);
-    setLifelines({
-      fiftyFifty: false,
-      askAudience: false,
-      phoneFriend: false
-    });
-    setFinalPrize(0);
-    setHiddenOptions([]);
-    setAudienceResults(null);
-    setFriendSuggestion(null);
-    // Reset confirmation states
-    setSelectedAnswer(null);
-    setShowCorrectAnswer(false);
-    setIsProcessingAnswer(false);
+    
+    // Wait 5 seconds before starting the game
+    setTimeout(() => {
+      setGameState('playing');
+      setCurrentQuestionIndex(0);
+      setLifelines({
+        fiftyFifty: false,
+        askAudience: false,
+        phoneFriend: false
+      });
+      setFinalPrize(0);
+      setHiddenOptions([]);
+      setAudienceResults(null);
+      setFriendSuggestion(null);
+      // Reset confirmation states
+      setSelectedAnswer(null);
+      setShowCorrectAnswer(false);
+      setIsProcessingAnswer(false);
+      // Reset milestone display states
+      setShowMilestoneDisplay(false);
+      setMilestoneReached(null);
+      setIsStartingGame(false); // Clear loading state
+    }, 5000); // 5 second delay
+
+    // Remove loading state after a short delay
+    setTimeout(() => {
+      setIsStartingGame(false);
+    }, 1000); // 1 second delay for demo purposes
   };
 
   const handleAnswer = (selectedIndex) => {
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    
+    // Play waiting result sound when answer is selected
+    SoundManager.playWaitingResult();
+    
     // Set selected answer and start processing
     setSelectedAnswer(selectedIndex);
     setIsProcessingAnswer(true);
@@ -192,11 +285,38 @@ function AppContent() {
       setTimeout(() => {
         if (isCorrect) {
           setFinalPrize(currentQuestion.prize);
+          
+          // Check if we reached a milestone
+          const milestones = milestoneData.milestones || [4, 9, 14];
+          const isMilestone = milestones.includes(currentQuestionIndex);
+          
           if (currentQuestionIndex === shuffledQuestions.length - 1) {
             // Won the game!
             setGameState('ended');
+          } else if (isMilestone) {
+            // Milestone reached - show milestone display for 10 seconds
+            console.log('Milestone reached! Playing milestone sound...');
+            setMilestoneReached({
+              questionNumber: currentQuestionIndex + 1,
+              prize: currentQuestion.prize,
+              isGuaranteed: true
+            });
+            setShowMilestoneDisplay(true);
+            
+            // Play milestone sound after a small delay to let UI render
+            setTimeout(() => {
+              SoundManager.playMilestone();
+            }, 500);
+            
+            // After 10 seconds, hide milestone and continue to next question
+            setTimeout(() => {
+              setShowMilestoneDisplay(false);
+              setMilestoneReached(null);
+              setCurrentQuestionIndex(currentQuestionIndex + 1);
+              resetQuestionStates();
+            }, 10000); // 10 seconds
           } else {
-            // Next question - reset states and move to next question
+            // Regular correct answer - proceed to next question immediately
             setCurrentQuestionIndex(currentQuestionIndex + 1);
             resetQuestionStates();
           }
@@ -225,6 +345,8 @@ function AppContent() {
     setHiddenOptions([]); // Reset 50:50 visual effect for new question
     setAudienceResults(null); // Reset audience results display
     setFriendSuggestion(null); // Reset friend suggestion display
+    setShowMilestoneDisplay(false); // Reset milestone display
+    setMilestoneReached(null); // Reset milestone data
     // Note: lifelines state remains unchanged - once used, they stay disabled
   };
 
@@ -303,6 +425,9 @@ function AppContent() {
   };
 
   const playAgain = () => {
+    // Stop all sounds when returning to menu
+    SoundManager.stopAll();
+    
     setGameState('menu');
     setCurrentQuestionIndex(0);
     setFinalPrize(0);
@@ -313,9 +438,15 @@ function AppContent() {
     setSelectedAnswer(null);
     setShowCorrectAnswer(false);
     setIsProcessingAnswer(false);
+    // Reset milestone display states
+    setShowMilestoneDisplay(false);
+    setMilestoneReached(null);
   };
 
   const restartGame = () => {
+    // Stop all sounds when restarting the game
+    SoundManager.stopAll();
+
     // Restart with new category-based questions using dynamic milestone data
     const prizeAmounts = milestoneData.prizeAmounts;
     
@@ -404,10 +535,16 @@ function AppContent() {
     setSelectedAnswer(null);
     setShowCorrectAnswer(false);
     setIsProcessingAnswer(false);
+    // Reset milestone display states
+    setShowMilestoneDisplay(false);
+    setMilestoneReached(null);
     // Keep gameState as 'playing'
   };
 
   const endGame = () => {
+    // Stop all sounds when quitting the game
+    SoundManager.stopAll();
+    
     // End game and go to game over screen with current guaranteed prize using dynamic milestones
     let guaranteedPrize = 0;
     const milestones = milestoneData.milestones || [4, 9, 14];
@@ -429,7 +566,10 @@ function AppContent() {
           <div className="game-title">
             {t('game_title')} | تجرأ واربح مع الشيخ رياض
           </div>
-          <LanguageToggle language={language} setLanguage={setLanguage} />
+          <div className="game-controls">
+            <LanguageToggle language={language} setLanguage={setLanguage} />
+            <SoundToggle />
+          </div>
         </div>
       )}        {gameState === 'menu' && (
         <div className="end-screen">
@@ -463,8 +603,8 @@ function AppContent() {
           )}
           
           <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-            <button onClick={startGame}>
-              {t('start_game')}
+            <button onClick={startGame} disabled={isStartingGame}>
+              {isStartingGame ? t('starting_game') : t('start_game')}
             </button>
             
             <button onClick={() => setShowAdditionalContent(!showAdditionalContent)}>
@@ -497,7 +637,19 @@ function AppContent() {
           resultDelay={resultDelay}
           onProcessingDelayChange={setProcessingDelay}
           onResultDelayChange={setResultDelay}
+          showMilestoneDisplay={showMilestoneDisplay}
+          milestoneReached={milestoneReached}
         />
+      )}
+
+      {isStartingGame && (
+        <div className="loading-screen">
+          <div className="loading-content">
+            <h2>{t('starting_game') || 'Starting Game...'}</h2>
+            <div className="loading-spinner"></div>
+            <p>{t('preparing_questions') || 'Preparing your questions...'}</p>
+          </div>
+        </div>
       )}
     </div>
   );

@@ -20,5 +20,17 @@
   "guaranteed": { "en": "Guaranteed", "ar": "مضمون" },
   "results": { "en": "Results", "ar": "النتائج" },
   "restart_game": { "en": "Restart", "ar": "إعادة التشغيل" },
-  "end_game": { "en": "Quit", "ar": "إنهاء" }
+  "end_game": { "en": "Quit", "ar": "إنهاء" },
+  "sound_on": { "en": "Sound On", "ar": "الصوت مفعل" },
+  "sound_off": { "en": "Sound Off", "ar": "الصوت معطل" },
+  "seconds": { "en": "seconds", "ar": "ثواني" },
+  "processing_time": { "en": "Processing Time", "ar": "وقت المعالجة" },
+  "result_time": { "en": "Result Time", "ar": "وقت النتيجة" },
+  "starting_game": { "en": "Starting Game...", "ar": "بدء اللعبة..." },
+  "preparing_questions": { "en": "Preparing your questions...", "ar": "تحضير الأسئلة..." },
+  "show_settings": { "en": "Show Settings", "ar": "إظهار الإعدادات" },
+  "hide_settings": { "en": "Hide Settings", "ar": "إخفاء الإعدادات" },
+  "milestone_reached": { "en": "Milestone Reached!", "ar": "وصلت لمرحلة الأمان!" },
+  "guaranteed_prize": { "en": "Guaranteed Prize", "ar": "جائزة مضمونة" },
+  "milestone_message": { "en": "You have reached a safe milestone! This amount is now guaranteed.", "ar": "لقد وصلت إلى مرحلة الأمان! هذا المبلغ مضمون الآن." }
 }
