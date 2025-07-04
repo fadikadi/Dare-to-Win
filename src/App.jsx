@@ -146,6 +146,29 @@ function AppContent() {
     setMilestoneData(newMilestoneData);
   };
 
+  // Fisher-Yates shuffle algorithm for proper randomization
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle answer options while keeping track of correct answer
+  const shuffleQuestionOptions = (question) => {
+    const correctAnswer = question.options[question.correctIndex];
+    const shuffledOptions = shuffleArray(question.options);
+    const newCorrectIndex = shuffledOptions.findIndex(option => option === correctAnswer);
+    
+    return {
+      ...question,
+      options: shuffledOptions,
+      correctIndex: newCorrectIndex
+    };
+  };
+
   const startGame = () => {
     // Play start game sound immediately when button is clicked
     SoundManager.playStart();
@@ -177,9 +200,11 @@ function AppContent() {
     
     // Helper function to transform question format
     const transformQuestion = (q, prize) => {
+      let transformedQuestion;
+      
       if (q.question && typeof q.question === 'object') {
         // New structure with bilingual questions - keep the bilingual structure
-        return {
+        transformedQuestion = {
           question: q.question, // Keep the {en, ar} structure
           options: q.options, // Keep the options array with {en, ar} structure
           category: q.category || { en: "", ar: "" }, // Include category with fallback
@@ -188,7 +213,7 @@ function AppContent() {
         };
       } else {
         // Old structure - convert to bilingual format
-        return {
+        transformedQuestion = {
           question: {
             en: q.question,
             ar: q.question // For old structure, use same text for both languages
@@ -202,12 +227,13 @@ function AppContent() {
           prize: prize
         };
       }
-
       
+      // Shuffle the answer options to make each game unique
+      return shuffleQuestionOptions(transformedQuestion);
     };
     
     // Questions 1-5: Easy (first milestone at $1,000)
-    const shuffledEasy = [...easyQuestions].sort(() => Math.random() - 0.5);
+    const shuffledEasy = shuffleArray(easyQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledEasy[i]) {
         gameQuestions.push(transformQuestion(shuffledEasy[i], prizeAmounts[i]));
@@ -215,7 +241,7 @@ function AppContent() {
     }
     
     // Questions 6-10: Medium (second milestone at $32,000)
-    const shuffledMedium = [...mediumQuestions].sort(() => Math.random() - 0.5);
+    const shuffledMedium = shuffleArray(mediumQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledMedium[i]) {
         gameQuestions.push(transformQuestion(shuffledMedium[i], prizeAmounts[i + 5]));
@@ -223,7 +249,7 @@ function AppContent() {
     }
     
     // Questions 11-15: Hard (final section to $1,000,000)
-    const shuffledHard = [...hardQuestions].sort(() => Math.random() - 0.5);
+    const shuffledHard = shuffleArray(hardQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledHard[i]) {
         gameQuestions.push(transformQuestion(shuffledHard[i], prizeAmounts[i + 10]));
@@ -500,9 +526,11 @@ function AppContent() {
     
     // Helper function to transform question format
     const transformQuestion = (q, prize) => {
+      let transformedQuestion;
+      
       if (q.question && typeof q.question === 'object') {
         // New structure with bilingual questions - keep the bilingual structure
-        return {
+        transformedQuestion = {
           question: q.question, // Keep the {en, ar} structure
           options: q.options, // Keep the options array with {en, ar} structure
           category: q.category || { en: "", ar: "" }, // Include category with fallback
@@ -511,7 +539,7 @@ function AppContent() {
         };
       } else {
         // Old structure - convert to bilingual format
-        return {
+        transformedQuestion = {
           question: {
             en: q.question,
             ar: q.question // For old structure, use same text for both languages
@@ -525,10 +553,13 @@ function AppContent() {
           prize: prize
         };
       }
+      
+      // Shuffle the answer options to make each game unique
+      return shuffleQuestionOptions(transformedQuestion);
     };
     
     // Questions 1-5: Easy (first milestone at $1,000)
-    const shuffledEasy = [...easyQuestions].sort(() => Math.random() - 0.5);
+    const shuffledEasy = shuffleArray(easyQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledEasy[i]) {
         gameQuestions.push(transformQuestion(shuffledEasy[i], prizeAmounts[i]));
@@ -536,7 +567,7 @@ function AppContent() {
     }
     
     // Questions 6-10: Medium (second milestone at $32,000)
-    const shuffledMedium = [...mediumQuestions].sort(() => Math.random() - 0.5);
+    const shuffledMedium = shuffleArray(mediumQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledMedium[i]) {
         gameQuestions.push(transformQuestion(shuffledMedium[i], prizeAmounts[i + 5]));
@@ -544,7 +575,7 @@ function AppContent() {
     }
     
     // Questions 11-15: Hard (final section to $1,000,000)
-    const shuffledHard = [...hardQuestions].sort(() => Math.random() - 0.5);
+    const shuffledHard = shuffleArray(hardQuestions);
     for (let i = 0; i < 5; i++) {
       if (shuffledHard[i]) {
         gameQuestions.push(transformQuestion(shuffledHard[i], prizeAmounts[i + 10]));
