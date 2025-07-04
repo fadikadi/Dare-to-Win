@@ -1,0 +1,1604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": {"en": "physical_description", "ar": "الوصف الجسدي"},
+      "question": {
+        "en": "What was the Prophet's (PBUH) complexion described as?",
+        "ar": "كيف وُصف لون بشرة النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Very dark", "ar": "داكن جداً"},
+        {"en": "Very pale", "ar": "شاحب جداً"},
+        {"en": "Reddish (Azhar)", "ar": "أزهر (محمر)"},
+        {"en": "Yellow", "ar": "أصفر"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "difficulty": "medium",
+      "category": {"en": "physical_description", "ar": "الوصف الجسدي"},
+      "question": {
+        "en": "How many grey hairs did the Prophet (PBUH) have in his beard?",
+        "ar": "كم شعرة بيضاء كانت في لحية النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "15", "ar": "١٥"},
+        {"en": "17", "ar": "١٧"},
+        {"en": "20", "ar": "٢٠"},
+        {"en": "25", "ar": "٢٥"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": {"en": "birth_family", "ar": "الولادة والعائلة"},
+      "question": {
+        "en": "What was the Prophet's (PBUH) full lineage name?",
+        "ar": "ما هو النسب الكامل للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Muhammad ibn Abdullah ibn Abdul Muttalib", "ar": "محمد بن عبد الله بن عبد المطلب"},
+        {"en": "Muhammad ibn Ibrahim ibn Ismail", "ar": "محمد بن إبراهيم بن إسماعيل"},
+        {"en": "Muhammad ibn Abdullah ibn Abdul Muttalib ibn Haashem", "ar": "محمد بن عبد الله بن عبد المطلب بن هاشم"},
+        {"en": "Muhammad ibn Amr ibn Hashim", "ar": "محمد بن عمرو بن هاشم"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "category": {"en": "birth_family", "ar": "الولادة والعائلة"},
+      "question": {
+        "en": "How many days before the incident of the elephant was the Prophet (PBUH) born?",
+        "ar": "كم يوماً قبل حادثة الفيل وُلد النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "40 days", "ar": "٤٠ يوماً"},
+        {"en": "50 days", "ar": "٥٠ يوماً"},
+        {"en": "60 days", "ar": "٦٠ يوماً"},
+        {"en": "70 days", "ar": "٧٠ يوماً"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": {"en": "nursing_childhood", "ar": "الرضاعة والطفولة"},
+      "question": {
+        "en": "Who was the Prophet's (PBUH) first wet nurse?",
+        "ar": "من كانت مرضعة النبي صلى الله عليه وسلم الأولى؟"
+      },
+      "options": [
+        {"en": "Halima As-Sa'diyah", "ar": "حليمة السعدية"},
+        {"en": "Thuwaybiya", "ar": "ثويبة"},
+        {"en": "Aminah", "ar": "آمنة"},
+        {"en": "Safiyya", "ar": "صفية"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": {"en": "nursing_childhood", "ar": "الرضاعة والطفولة"},
+      "question": {
+        "en": "From which tribe was Halima As-Sa'diyah?",
+        "ar": "من أي قبيلة كانت حليمة السعدية؟"
+      },
+      "options": [
+        {"en": "Banu Hashim", "ar": "بنو هاشم"},
+        {"en": "Banu Sa'ad", "ar": "بنو سعد"},
+        {"en": "Banu Tamim", "ar": "بنو تميم"},
+        {"en": "Banu Asad", "ar": "بنو أسد"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "category": {"en": "nursing_childhood", "ar": "الرضاعة والطفولة"},
+      "question": {
+        "en": "At what age did the Prophet (PBUH) return to his mother after the breast incident?",
+        "ar": "في أي عمر عاد النبي صلى الله عليه وسلم إلى أمه بعد حادثة شق الصدر؟"
+      },
+      "options": [
+        {"en": "3 years", "ar": "٣ سنوات"},
+        {"en": "4 years", "ar": "٤ سنوات"},
+        {"en": "5 years", "ar": "٥ سنوات"},
+        {"en": "6 years", "ar": "٦ سنوات"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": {"en": "early_life", "ar": "الحياة المبكرة"},
+      "question": {
+        "en": "At what age did Aminah (the Prophet's mother) die?",
+        "ar": "في أي عمر ماتت آمنة (أم النبي)؟"
+      },
+      "options": [
+        {"en": "When he was 4", "ar": "عندما كان عمره ٤"},
+        {"en": "When he was 6", "ar": "عندما كان عمره ٦"},
+        {"en": "When he was 8", "ar": "عندما كان عمره ٨"},
+        {"en": "When he was 10", "ar": "عندما كان عمره ١٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "category": {"en": "early_life", "ar": "الحياة المبكرة"},
+      "question": {
+        "en": "Who took care of the Prophet (PBUH) after his mother's death?",
+        "ar": "من تولى رعاية النبي صلى الله عليه وسلم بعد وفاة أمه؟"
+      },
+      "options": [
+        {"en": "Abu Talib", "ar": "أبو طالب"},
+        {"en": "Abdul Muttalib", "ar": "عبد المطلب"},
+        {"en": "Abu Lahab", "ar": "أبو لهب"},
+        {"en": "Al-Abbas", "ar": "العباس"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": {"en": "early_life", "ar": "الحياة المبكرة"},
+      "question": {
+        "en": "At what age did Abdul Muttalib die?",
+        "ar": "في أي عمر مات عبد المطلب؟"
+      },
+      "options": [
+        {"en": "When the Prophet was 6", "ar": "عندما كان النبي عمره ٦"},
+        {"en": "When the Prophet was 8", "ar": "عندما كان النبي عمره ٨"},
+        {"en": "When the Prophet was 10", "ar": "عندما كان النبي عمره ١٠"},
+        {"en": "When the Prophet was 12", "ar": "عندما كان النبي عمره ١٢"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "category": {"en": "work_youth", "ar": "العمل والشباب"},
+      "question": {
+        "en": "What was the Prophet's (PBUH) first job?",
+        "ar": "ما كانت أول مهنة للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Trader", "ar": "تاجر"},
+        {"en": "Shepherd", "ar": "راعي غنم"},
+        {"en": "Farmer", "ar": "مزارع"},
+        {"en": "Craftsman", "ar": "حرفي"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": {"en": "work_youth", "ar": "العمل والشباب"},
+      "question": {
+        "en": "From what age to what age did the Prophet (PBUH) work as a shepherd?",
+        "ar": "من أي عمر إلى أي عمر عمل النبي صلى الله عليه وسلم راعياً؟"
+      },
+      "options": [
+        {"en": "8 to 15", "ar": "من ٨ إلى ١٥"},
+        {"en": "10 to 18", "ar": "من ١٠ إلى ١٨"},
+        {"en": "12 to 20", "ar": "من ١٢ إلى ٢٠"},
+        {"en": "15 to 25", "ar": "من ١٥ إلى ٢٥"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "category": {"en": "marriage_khadija", "ar": "زواج خديجة"},
+      "question": {
+        "en": "At what age did the Prophet (PBUH) marry Khadija?",
+        "ar": "في أي عمر تزوج النبي صلى الله عليه وسلم من خديجة؟"
+      },
+      "options": [
+        {"en": "23", "ar": "٢٣"},
+        {"en": "25", "ar": "٢٥"},
+        {"en": "27", "ar": "٢٧"},
+        {"en": "30", "ar": "٣٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": {"en": "marriage_khadija", "ar": "زواج خديجة"},
+      "question": {
+        "en": "How long did the Prophet (PBUH) live with Khadija?",
+        "ar": "كم سنة عاش النبي صلى الله عليه وسلم مع خديجة؟"
+      },
+      "options": [
+        {"en": "20 years", "ar": "٢٠ سنة"},
+        {"en": "25 years", "ar": "٢٥ سنة"},
+        {"en": "30 years", "ar": "٣٠ سنة"},
+        {"en": "35 years", "ar": "٣٥ سنة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "category": {"en": "children", "ar": "الأطفال"},
+      "question": {
+        "en": "How many daughters did the Prophet (PBUH) have?",
+        "ar": "كم بنتاً كان للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "3", "ar": "٣"},
+        {"en": "4", "ar": "٤"},
+        {"en": "5", "ar": "٥"},
+        {"en": "6", "ar": "٦"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "category": {"en": "children", "ar": "الأطفال"},
+      "question": {
+        "en": "What were the names of the Prophet's (PBUH) sons?",
+        "ar": "ما أسماء أبناء النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Al-Qassem and Abdullah", "ar": "القاسم وعبد الله"},
+        {"en": "Al-Qassem, Abdullah, and Ibrahim", "ar": "القاسم وعبد الله وإبراهيم"},
+        {"en": "Ibrahim and Abdullah", "ar": "إبراهيم وعبد الله"},
+        {"en": "Al-Qassem and Ibrahim", "ar": "القاسم وإبراهيم"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": {"en": "children", "ar": "الأطفال"},
+      "question": {
+        "en": "Who was the mother of Ibrahim?",
+        "ar": "من كانت أم إبراهيم؟"
+      },
+      "options": [
+        {"en": "Khadija", "ar": "خديجة"},
+        {"en": "Aisha", "ar": "عائشة"},
+        {"en": "Mariyah Al-Qibtiyah", "ar": "مارية القبطية"},
+        {"en": "Hafsa", "ar": "حفصة"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "category": {"en": "kaaba_reconstruction", "ar": "إعادة بناء الكعبة"},
+      "question": {
+        "en": "What dispute arose during the rebuilding of the Kaaba?",
+        "ar": "ما النزاع الذي نشأ أثناء إعادة بناء الكعبة؟"
+      },
+      "options": [
+        {"en": "Who would pay for it", "ar": "من سيدفع تكلفتها"},
+        {"en": "Who would place the Black Stone", "ar": "من سيضع الحجر الأسود"},
+        {"en": "What materials to use", "ar": "أي مواد تُستخدم"},
+        {"en": "How high to build it", "ar": "كم ارتفاعها"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "category": {"en": "kaaba_reconstruction", "ar": "إعادة بناء الكعبة"},
+      "question": {
+        "en": "How did the Prophet (PBUH) solve the Black Stone dispute?",
+        "ar": "كيف حل النبي صلى الله عليه وسلم نزاع الحجر الأسود؟"
+      },
+      "options": [
+        {"en": "He placed it himself", "ar": "وضعه بنفسه"},
+        {"en": "He put it on a cloth and all tribes lifted it together", "ar": "وضعه على قماش ورفعته جميع القبائل معاً"},
+        {"en": "He chose one tribe to do it", "ar": "اختار قبيلة واحدة للقيام بذلك"},
+        {"en": "He refused to get involved", "ar": "رفض التدخل"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "category": {"en": "first_revelation", "ar": "الوحي الأول"},
+      "question": {
+        "en": "In which cave did the Prophet (PBUH) receive the first revelation?",
+        "ar": "في أي غار تلقى النبي صلى الله عليه وسلم الوحي الأول؟"
+      },
+      "options": [
+        {"en": "Cave of Thawr", "ar": "غار ثور"},
+        {"en": "Cave of Hira", "ar": "غار حراء"},
+        {"en": "Cave of Uhud", "ar": "غار أحد"},
+        {"en": "Cave of Quba", "ar": "غار قباء"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "category": {"en": "first_revelation", "ar": "الوحي الأول"},
+      "question": {
+        "en": "On which night of Ramadan did the first revelation come?",
+        "ar": "في أي ليلة من رمضان نزل الوحي الأول؟"
+      },
+      "options": [
+        {"en": "25th", "ar": "٢٥"},
+        {"en": "27th", "ar": "٢٧"},
+        {"en": "29th", "ar": "٢٩"},
+        {"en": "21st", "ar": "٢١"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "category": {"en": "first_revelation", "ar": "الوحي الأول"},
+      "question": {
+        "en": "What was the first word revealed to the Prophet (PBUH)?",
+        "ar": "ما أول كلمة نزلت على النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Iqra (Read)", "ar": "اقرأ"},
+        {"en": "Qul (Say)", "ar": "قل"},
+        {"en": "Ya (O)", "ar": "يا"},
+        {"en": "Bismillah", "ar": "بسم الله"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "category": {"en": "early_muslims", "ar": "المسلمون الأوائل"},
+      "question": {
+        "en": "Who was the first person to accept Islam?",
+        "ar": "من أول شخص أسلم؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Khadija", "ar": "خديجة"},
+        {"en": "Ali", "ar": "علي"},
+        {"en": "Zayd", "ar": "زيد"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "category": {"en": "early_muslims", "ar": "المسلمون الأوائل"},
+      "question": {
+        "en": "Who was the first male adult to accept Islam?",
+        "ar": "من أول رجل بالغ أسلم؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Ali", "ar": "علي"},
+        {"en": "Uthman", "ar": "عثمان"},
+        {"en": "Umar", "ar": "عمر"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "category": {"en": "early_muslims", "ar": "المسلمون الأوائل"},
+      "question": {
+        "en": "Who was the first child to accept Islam?",
+        "ar": "من أول طفل أسلم؟"
+      },
+      "options": [
+        {"en": "Al-Hassan", "ar": "الحسن"},
+        {"en": "Ali ibn Abi Talib", "ar": "علي بن أبي طالب"},
+        {"en": "Abdullah ibn Abbas", "ar": "عبد الله بن عباس"},
+        {"en": "Zayd ibn Haritha", "ar": "زيد بن حارثة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "difficulty": "hard",
+      "category": {"en": "early_muslims", "ar": "المسلمون الأوائل"},
+      "question": {
+        "en": "How many people had accepted Islam in the first period?",
+        "ar": "كم شخصاً أسلم في الفترة الأولى؟"
+      },
+      "options": [
+        {"en": "35", "ar": "٣٥"},
+        {"en": "45", "ar": "٤٥"},
+        {"en": "55", "ar": "٥٥"},
+        {"en": "65", "ar": "٦٥"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "difficulty": "easy",
+      "category": {"en": "persecution", "ar": "الاضطهاد"},
+      "question": {
+        "en": "Who was Bilal's master who tortured him?",
+        "ar": "من كان سيد بلال الذي عذبه؟"
+      },
+      "options": [
+        {"en": "Abu Jahl", "ar": "أبو جهل"},
+        {"en": "Umayya ibn Khalaf", "ar": "أمية بن خلف"},
+        {"en": "Abu Lahab", "ar": "أبو لهب"},
+        {"en": "Uqba ibn Abi Mu'ayt", "ar": "عقبة بن أبي معيط"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "category": {"en": "persecution", "ar": "الاضطهاد"},
+      "question": {
+        "en": "Who was the first martyr in Islam?",
+        "ar": "من أول شهيدة في الإسلام؟"
+      },
+      "options": [
+        {"en": "Sumayya", "ar": "سمية"},
+        {"en": "Khadija", "ar": "خديجة"},
+        {"en": "Fatima", "ar": "فاطمة"},
+        {"en": "Asma", "ar": "أسماء"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "difficulty": "easy",
+      "category": {"en": "first_hijra", "ar": "الهجرة الأولى"},
+      "question": {
+        "en": "Where did the first migration take place?",
+        "ar": "أين حدثت الهجرة الأولى؟"
+      },
+      "options": [
+        {"en": "Medina", "ar": "المدينة"},
+        {"en": "Abyssinia (Ethiopia)", "ar": "الحبشة"},
+        {"en": "Syria", "ar": "الشام"},
+        {"en": "Yemen", "ar": "اليمن"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "category": {"en": "first_hijra", "ar": "الهجرة الأولى"},
+      "question": {
+        "en": "Who was the king of Abyssinia during the first migration?",
+        "ar": "من كان ملك الحبشة أثناء الهجرة الأولى؟"
+      },
+      "options": [
+        {"en": "An-Najashi", "ar": "النجاشي"},
+        {"en": "Heraclius", "ar": "هرقل"},
+        {"en": "Chosroes", "ar": "كسرى"},
+        {"en": "Caesar", "ar": "قيصر"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "difficulty": "hard",
+      "category": {"en": "first_hijra", "ar": "الهجرة الأولى"},
+      "question": {
+        "en": "Who was the spokesman for the Muslims in Abyssinia?",
+        "ar": "من كان متحدث المسلمين في الحبشة؟"
+      },
+      "options": [
+        {"en": "Uthman ibn Affan", "ar": "عثمان بن عفان"},
+        {"en": "Ja'far ibn Abi Talib", "ar": "جعفر بن أبي طالب"},
+        {"en": "Abu Salama", "ar": "أبو سلمة"},
+        {"en": "Zubayr ibn al-Awwam", "ar": "الزبير بن العوام"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "category": {"en": "siege", "ar": "الحصار"},
+      "question": {
+        "en": "How long did the siege of Banu Hashim last?",
+        "ar": "كم مدة حصار بني هاشم؟"
+      },
+      "options": [
+        {"en": "1 year", "ar": "سنة واحدة"},
+        {"en": "2 years", "ar": "سنتان"},
+        {"en": "3 years", "ar": "٣ سنوات"},
+        {"en": "4 years", "ar": "٤ سنوات"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "difficulty": "easy",
+      "category": {"en": "year_of_sadness", "ar": "عام الحزن"},
+      "question": {
+        "en": "In which year did Abu Talib and Khadija die?",
+        "ar": "في أي سنة مات أبو طالب وخديجة؟"
+      },
+      "options": [
+        {"en": "9th year of prophethood", "ar": "السنة التاسعة من البعثة"},
+        {"en": "10th year of prophethood", "ar": "السنة العاشرة من البعثة"},
+        {"en": "11th year of prophethood", "ar": "السنة الحادية عشرة من البعثة"},
+        {"en": "12th year of prophethood", "ar": "السنة الثانية عشرة من البعثة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "category": {"en": "taif_journey", "ar": "رحلة الطائف"},
+      "question": {
+        "en": "How many people accepted Islam in Taif?",
+        "ar": "كم شخص أسلم في الطائف؟"
+      },
+      "options": [
+        {"en": "None", "ar": "لا أحد"},
+        {"en": "5", "ar": "٥"},
+        {"en": "10", "ar": "١٠"},
+        {"en": "15", "ar": "١٥"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "difficulty": "easy",
+      "category": {"en": "isra_miraj", "ar": "الإسراء والمعراج"},
+      "question": {
+        "en": "What is the name of the creature the Prophet (PBUH) rode during Isra?",
+        "ar": "ما اسم الدابة التي ركبها النبي صلى الله عليه وسلم في الإسراء؟"
+      },
+      "options": [
+        {"en": "Buraq", "ar": "البراق"},
+        {"en": "Duldul", "ar": "دلدل"},
+        {"en": "Qaswa", "ar": "القصواء"},
+        {"en": "Adba", "ar": "العضباء"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "category": {"en": "isra_miraj", "ar": "الإسراء والمعراج"},
+      "question": {
+        "en": "How many prayers were originally prescribed before being reduced to five?",
+        "ar": "كم صلاة فُرضت أصلاً قبل تخفيضها إلى خمس؟"
+      },
+      "options": [
+        {"en": "30", "ar": "٣٠"},
+        {"en": "40", "ar": "٤٠"},
+        {"en": "50", "ar": "٥٠"},
+        {"en": "60", "ar": "٦٠"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "difficulty": "hard",
+      "category": {"en": "isra_miraj", "ar": "الإسراء والمعراج"},
+      "question": {
+        "en": "Which prophet did the Prophet (PBUH) meet on the sixth heaven?",
+        "ar": "أي نبي التقى به النبي صلى الله عليه وسلم في السماء السادسة؟"
+      },
+      "options": [
+        {"en": "Ibrahim", "ar": "إبراهيم"},
+        {"en": "Musa", "ar": "موسى"},
+        {"en": "Isa", "ar": "عيسى"},
+        {"en": "Harun", "ar": "هارون"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "category": {"en": "isra_miraj", "ar": "الإسراء والمعراج"},
+      "question": {
+        "en": "How many angels visit Baytul-Ma'moor daily?",
+        "ar": "كم ملك يزور البيت المعمور يومياً؟"
+      },
+      "options": [
+        {"en": "50,000", "ar": "٥٠ ألف"},
+        {"en": "60,000", "ar": "٦٠ ألف"},
+        {"en": "70,000", "ar": "٧٠ ألف"},
+        {"en": "80,000", "ar": "٨٠ ألف"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "difficulty": "easy",
+      "category": {"en": "hijra_preparation", "ar": "التحضير للهجرة"},
+      "question": {
+        "en": "Which tribe from Medina first accepted Islam?",
+        "ar": "أي قبيلة من المدينة أسلمت أولاً؟"
+      },
+      "options": [
+        {"en": "Al-Aws", "ar": "الأوس"},
+        {"en": "Al-Khazraj", "ar": "الخزرج"},
+        {"en": "Banu Hashim", "ar": "بنو هاشم"},
+        {"en": "Banu Umayyah", "ar": "بنو أمية"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "category": {"en": "aqaba_pledges", "ar": "بيعة العقبة"},
+      "question": {
+        "en": "How many people participated in the first pledge of Aqaba?",
+        "ar": "كم شخص شارك في البيعة الأولى في العقبة؟"
+      },
+      "options": [
+        {"en": "10", "ar": "١٠"},
+        {"en": "12", "ar": "١٢"},
+        {"en": "15", "ar": "١٥"},
+        {"en": "20", "ar": "٢٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "category": {"en": "aqaba_pledges", "ar": "بيعة العقبة"},
+      "question": {
+        "en": "How many people participated in the second pledge of Aqaba?",
+        "ar": "كم شخص شارك في البيعة الثانية في العقبة؟"
+      },
+      "options": [
+        {"en": "70 men and 2 women", "ar": "٧٠ رجل وامرأتان"},
+        {"en": "73 men and 2 women", "ar": "٧٣ رجل وامرأتان"},
+        {"en": "75 men and 3 women", "ar": "٧٥ رجل وثلاث نساء"},
+        {"en": "80 men and 5 women", "ar": "٨٠ رجل وخمس نساء"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "category": {"en": "hijra", "ar": "الهجرة"},
+      "question": {
+        "en": "Who did the Prophet (PBUH) ask to sleep in his bed on the night of Hijra?",
+        "ar": "من طلب النبي صلى الله عليه وسلم أن ينام في فراشه ليلة الهجرة؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Ali ibn Abi Talib", "ar": "علي بن أبي طالب"},
+        {"en": "Uthman", "ar": "عثمان"},
+        {"en": "Zayd ibn Haritha", "ar": "زيد بن حارثة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "difficulty": "easy",
+      "category": {"en": "hijra", "ar": "الهجرة"},
+      "question": {
+        "en": "In which cave did the Prophet (PBUH) and Abu Bakr hide during Hijra?",
+        "ar": "في أي غار اختبأ النبي صلى الله عليه وسلم وأبو بكر أثناء الهجرة؟"
+      },
+      "options": [
+        {"en": "Cave of Hira", "ar": "غار حراء"},
+        {"en": "Cave of Thawr", "ar": "غار ثور"},
+        {"en": "Cave of Uhud", "ar": "غار أحد"},
+        {"en": "Cave of Quba", "ar": "غار قباء"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "category": {"en": "hijra", "ar": "الهجرة"},
+      "question": {
+        "en": "How much reward did Quraish offer for capturing the Prophet (PBUH)?",
+        "ar": "كم جائزة عرضت قريش لمن يأسر النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "50 camels", "ar": "٥٠ ناقة"},
+        {"en": "100 camels", "ar": "١٠٠ ناقة"},
+        {"en": "150 camels", "ar": "١٥٠ ناقة"},
+        {"en": "200 camels", "ar": "٢٠٠ ناقة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "difficulty": "easy",
+      "category": {"en": "medina_arrival", "ar": "الوصول للمدينة"},
+      "question": {
+        "en": "What was the first mosque built in Islam?",
+        "ar": "ما أول مسجد بُني في الإسلام؟"
+      },
+      "options": [
+        {"en": "Masjid an-Nabawi", "ar": "المسجد النبوي"},
+        {"en": "Masjid Quba", "ar": "مسجد قباء"},
+        {"en": "Masjid al-Aqsa", "ar": "المسجد الأقصى"},
+        {"en": "Masjid al-Haram", "ar": "المسجد الحرام"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "category": {"en": "medina_arrival", "ar": "الوصول للمدينة"},
+      "question": {
+        "en": "Who hosted the Prophet (PBUH) when he first arrived in Medina?",
+        "ar": "من استضاف النبي صلى الله عليه وسلم عند وصوله المدينة؟"
+      },
+      "options": [
+        {"en": "Abu Ayyub al-Ansari", "ar": "أبو أيوب الأنصاري"},
+        {"en": "Sa'd ibn Mu'adh", "ar": "سعد بن معاذ"},
+        {"en": "Anas ibn Malik", "ar": "أنس بن مالك"},
+        {"en": "Abu Talha", "ar": "أبو طلحة"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "category": {"en": "masjid_nabawi", "ar": "المسجد النبوي"},
+      "question": {
+        "en": "What were the original dimensions of Masjid an-Nabawi?",
+        "ar": "ما أبعاد المسجد النبوي الأصلية؟"
+      },
+      "options": [
+        {"en": "30 by 25 meters", "ar": "٣٠ في ٢٥ متر"},
+        {"en": "35 by 30 meters", "ar": "٣٥ في ٣٠ متر"},
+        {"en": "40 by 35 meters", "ar": "٤٠ في ٣٥ متر"},
+        {"en": "45 by 40 meters", "ar": "٤٥ في ٤٠ متر"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "category": {"en": "masjid_nabawi", "ar": "المسجد النبوي"},
+      "question": {
+        "en": "How many doors did the original Masjid an-Nabawi have?",
+        "ar": "كم باب كان في المسجد النبوي الأصلي؟"
+      },
+      "options": [
+        {"en": "2", "ar": "٢"},
+        {"en": "3", "ar": "٣"},
+        {"en": "4", "ar": "٤"},
+        {"en": "5", "ar": "٥"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "difficulty": "easy",
+      "category": {"en": "daily_routine", "ar": "الروتين اليومي"},
+      "question": {
+        "en": "What was the first thing the Prophet (PBUH) did when he woke up?",
+        "ar": "ما أول شيء فعله النبي صلى الله عليه وسلم عند استيقاظه؟"
+      },
+      "options": [
+        {"en": "Eat breakfast", "ar": "تناول الإفطار"},
+        {"en": "Make wudu or ghusl if needed", "ar": "توضأ أو اغتسل إذا احتاج"},
+        {"en": "Read Quran", "ar": "قرأ القرآن"},
+        {"en": "Go to the mosque", "ar": "ذهب للمسجد"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "category": {"en": "daily_routine", "ar": "الروتين اليومي"},
+      "question": {
+        "en": "How many times did the Prophet (PBUH) make istighfar daily?",
+        "ar": "كم مرة كان النبي صلى الله عليه وسلم يستغفر يومياً؟"
+      },
+      "options": [
+        {"en": "50 times", "ar": "٥٠ مرة"},
+        {"en": "70 times", "ar": "٧٠ مرة"},
+        {"en": "100 times", "ar": "١٠٠ مرة"},
+        {"en": "70 times and more", "ar": "٧٠ مرة وأكثر"}
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 51,
+      "difficulty": "easy",
+      "category": {"en": "food_habits", "ar": "عادات الطعام"},
+      "question": {
+        "en": "What was the Prophet's (PBUH) first meal of the day?",
+        "ar": "ما أول وجبة للنبي صلى الله عليه وسلم في اليوم؟"
+      },
+      "options": [
+        {"en": "Dates and milk", "ar": "تمر وحليب"},
+        {"en": "Water mixed with honey", "ar": "ماء مخلوط بالعسل"},
+        {"en": "Bread and olive oil", "ar": "خبز وزيت زيتون"},
+        {"en": "7 Ajwa dates with milk", "ar": "٧ تمرات عجوة مع الحليب"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "category": {"en": "food_habits", "ar": "عادات الطعام"},
+      "question": {
+        "en": "What type of meat did the Prophet (PBUH) prefer?",
+        "ar": "أي نوع من اللحم فضله النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Beef", "ar": "لحم البقر"},
+        {"en": "Lamb shoulder", "ar": "كتف الخروف"},
+        {"en": "Chicken breast", "ar": "صدر الدجاج"},
+        {"en": "Camel meat", "ar": "لحم الجمل"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "category": {"en": "food_benefits", "ar": "فوائد الطعام"},
+      "question": {
+        "en": "How much can olive oil reduce cholesterol according to the presentation?",
+        "ar": "كم يمكن لزيت الزيتون أن يقلل الكوليسترول حسب العرض؟"
+      },
+      "options": [
+        {"en": "8%", "ar": "٨٪"},
+        {"en": "10%", "ar": "١٠٪"},
+        {"en": "12%", "ar": "١٢٪"},
+        {"en": "15%", "ar": "١٥٪"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "difficulty": "easy",
+      "category": {"en": "hygiene", "ar": "النظافة"},
+      "question": {
+        "en": "How much water did the Prophet (PBUH) use for ghusl?",
+        "ar": "كم ماء استخدم النبي صلى الله عليه وسلم للغسل؟"
+      },
+      "options": [
+        {"en": "Half a liter", "ar": "نصف لتر"},
+        {"en": "One liter (Sa'a)", "ar": "لتر واحد (صاع)"},
+        {"en": "Two liters", "ar": "لترين"},
+        {"en": "Three liters", "ar": "ثلاثة لترات"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "category": {"en": "clothing", "ar": "الملابس"},
+      "question": {
+        "en": "What color clothing did the Prophet (PBUH) prefer?",
+        "ar": "أي لون من الملابس فضله النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Black", "ar": "أسود"},
+        {"en": "White", "ar": "أبيض"},
+        {"en": "Green", "ar": "أخضر"},
+        {"en": "Blue", "ar": "أزرق"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "difficulty": "easy",
+      "category": {"en": "night_prayer", "ar": "صلاة الليل"},
+      "question": {
+        "en": "What is the most beloved prayer to Allah after the obligatory prayers?",
+        "ar": "ما أحب الصلوات إلى الله بعد الفرائض؟"
+      },
+      "options": [
+        {"en": "Duha prayer", "ar": "صلاة الضحى"},
+        {"en": "Tahajjud prayer", "ar": "صلاة التهجد"},
+        {"en": "Witr prayer", "ar": "صلاة الوتر"},
+        {"en": "Ishraq prayer", "ar": "صلاة الإشراق"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "difficulty": "medium",
+      "category": {"en": "fasting", "ar": "الصيام"},
+      "question": {
+        "en": "On which days of the lunar month did the Prophet (PBUH) fast?",
+        "ar": "في أي أيام من الشهر القمري كان النبي صلى الله عليه وسلم يصوم؟"
+      },
+      "options": [
+        {"en": "1st, 2nd, 3rd", "ar": "١، ٢، ٣"},
+        {"en": "13th, 14th, 15th", "ar": "١٣، ١٤، ١٥"},
+        {"en": "28th, 29th, 30th", "ar": "٢٨، ٢٩، ٣٠"},
+        {"en": "Every Monday and Thursday", "ar": "كل اثنين وخميس"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "category": {"en": "prophetic_medicine", "ar": "الطب النبوي"},
+      "question": {
+        "en": "What did the Prophet (PBUH) use for treating fever and reducing blood pressure?",
+        "ar": "ماذا استخدم النبي صلى الله عليه وسلم لعلاج الحمى وتقليل ضغط الدم؟"
+      },
+      "options": [
+        {"en": "Honey", "ar": "العسل"},
+        {"en": "Black seed", "ar": "الحبة السوداء"},
+        {"en": "Costus (Al-Qist al-Hindi)", "ar": "القسط الهندي"},
+        {"en": "Senna", "ar": "السنا"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "difficulty": "easy",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How many Muslims participated in the Battle of Badr?",
+        "ar": "كم مسلم شارك في غزوة بدر؟"
+      },
+      "options": [
+        {"en": "300", "ar": "٣٠٠"},
+        {"en": "313 or 314", "ar": "٣١٣ أو ٣١٤"},
+        {"en": "350", "ar": "٣٥٠"},
+        {"en": "400", "ar": "٤٠٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How many horses did the Muslims have in the Battle of Badr?",
+        "ar": "كم حصان كان مع المسلمين في غزوة بدر؟"
+      },
+      "options": [
+        {"en": "1", "ar": "١"},
+        {"en": "2", "ar": "٢"},
+        {"en": "3", "ar": "٣"},
+        {"en": "5", "ar": "٥"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How many angels did Allah send to help in the Battle of Badr?",
+        "ar": "كم ملك أرسل الله لنصرة المسلمين في غزوة بدر؟"
+      },
+      "options": [
+        {"en": "500", "ar": "٥٠٠"},
+        {"en": "1000", "ar": "١٠٠٠"},
+        {"en": "1500", "ar": "١٥٠٠"},
+        {"en": "3000", "ar": "٣٠٠٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "difficulty": "easy",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "In which battle did Hamza (RA) accept Islam?",
+        "ar": "في أي معركة أسلم حمزة رضي الله عنه؟"
+      },
+      "options": [
+        {"en": "Before any battle", "ar": "قبل أي معركة"},
+        {"en": "After Badr", "ar": "بعد بدر"},
+        {"en": "After Uhud", "ar": "بعد أحد"},
+        {"en": "After Khandaq", "ar": "بعد الخندق"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "difficulty": "medium",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How many Muslims died in the Battle of Uhud?",
+        "ar": "كم مسلم استشهد في غزوة أحد؟"
+      },
+      "options": [
+        {"en": "60", "ar": "٦٠"},
+        {"en": "70", "ar": "٧٠"},
+        {"en": "80", "ar": "٨٠"},
+        {"en": "90", "ar": "٩٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How many archers did the Prophet (PBUH) place on the mount in Uhud?",
+        "ar": "كم رامي وضع النبي صلى الله عليه وسلم على الجبل في أحد؟"
+      },
+      "options": [
+        {"en": "40", "ar": "٤٠"},
+        {"en": "50", "ar": "٥٠"},
+        {"en": "60", "ar": "٦٠"},
+        {"en": "70", "ar": "٧٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "difficulty": "easy",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "What was the name of the trench battle?",
+        "ar": "ما اسم غزوة الخندق؟"
+      },
+      "options": [
+        {"en": "Al-Khandaq", "ar": "الخندق"},
+        {"en": "Al-Ahzab", "ar": "الأحزاب"},
+        {"en": "Both names are correct", "ar": "كلا الاسمين صحيح"},
+        {"en": "Al-Quraydha", "ar": "قريظة"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "Who suggested digging the trench?",
+        "ar": "من اقترح حفر الخندق؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Umar ibn al-Khattab", "ar": "عمر بن الخطاب"},
+        {"en": "Salman al-Farisi", "ar": "سلمان الفارسي"},
+        {"en": "Ali ibn Abi Talib", "ar": "علي بن أبي طالب"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How long was the trench in the Battle of Khandaq?",
+        "ar": "كم طول الخندق في غزوة الخندق؟"
+      },
+      "options": [
+        {"en": "3 km", "ar": "٣ كم"},
+        {"en": "4 km", "ar": "٤ كم"},
+        {"en": "5 km", "ar": "٥ كم"},
+        {"en": "6 km", "ar": "٦ كم"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "difficulty": "medium",
+      "category": {"en": "battles", "ar": "الغزوات"},
+      "question": {
+        "en": "How long did the siege last in the Battle of Khandaq?",
+        "ar": "كم استمر الحصار في غزوة الخندق؟"
+      },
+      "options": [
+        {"en": "20 days", "ar": "٢٠ يوم"},
+        {"en": "24 days", "ar": "٢٤ يوم"},
+        {"en": "28 days", "ar": "٢٨ يوم"},
+        {"en": "30 days", "ar": "٣٠ يوم"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "difficulty": "easy",
+      "category": {"en": "marriages", "ar": "الزيجات"},
+      "question": {
+        "en": "Who was the Prophet's (PBUH) second wife?",
+        "ar": "من كانت الزوجة الثانية للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Aisha", "ar": "عائشة"},
+        {"en": "Sawda", "ar": "سودة"},
+        {"en": "Hafsa", "ar": "حفصة"},
+        {"en": "Umm Salama", "ar": "أم سلمة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "difficulty": "medium",
+      "category": {"en": "marriages", "ar": "الزيجات"},
+      "question": {
+        "en": "How much was Aisha's dowry in silver?",
+        "ar": "كم كان مهر عائشة بالفضة؟"
+      },
+      "options": [
+        {"en": "400 dirhams", "ar": "٤٠٠ درهم"},
+        {"en": "500 dirhams", "ar": "٥٠٠ درهم"},
+        {"en": "600 dirhams", "ar": "٦٠٠ درهم"},
+        {"en": "700 dirhams", "ar": "٧٠٠ درهم"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "difficulty": "hard",
+      "category": {"en": "ali_fatima", "ar": "علي وفاطمة"},
+      "question": {
+        "en": "What did Ali sell to pay for Fatima's dowry?",
+        "ar": "ماذا باع علي ليدفع مهر فاطمة؟"
+      },
+      "options": [
+        {"en": "His sword", "ar": "سيفه"},
+        {"en": "His armor", "ar": "درعه"},
+        {"en": "His horse", "ar": "فرسه"},
+        {"en": "His camel", "ar": "ناقته"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "difficulty": "easy",
+      "category": {"en": "conquests", "ar": "الفتوحات"},
+      "question": {
+        "en": "In which year did the conquest of Mecca take place?",
+        "ar": "في أي سنة كان فتح مكة؟"
+      },
+      "options": [
+        {"en": "7th Hijri", "ar": "السابعة هجرية"},
+        {"en": "8th Hijri", "ar": "الثامنة هجرية"},
+        {"en": "9th Hijri", "ar": "التاسعة هجرية"},
+        {"en": "10th Hijri", "ar": "العاشرة هجرية"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "difficulty": "medium",
+      "category": {"en": "conquests", "ar": "الفتوحات"},
+      "question": {
+        "en": "How many soldiers did the Prophet (PBUH) mobilize for the conquest of Mecca?",
+        "ar": "كم جندي حشد النبي صلى الله عليه وسلم لفتح مكة؟"
+      },
+      "options": [
+        {"en": "8,000", "ar": "٨ آلاف"},
+        {"en": "10,000", "ar": "١٠ آلاف"},
+        {"en": "12,000", "ar": "١٢ ألف"},
+        {"en": "15,000", "ar": "١٥ ألف"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "difficulty": "easy",
+      "category": {"en": "conquests", "ar": "الفتوحات"},
+      "question": {
+        "en": "Who made the call to prayer (Adhan) on top of the Kaaba after the conquest?",
+        "ar": "من أذن على ظهر الكعبة بعد الفتح؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Umar", "ar": "عمر"},
+        {"en": "Bilal", "ar": "بلال"},
+        {"en": "Ali", "ar": "علي"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 75,
+      "difficulty": "medium",
+      "category": {"en": "treaties", "ar": "المعاهدات"},
+      "question": {
+        "en": "How long was the Treaty of Hudaybiyyah supposed to last?",
+        "ar": "كم مدة صلح الحديبية؟"
+      },
+      "options": [
+        {"en": "5 years", "ar": "٥ سنوات"},
+        {"en": "8 years", "ar": "٨ سنوات"},
+        {"en": "10 years", "ar": "١٠ سنوات"},
+        {"en": "15 years", "ar": "١٥ سنة"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "category": {"en": "treaties", "ar": "المعاهدات"},
+      "question": {
+        "en": "Who represented Quraish in negotiating the Treaty of Hudaybiyyah?",
+        "ar": "من مثل قريش في التفاوض على صلح الحديبية؟"
+      },
+      "options": [
+        {"en": "Abu Sufyan", "ar": "أبو سفيان"},
+        {"en": "Suhayl ibn Amr", "ar": "سهيل بن عمرو"},
+        {"en": "Abu Jahl", "ar": "أبو جهل"},
+        {"en": "Uqba ibn Abi Mu'ayt", "ar": "عقبة بن أبي معيط"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "difficulty": "easy",
+      "category": {"en": "expeditions", "ar": "السرايا"},
+      "question": {
+        "en": "In which expedition did Khalid ibn al-Walid become known as 'Saif Allah al-Maslul'?",
+        "ar": "في أي سرية أصبح خالد بن الوليد يُعرف بـ 'سيف الله المسلول'؟"
+      },
+      "options": [
+        {"en": "Mu'tah", "ar": "مؤتة"},
+        {"en": "Hunayn", "ar": "حنين"},
+        {"en": "Tabuk", "ar": "تبوك"},
+        {"en": "Khaybar", "ar": "خيبر"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "difficulty": "medium",
+      "category": {"en": "expeditions", "ar": "السرايا"},
+      "question": {
+        "en": "How many Muslim soldiers participated in the expedition of Mu'tah?",
+        "ar": "كم جندي مسلم شارك في سرية مؤتة؟"
+      },
+      "options": [
+        {"en": "2,000", "ar": "٢٠٠٠"},
+        {"en": "3,000", "ar": "٣٠٠٠"},
+        {"en": "4,000", "ar": "٤٠٠٠"},
+        {"en": "5,000", "ar": "٥٠٠٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 79,
+      "difficulty": "hard",
+      "category": {"en": "expeditions", "ar": "السرايا"},
+      "question": {
+        "en": "Who were the three commanders appointed for Mu'tah in order?",
+        "ar": "من القادة الثلاثة المعينون لمؤتة بالترتيب؟"
+      },
+      "options": [
+        {"en": "Zayd, Ja'far, Abdullah ibn Rawaha", "ar": "زيد، جعفر، عبد الله بن رواحة"},
+        {"en": "Ja'far, Zayd, Abdullah ibn Rawaha", "ar": "جعفر، زيد، عبد الله بن رواحة"},
+        {"en": "Abdullah ibn Rawaha, Zayd, Ja'far", "ar": "عبد الله بن رواحة، زيد، جعفر"},
+        {"en": "Zayd, Abdullah ibn Rawaha, Ja'far", "ar": "زيد، عبد الله بن رواحة، جعفر"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "difficulty": "easy",
+      "category": {"en": "khaybar", "ar": "خيبر"},
+      "question": {
+        "en": "How many soldiers did the Prophet (PBUH) mobilize for Khaybar?",
+        "ar": "كم جندي حشد النبي صلى الله عليه وسلم لخيبر؟"
+      },
+      "options": [
+        {"en": "1,200", "ar": "١٢٠٠"},
+        {"en": "1,400", "ar": "١٤٠٠"},
+        {"en": "1,600", "ar": "١٦٠٠"},
+        {"en": "1,800", "ar": "١٨٠٠"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "difficulty": "medium",
+      "category": {"en": "khaybar", "ar": "خيبر"},
+      "question": {
+        "en": "To whom did the Prophet (PBUH) give the flag on the day of Khaybar's conquest?",
+        "ar": "لمن أعطى النبي صلى الله عليه وسلم الراية يوم فتح خيبر؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Umar", "ar": "عمر"},
+        {"en": "Ali ibn Abi Talib", "ar": "علي بن أبي طالب"},
+        {"en": "Khalid ibn al-Walid", "ar": "خالد بن الوليد"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 82,
+      "difficulty": "hard",
+      "category": {"en": "tabuk", "ar": "تبوك"},
+      "question": {
+        "en": "Who were the three companions that the Prophet (PBUH) ordered not to be spoken to after Tabuk?",
+        "ar": "من الصحابة الثلاثة الذين أمر النبي صلى الله عليه وسلم بمقاطعتهم بعد تبوك؟"
+      },
+      "options": [
+        {"en": "Ka'b ibn Malik, Hilal ibn Umayyah, Murara ibn Rabi'", "ar": "كعب بن مالك، هلال بن أمية، مرارة بن ربيع"},
+        {"en": "Ka'b ibn Malik, Hilal ibn Umayyah, Sa'd ibn Mu'adh", "ar": "كعب بن مالك، هلال بن أمية، سعد بن معاذ"},
+        {"en": "Hilal ibn Umayyah, Murara ibn Rabi', Anas ibn Malik", "ar": "هلال بن أمية، مرارة بن ربيع، أنس بن مالك"},
+        {"en": "Ka'b ibn Malik, Murara ibn Rabi', Abu Dharr", "ar": "كعب بن مالك، مرارة بن ربيع، أبو ذر"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "difficulty": "easy",
+      "category": {"en": "farewell_hajj", "ar": "حجة الوداع"},
+      "question": {
+        "en": "In which year did the Farewell Hajj take place?",
+        "ar": "في أي سنة كانت حجة الوداع؟"
+      },
+      "options": [
+        {"en": "9th Hijri", "ar": "التاسعة هجرية"},
+        {"en": "10th Hijri", "ar": "العاشرة هجرية"},
+        {"en": "11th Hijri", "ar": "الحادية عشرة هجرية"},
+        {"en": "12th Hijri", "ar": "الثانية عشرة هجرية"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "difficulty": "medium",
+      "category": {"en": "farewell_hajj", "ar": "حجة الوداع"},
+      "question": {
+        "en": "How many pilgrims joined the Prophet (PBUH) for the Farewell Hajj?",
+        "ar": "كم حاج رافق النبي صلى الله عليه وسلم في حجة الوداع؟"
+      },
+      "options": [
+        {"en": "70,000", "ar": "٧٠ ألف"},
+        {"en": "80,000", "ar": "٨٠ ألف"},
+        {"en": "90,000", "ar": "٩٠ ألف"},
+        {"en": "100,000", "ar": "١٠٠ ألف"}
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 85,
+      "difficulty": "easy",
+      "category": {"en": "death", "ar": "الوفاة"},
+      "question": {
+        "en": "On which day of the week did the Prophet (PBUH) pass away?",
+        "ar": "في أي يوم من الأسبوع توفي النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Friday", "ar": "الجمعة"},
+        {"en": "Saturday", "ar": "السبت"},
+        {"en": "Sunday", "ar": "الأحد"},
+        {"en": "Monday", "ar": "الاثنين"}
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 86,
+      "difficulty": "medium",
+      "category": {"en": "death", "ar": "الوفاة"},
+      "question": {
+        "en": "In whose lap did the Prophet (PBUH) pass away?",
+        "ar": "في حجر من توفي النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Khadija", "ar": "خديجة"},
+        {"en": "Aisha", "ar": "عائشة"},
+        {"en": "Fatima", "ar": "فاطمة"},
+        {"en": "Hafsa", "ar": "حفصة"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "difficulty": "hard",
+      "category": {"en": "death", "ar": "الوفاة"},
+      "question": {
+        "en": "What were the Prophet's (PBUH) last words?",
+        "ar": "ما آخر كلمات النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "The prayers, the prayers", "ar": "الصلاة الصلاة"},
+        {"en": "La ilaha illa Allah", "ar": "لا إله إلا الله"},
+        {"en": "Convey my salaam", "ar": "أبلغوا سلامي"},
+        {"en": "I missed my brothers", "ar": "اشتقت لإخواني"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 88,
+      "difficulty": "easy",
+      "category": {"en": "companions", "ar": "الصحابة"},
+      "question": {
+        "en": "Who led the prayer when the Prophet (PBUH) was sick?",
+        "ar": "من أم الصلاة عندما مرض النبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Umar", "ar": "عمر"},
+        {"en": "Uthman", "ar": "عثمان"},
+        {"en": "Ali", "ar": "علي"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "difficulty": "medium",
+      "category": {"en": "intercession", "ar": "الشفاعة"},
+      "question": {
+        "en": "How many intercessions will the Prophet (PBUH) have?",
+        "ar": "كم شفاعة للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "6", "ar": "٦"},
+        {"en": "7", "ar": "٧"},
+        {"en": "8", "ar": "٨"},
+        {"en": "10", "ar": "١٠"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "category": {"en": "tahajjud_dua", "ar": "دعاء التهجد"},
+      "question": {
+        "en": "What is the first phrase in the Prophet's (PBUH) Tahajjud prayer?",
+        "ar": "ما أول عبارة في دعاء التهجد للنبي صلى الله عليه وسلم؟"
+      },
+      "options": [
+        {"en": "Allahumma laka al-hamd", "ar": "اللهم لك الحمد"},
+        {"en": "Subhanak Allahumma", "ar": "سبحانك اللهم"},
+        {"en": "Bismillah", "ar": "بسم الله"},
+        {"en": "La hawla wa la quwwata illa billah", "ar": "لا حول ولا قوة إلا بالله"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "difficulty": "easy",
+      "category": {"en": "constitution_medina", "ar": "دستور المدينة"},
+      "question": {
+        "en": "According to the Constitution of Medina, Muslims and Jews were considered what?",
+        "ar": "حسب دستور المدينة، المسلمون واليهود اعتبروا ماذا؟"
+      },
+      "options": [
+        {"en": "Enemies", "ar": "أعداء"},
+        {"en": "One nation", "ar": "أمة واحدة"},
+        {"en": "Separate communities", "ar": "مجتمعات منفصلة"},
+        {"en": "Allies only", "ar": "حلفاء فقط"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "difficulty": "medium",
+      "category": {"en": "adhan", "ar": "الأذان"},
+      "question": {
+        "en": "Who saw the vision of Adhan in a dream?",
+        "ar": "من رأى رؤيا الأذان في المنام؟"
+      },
+      "options": [
+        {"en": "Umar ibn al-Khattab", "ar": "عمر بن الخطاب"},
+        {"en": "Abdullah ibn Zayd", "ar": "عبد الله بن زيد"},
+        {"en": "Abu Bakr", "ar": "أبو بكر"},
+        {"en": "Bilal", "ar": "بلال"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "difficulty": "hard",
+      "category": {"en": "slander_incident", "ar": "حادثة الإفك"},
+      "question": {
+        "en": "Which Surah was revealed to clear Aisha of the slander?",
+        "ar": "أي سورة نزلت لتبرئة عائشة من الإفك؟"
+      },
+      "options": [
+        {"en": "Surah Al-Ahzab", "ar": "سورة الأحزاب"},
+        {"en": "Surah An-Nur", "ar": "سورة النور"},
+        {"en": "Surah Al-Mumtahina", "ar": "سورة الممتحنة"},
+        {"en": "Surah At-Talaq", "ar": "سورة الطلاق"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 94,
+      "difficulty": "medium",
+      "category": {"en": "lessons_seerah", "ar": "دروس السيرة"},
+      "question": {
+        "en": "What is one of the key lessons from the Seerah regarding leadership?",
+        "ar": "ما إحدى الدروس المهمة من السيرة بخصوص القيادة؟"
+      },
+      "options": [
+        {"en": "Rule with fear", "ar": "الحكم بالخوف"},
+        {"en": "Rule with mercy and love", "ar": "الحكم بالرحمة والمحبة"},
+        {"en": "Rule with force only", "ar": "الحكم بالقوة فقط"},
+        {"en": "Avoid consultation", "ar": "تجنب الشورى"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "difficulty": "easy",
+      "category": {"en": "miracles", "ar": "المعجزات"},
+      "question": {
+        "en": "What happened when Quraish asked the Prophet (PBUH) to split the moon?",
+        "ar": "ماذا حدث عندما طلبت قريش من النبي صلى الله عليه وسلم أن يشق القمر؟"
+      },
+      "options": [
+        {"en": "He refused", "ar": "رفض"},
+        {"en": "He did it but they still didn't believe", "ar": "فعلها لكنهم لم يؤمنوا"},
+        {"en": "He asked for time", "ar": "طلب وقتاً"},
+        {"en": "He said it was impossible", "ar": "قال أنه مستحيل"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "difficulty": "medium",
+      "category": {"en": "age_prophet", "ar": "عمر النبي"},
+      "question": {
+        "en": "How old was the Prophet (PBUH) during the Battle of Uhud?",
+        "ar": "كم كان عمر النبي صلى الله عليه وسلم في غزوة أحد؟"
+      },
+      "options": [
+        {"en": "54", "ar": "٥٤"},
+        {"en": "55", "ar": "٥٥"},
+        {"en": "56", "ar": "٥٦"},
+        {"en": "57", "ar": "٥٧"}
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 97,
+      "difficulty": "hard",
+      "category": {"en": "adoption", "ar": "التبني"},
+      "question": {
+        "en": "At what age did the Prophet (PBUH) adopt Zayd ibn Haritha?",
+        "ar": "في أي عمر تبنى النبي صلى الله عليه وسلم زيد بن حارثة؟"
+      },
+      "options": [
+        {"en": "30", "ar": "٣٠"},
+        {"en": "33", "ar": "٣٣"},
+        {"en": "35", "ar": "٣٥"},
+        {"en": "38", "ar": "٣٨"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "difficulty": "easy",
+      "category": {"en": "world_before_islam", "ar": "العالم قبل الإسلام"},
+      "question": {
+        "en": "What were the two main world powers before Islam?",
+        "ar": "ما القوتان العالميتان الرئيسيتان قبل الإسلام؟"
+      },
+      "options": [
+        {"en": "Romans and Greeks", "ar": "الروم واليونان"},
+        {"en": "Romans and Persians", "ar": "الروم والفرس"},
+        {"en": "Persians and Egyptians", "ar": "الفرس والمصريون"},
+        {"en": "Romans and Arabs", "ar": "الروم والعرب"}
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "difficulty": "medium",
+      "category": {"en": "world_before_islam", "ar": "العالم قبل الإسلام"},
+      "question": {
+        "en": "Who introduced idol worship to Mecca?",
+        "ar": "من أدخل عبادة الأصنام إلى مكة؟"
+      },
+      "options": [
+        {"en": "Amr ibn Luhayy", "ar": "عمرو بن لحي"},
+        {"en": "Qusayy ibn Kilab", "ar": "قصي بن كلاب"},
+        {"en": "Abdul Muttalib", "ar": "عبد المطلب"},
+        {"en": "Hashim", "ar": "هاشم"}
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 100,
+      "difficulty": "hard",
+      "category": {"en": "health_benefits", "ar": "الفوائد الصحية"},
+      "question": {
+        "en": "According to the presentation, how many benefits does olive oil have?",
+        "ar": "حسب العرض، كم فائدة لزيت الزيتون؟"
+      },
+      "options": [
+        {"en": "More than 30", "ar": "أكثر من ٣٠"},
+        {"en": "More than 40", "ar": "أكثر من ٤٠"},
+        {"en": "More than 50", "ar": "أكثر من ٥٠"},
+        {"en": "More than 60", "ar": "أكثر من ٦٠"}
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
