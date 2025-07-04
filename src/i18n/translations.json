@@ -33,6 +33,7 @@
   "milestone_reached": { "en": "Milestone Reached!", "ar": "وصلت لمرحلة الأمان!" },
   "guaranteed_prize": { "en": "Guaranteed Prize", "ar": "جائزة مضمونة" },
   "milestone_message": { "en": "You have reached a safe milestone! This amount is now guaranteed.", "ar": "لقد وصلت إلى مرحلة الأمان! هذا المبلغ مضمون الآن." },
+  "milestone_message_with_amount": { "en": "You have reached a safe milestone! {{amount}} is now guaranteed.", "ar": "لقد وصلت إلى مرحلة الأمان! {{amount}} مضمون الآن." },
   "confirm_answer": { "en": "Confirm Your Answer", "ar": "تأكيد إجابتك" },
   "your_answer": { "en": "Your Answer", "ar": "إجابتك" },
   "change_answer": { "en": "Change Answer", "ar": "تغيير الإجابة" }

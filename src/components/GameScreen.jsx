@@ -112,7 +112,7 @@ export default function GameScreen({
             </div>
           </div>
           <div className="milestone-message">
-            {t('milestone_message')}
+            {t('milestone_message_with_amount', { amount: `$${formatMoney(milestoneReached.prize)}` })}
           </div>
         </div>
       </div>
