@@ -70,6 +70,13 @@ function AppContent() {
   const [audienceResults, setAudienceResults] = useState(null);
   const [friendSuggestion, setFriendSuggestion] = useState(null);
   
+  // Track used questions to avoid repetition
+  const [usedQuestions, setUsedQuestions] = useState({
+    easy: new Set(),
+    medium: new Set(),
+    hard: new Set()
+  });
+  
   // Answer confirmation states
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
@@ -169,16 +176,25 @@ function AppContent() {
     };
   };
 
-  const startGame = () => {
-    // Play start game sound immediately when button is clicked
-    SoundManager.playStart();
+  // Select questions avoiding previously used ones
+  const selectQuestionsFromPool = (questionPool, difficulty, count, usedIds) => {
+    // Filter out already used questions
+    const availableQuestions = questionPool.filter(q => !usedIds.has(q.id));
     
-    // Set loading state
-    setIsStartingGame(true);
+    // If we don't have enough unused questions, reset the used set for this difficulty
+    if (availableQuestions.length < count) {
+      console.log(`Not enough unused ${difficulty} questions, resetting used list`);
+      usedIds.clear();
+      return shuffleArray(questionPool).slice(0, count);
+    }
     
-    // Use dynamic milestone data from loaded file
+    // Shuffle available questions and take the required count
+    return shuffleArray(availableQuestions).slice(0, count);
+  };
+
+  // Generate a new set of game questions with maximum variety
+  const generateGameQuestions = () => {
     const prizeAmounts = milestoneData.prizeAmounts;
-    
     const gameQuestions = [];
     
     // Get questions by difficulty from the current structure
@@ -189,15 +205,15 @@ function AppContent() {
       easyQuestions = questionsData.questions.filter(q => q.difficulty === 'easy');
       mediumQuestions = questionsData.questions.filter(q => q.difficulty === 'medium');
       hardQuestions = questionsData.questions.filter(q => q.difficulty === 'hard');
-      console.log('Using new structure - Easy:', easyQuestions.length, 'Medium:', mediumQuestions.length, 'Hard:', hardQuestions.length);
+      console.log('Available questions - Easy:', easyQuestions.length, 'Medium:', mediumQuestions.length, 'Hard:', hardQuestions.length);
     } else {
       // Old structure with direct easy/medium/hard arrays
       easyQuestions = questionsData.easy || [];
       mediumQuestions = questionsData.medium || [];
       hardQuestions = questionsData.hard || [];
-      console.log('Using old structure - Easy:', easyQuestions.length, 'Medium:', mediumQuestions.length, 'Hard:', hardQuestions.length);
+      console.log('Available questions (old format) - Easy:', easyQuestions.length, 'Medium:', mediumQuestions.length, 'Hard:', hardQuestions.length);
     }
-    
+
     // Helper function to transform question format
     const transformQuestion = (q, prize) => {
       let transformedQuestion;
@@ -209,7 +225,8 @@ function AppContent() {
           options: q.options, // Keep the options array with {en, ar} structure
           category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctIndex,
-          prize: prize
+          prize: prize,
+          id: q.id // Keep the question ID for tracking
         };
       } else {
         // Old structure - convert to bilingual format
@@ -224,7 +241,8 @@ function AppContent() {
           })),
           category: q.category || { en: "", ar: "" }, // Include category with fallback
           correctIndex: q.correctAnswer || q.correctIndex,
-          prize: prize
+          prize: prize,
+          id: q.id || `${q.question?.en || q.question}_${Math.random()}` // Generate stable ID if not present
         };
       }
       
@@ -233,29 +251,47 @@ function AppContent() {
     };
     
     // Questions 1-5: Easy (first milestone at $1,000)
-    const shuffledEasy = shuffleArray(easyQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledEasy[i]) {
-        gameQuestions.push(transformQuestion(shuffledEasy[i], prizeAmounts[i]));
-      }
-    }
+    const selectedEasy = selectQuestionsFromPool(easyQuestions, 'easy', 5, usedQuestions.easy);
+    selectedEasy.forEach((q, i) => {
+      gameQuestions.push(transformQuestion(q, prizeAmounts[i]));
+      usedQuestions.easy.add(q.id);
+    });
     
     // Questions 6-10: Medium (second milestone at $32,000)
-    const shuffledMedium = shuffleArray(mediumQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledMedium[i]) {
-        gameQuestions.push(transformQuestion(shuffledMedium[i], prizeAmounts[i + 5]));
-      }
-    }
+    const selectedMedium = selectQuestionsFromPool(mediumQuestions, 'medium', 5, usedQuestions.medium);
+    selectedMedium.forEach((q, i) => {
+      gameQuestions.push(transformQuestion(q, prizeAmounts[i + 5]));
+      usedQuestions.medium.add(q.id);
+    });
     
     // Questions 11-15: Hard (final section to $1,000,000)
-    const shuffledHard = shuffleArray(hardQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledHard[i]) {
-        gameQuestions.push(transformQuestion(shuffledHard[i], prizeAmounts[i + 10]));
-      }
-    }
+    const selectedHard = selectQuestionsFromPool(hardQuestions, 'hard', 5, usedQuestions.hard);
+    selectedHard.forEach((q, i) => {
+      gameQuestions.push(transformQuestion(q, prizeAmounts[i + 10]));
+      usedQuestions.hard.add(q.id);
+    });
+
+    console.log('Generated game with questions:', gameQuestions.map(q => q.id));
+    console.log('Used questions count - Easy:', usedQuestions.easy.size, 'Medium:', usedQuestions.medium.size, 'Hard:', usedQuestions.hard.size);
     
+    return gameQuestions;
+  };
+
+  // Reset used questions manually (for debugging or fresh start)
+  const resetUsedQuestions = () => {
+    setUsedQuestions({ easy: new Set(), medium: new Set(), hard: new Set() });
+    console.log('Used questions reset');
+  };
+
+  const startGame = () => {
+    // Play start game sound immediately when button is clicked
+    SoundManager.playStart();
+    
+    // Set loading state
+    setIsStartingGame(true);
+    
+    // Generate new randomized questions
+    const gameQuestions = generateGameQuestions();
     setShuffledQuestions(gameQuestions);
     
     // Wait 5 seconds before starting the game
@@ -498,91 +534,18 @@ function AppContent() {
     // Reset milestone display states
     setShowMilestoneDisplay(false);
     setMilestoneReached(null);
+    // Reset used questions when returning to menu (optional - for fresh start)
+    // setUsedQuestions({ easy: new Set(), medium: new Set(), hard: new Set() });
   };
 
   const restartGame = () => {
     // Stop all sounds when restarting the game
     SoundManager.stopAll();
 
-    // Restart with new category-based questions using dynamic milestone data
-    const prizeAmounts = milestoneData.prizeAmounts;
-    
-    const gameQuestions = [];
-    
-    // Get questions by difficulty from the current structure
-    let easyQuestions, mediumQuestions, hardQuestions;
-    
-    if (questionsData.questions) {
-      // New structure with questions array
-      easyQuestions = questionsData.questions.filter(q => q.difficulty === 'easy');
-      mediumQuestions = questionsData.questions.filter(q => q.difficulty === 'medium');
-      hardQuestions = questionsData.questions.filter(q => q.difficulty === 'hard');
-    } else {
-      // Old structure with direct easy/medium/hard arrays
-      easyQuestions = questionsData.easy || [];
-      mediumQuestions = questionsData.medium || [];
-      hardQuestions = questionsData.hard || [];
-    }
-    
-    // Helper function to transform question format
-    const transformQuestion = (q, prize) => {
-      let transformedQuestion;
-      
-      if (q.question && typeof q.question === 'object') {
-        // New structure with bilingual questions - keep the bilingual structure
-        transformedQuestion = {
-          question: q.question, // Keep the {en, ar} structure
-          options: q.options, // Keep the options array with {en, ar} structure
-          category: q.category || { en: "", ar: "" }, // Include category with fallback
-          correctIndex: q.correctIndex,
-          prize: prize
-        };
-      } else {
-        // Old structure - convert to bilingual format
-        transformedQuestion = {
-          question: {
-            en: q.question,
-            ar: q.question // For old structure, use same text for both languages
-          },
-          options: q.answers.map(answer => ({
-            en: answer,
-            ar: answer // For old structure, use same text for both languages
-          })),
-          category: q.category || { en: "", ar: "" }, // Include category with fallback
-          correctIndex: q.correctAnswer || q.correctIndex,
-          prize: prize
-        };
-      }
-      
-      // Shuffle the answer options to make each game unique
-      return shuffleQuestionOptions(transformedQuestion);
-    };
-    
-    // Questions 1-5: Easy (first milestone at $1,000)
-    const shuffledEasy = shuffleArray(easyQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledEasy[i]) {
-        gameQuestions.push(transformQuestion(shuffledEasy[i], prizeAmounts[i]));
-      }
-    }
-    
-    // Questions 6-10: Medium (second milestone at $32,000)
-    const shuffledMedium = shuffleArray(mediumQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledMedium[i]) {
-        gameQuestions.push(transformQuestion(shuffledMedium[i], prizeAmounts[i + 5]));
-      }
-    }
-    
-    // Questions 11-15: Hard (final section to $1,000,000)
-    const shuffledHard = shuffleArray(hardQuestions);
-    for (let i = 0; i < 5; i++) {
-      if (shuffledHard[i]) {
-        gameQuestions.push(transformQuestion(shuffledHard[i], prizeAmounts[i + 10]));
-      }
-    }
-    
+    // Generate new randomized questions avoiding previous ones
+    const gameQuestions = generateGameQuestions();
     setShuffledQuestions(gameQuestions);
+    
     setCurrentQuestionIndex(0);
     setLifelines({
       fiftyFifty: false,
