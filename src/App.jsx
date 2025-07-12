@@ -156,9 +156,12 @@ function AppContent() {
   // Fisher-Yates shuffle algorithm for proper randomization
   const shuffleArray = (array) => {
     const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    // Add extra entropy by shuffling multiple times for critical selections
+    for (let shuffleRound = 0; shuffleRound < 2; shuffleRound++) {
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
     }
     return shuffled;
   };
@@ -178,24 +181,45 @@ function AppContent() {
 
   // Select questions avoiding previously used ones
   const selectQuestionsFromPool = (questionPool, difficulty, count, usedIds) => {
+    console.log(`Selecting ${count} ${difficulty} questions from pool of ${questionPool.length}`);
+    console.log(`Currently used ${difficulty} IDs:`, Array.from(usedIds));
+    
     // Filter out already used questions
     const availableQuestions = questionPool.filter(q => !usedIds.has(q.id));
+    console.log(`Available unused ${difficulty} questions:`, availableQuestions.length);
     
-    // If we don't have enough unused questions, reset the used set for this difficulty
-    if (availableQuestions.length < count) {
-      console.log(`Not enough unused ${difficulty} questions, resetting used list`);
+    // If we don't have enough unused questions, or if we've used more than 50% of available questions, reset
+    const resetThreshold = Math.ceil(questionPool.length * 0.5);
+    if (availableQuestions.length < count || usedIds.size >= resetThreshold) {
+      console.log(`Resetting ${difficulty} questions - used: ${usedIds.size}, threshold: ${resetThreshold}, available: ${availableQuestions.length}`);
       usedIds.clear();
-      return shuffleArray(questionPool).slice(0, count);
+      // Use all questions and shuffle them
+      const shuffledPool = shuffleArray([...questionPool]);
+      console.log(`Reset complete. Selecting first ${count} from shuffled pool of ${shuffledPool.length}`);
+      return shuffledPool.slice(0, count);
     }
     
     // Shuffle available questions and take the required count
-    return shuffleArray(availableQuestions).slice(0, count);
+    const shuffledAvailable = shuffleArray([...availableQuestions]);
+    const selected = shuffledAvailable.slice(0, count);
+    console.log(`Selected ${difficulty} questions:`, selected.map(q => `ID:${q.id}`));
+    return selected;
   };
 
   // Generate a new set of game questions with maximum variety
   const generateGameQuestions = () => {
+    console.log('=== GENERATING NEW GAME QUESTIONS ===');
+    console.log('Current used questions - Easy:', usedQuestions.easy.size, 'Medium:', usedQuestions.medium.size, 'Hard:', usedQuestions.hard.size);
+    
     const prizeAmounts = milestoneData.prizeAmounts;
     const gameQuestions = [];
+    
+    // Create new used questions tracking (will be updated and returned)
+    const newUsedQuestions = {
+      easy: new Set(usedQuestions.easy),
+      medium: new Set(usedQuestions.medium), 
+      hard: new Set(usedQuestions.hard)
+    };
     
     // Get questions by difficulty from the current structure
     let easyQuestions, mediumQuestions, hardQuestions;
@@ -251,36 +275,71 @@ function AppContent() {
     };
     
     // Questions 1-5: Easy (first milestone at $1,000)
-    const selectedEasy = selectQuestionsFromPool(easyQuestions, 'easy', 5, usedQuestions.easy);
-    selectedEasy.forEach((q, i) => {
-      gameQuestions.push(transformQuestion(q, prizeAmounts[i]));
-      usedQuestions.easy.add(q.id);
+    console.log('--- Selecting Easy Questions (1-5) ---');
+    console.log('Easy questions pool (first 5 IDs):', easyQuestions.slice(0, 5).map(q => q.id));
+    const selectedEasy = selectQuestionsFromPool(easyQuestions, 'easy', 5, newUsedQuestions.easy);
+    console.log('Selected easy question IDs (before additional shuffle):', selectedEasy.map(q => q.id));
+    // Shuffle the selected easy questions again for extra randomization
+    const shuffledSelectedEasy = shuffleArray([...selectedEasy]);
+    console.log('Shuffled easy question IDs (after additional shuffle):', shuffledSelectedEasy.map(q => q.id));
+    console.log('FIRST QUESTION will be ID:', shuffledSelectedEasy[0]?.id, 'Text:', shuffledSelectedEasy[0]?.question?.en || shuffledSelectedEasy[0]?.question);
+    shuffledSelectedEasy.forEach((q, i) => {
+      const transformed = transformQuestion(q, prizeAmounts[i]);
+      gameQuestions.push(transformed);
+      newUsedQuestions.easy.add(q.id);
+      console.log(`Easy Q${i+1}: ID=${q.id}, Text="${q.question?.en || q.question}"`);
     });
     
     // Questions 6-10: Medium (second milestone at $32,000)
-    const selectedMedium = selectQuestionsFromPool(mediumQuestions, 'medium', 5, usedQuestions.medium);
-    selectedMedium.forEach((q, i) => {
-      gameQuestions.push(transformQuestion(q, prizeAmounts[i + 5]));
-      usedQuestions.medium.add(q.id);
+    console.log('--- Selecting Medium Questions (6-10) ---');
+    const selectedMedium = selectQuestionsFromPool(mediumQuestions, 'medium', 5, newUsedQuestions.medium);
+    // Shuffle the selected medium questions again for extra randomization
+    const shuffledSelectedMedium = shuffleArray([...selectedMedium]);
+    shuffledSelectedMedium.forEach((q, i) => {
+      const transformed = transformQuestion(q, prizeAmounts[i + 5]);
+      gameQuestions.push(transformed);
+      newUsedQuestions.medium.add(q.id);
+      console.log(`Medium Q${i+6}: ID=${q.id}, Text="${q.question?.en || q.question}"`);
     });
     
     // Questions 11-15: Hard (final section to $1,000,000)
-    const selectedHard = selectQuestionsFromPool(hardQuestions, 'hard', 5, usedQuestions.hard);
-    selectedHard.forEach((q, i) => {
-      gameQuestions.push(transformQuestion(q, prizeAmounts[i + 10]));
-      usedQuestions.hard.add(q.id);
+    console.log('--- Selecting Hard Questions (11-15) ---');
+    const selectedHard = selectQuestionsFromPool(hardQuestions, 'hard', 5, newUsedQuestions.hard);
+    // Shuffle the selected hard questions again for extra randomization
+    const shuffledSelectedHard = shuffleArray([...selectedHard]);
+    shuffledSelectedHard.forEach((q, i) => {
+      const transformed = transformQuestion(q, prizeAmounts[i + 10]);
+      gameQuestions.push(transformed);
+      newUsedQuestions.hard.add(q.id);
+      console.log(`Hard Q${i+11}: ID=${q.id}, Text="${q.question?.en || q.question}"`);
     });
 
-    console.log('Generated game with questions:', gameQuestions.map(q => q.id));
-    console.log('Used questions count - Easy:', usedQuestions.easy.size, 'Medium:', usedQuestions.medium.size, 'Hard:', usedQuestions.hard.size);
+    console.log('=== FINAL GAME QUESTIONS ===');
+    console.log('Generated game with question IDs:', gameQuestions.map((q, i) => `${i+1}:${q.id}`));
+    console.log('Updated used questions count - Easy:', newUsedQuestions.easy.size, 'Medium:', newUsedQuestions.medium.size, 'Hard:', newUsedQuestions.hard.size);
+    console.log('First question (should be randomized easy):', gameQuestions[0]?.question?.en || gameQuestions[0]?.question);
+    console.log('==============================');
     
-    return gameQuestions;
+    return { gameQuestions, newUsedQuestions };
   };
 
   // Reset used questions manually (for debugging or fresh start)
   const resetUsedQuestions = () => {
     setUsedQuestions({ easy: new Set(), medium: new Set(), hard: new Set() });
-    console.log('Used questions reset');
+    console.log('Used questions reset - all questions are now available');
+    console.log('You can now test fresh randomization');
+  };
+
+  // Test function to verify randomization (for development)
+  const testRandomization = () => {
+    console.log('=== TESTING RANDOMIZATION ===');
+    for (let i = 0; i < 3; i++) {
+      console.log(`\n--- Test Run ${i + 1} ---`);
+      const result = generateGameQuestions();
+      console.log(`Run ${i + 1} question IDs:`, result.gameQuestions.map(q => q.id).join(', '));
+      console.log(`Run ${i + 1} first question:`, result.gameQuestions[0]?.question?.en || result.gameQuestions[0]?.question);
+    }
+    console.log('========================');
   };
 
   const startGame = () => {
@@ -291,8 +350,9 @@ function AppContent() {
     setIsStartingGame(true);
     
     // Generate new randomized questions
-    const gameQuestions = generateGameQuestions();
-    setShuffledQuestions(gameQuestions);
+    const result = generateGameQuestions();
+    setShuffledQuestions(result.gameQuestions);
+    setUsedQuestions(result.newUsedQuestions);
     
     // Wait 5 seconds before starting the game
     setTimeout(() => {
@@ -543,8 +603,9 @@ function AppContent() {
     SoundManager.stopAll();
 
     // Generate new randomized questions avoiding previous ones
-    const gameQuestions = generateGameQuestions();
-    setShuffledQuestions(gameQuestions);
+    const result = generateGameQuestions();
+    setShuffledQuestions(result.gameQuestions);
+    setUsedQuestions(result.newUsedQuestions);
     
     setCurrentQuestionIndex(0);
     setLifelines({
@@ -626,6 +687,22 @@ function AppContent() {
               <DownloadSamples />
               
               <FileReplacer />
+              
+              {/* Debug controls for question randomization */}
+              <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
+                <h3 style={{ color: 'var(--primary-gold)', marginBottom: '1rem' }}>Debug Controls</h3>
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                  <button onClick={resetUsedQuestions} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                    Reset Question History
+                  </button>
+                  <button onClick={testRandomization} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                    Test Randomization
+                  </button>
+                </div>
+                <p style={{ fontSize: '0.8rem', marginTop: '0.5rem', color: '#666' }}>
+                  Check browser console for detailed logs
+                </p>
+              </div>
             </>
           )}
           
