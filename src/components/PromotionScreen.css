@@ -122,6 +122,15 @@
   margin-bottom: 0;
 }
 
+.contact-item.phone-highlight {
+  background: rgba(255, 215, 0, 0.15);
+  border-radius: 15px;
+  padding: 1rem;
+  border: 2px solid var(--primary-gold, #ffd700);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  animation: phoneGlow 2s ease-in-out infinite alternate;
+}
+
 .contact-icon {
   font-size: 1.5rem;
   flex-shrink: 0;
@@ -130,6 +139,42 @@
 .contact-text {
   color: #e0e0e0;
   font-weight: 500;
+}
+
+.phone-number {
+  color: var(--primary-gold, #ffd700);
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  animation: numberGlow 1.5s ease-in-out infinite alternate;
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+@keyframes phoneGlow {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    border-color: var(--primary-gold, #ffd700);
+  }
+  100% {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+    border-color: #ffed4e;
+  }
+}
+
+@keyframes numberGlow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    background: rgba(255, 215, 0, 0.1);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 0 30px rgba(255, 215, 0, 0.8);
+    background: rgba(255, 215, 0, 0.2);
+  }
 }
 
 .promotion-footer {
@@ -148,33 +193,7 @@
   margin: 0;
 }
 
-.skip-button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: linear-gradient(45deg, var(--primary-gold, #ffd700), #ffed4e);
-  color: #000;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
 
-.skip-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
-  background: linear-gradient(45deg, #ffed4e, var(--primary-gold, #ffd700));
-}
-
-.skip-button:active {
-  transform: translateY(0);
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -225,14 +244,9 @@
     font-size: 1.3rem;
   }
 
-  .skip-button {
-    position: relative;
-    top: auto;
-    right: auto;
-    width: 100%;
-    margin-top: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
+  .phone-number {
+    font-size: 1.1rem;
+    padding: 0.2rem 0.6rem;
   }
 }
 
@@ -257,5 +271,10 @@
     flex-direction: column;
     text-align: center;
     gap: 0.3rem;
+  }
+
+  .contact-item.phone-highlight {
+    padding: 0.8rem;
+    border-radius: 12px;
   }
 } 

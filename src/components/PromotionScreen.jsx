@@ -19,10 +19,6 @@ const PromotionScreen = ({ onComplete }) => {
     return () => clearInterval(timer);
   }, [onComplete]);
 
-  const handleSkip = () => {
-    onComplete();
-  };
-
   return (
     <div className="promotion-screen">
       <div className="promotion-content">
@@ -60,9 +56,12 @@ const PromotionScreen = ({ onComplete }) => {
               <span className="contact-icon">📍</span>
               <span className="contact-text">Based in Oakville, ON</span>
             </div>
-            <div className="contact-item">
+            <div className="contact-item phone-highlight">
               <span className="contact-icon">📱</span>
-              <span className="contact-text">Contact on WhatsApp only: ‪+1 (437) 449-1214‬</span>
+              <span className="contact-text">
+                Contact on WhatsApp only: 
+                <span className="phone-number">‪+1 (437) 449-1214‬</span>
+              </span>
             </div>
           </div>
 
@@ -72,10 +71,6 @@ const PromotionScreen = ({ onComplete }) => {
             </p>
           </div>
         </div>
-
-        <button className="skip-button" onClick={handleSkip}>
-          Skip (Continue to Game)
-        </button>
       </div>
     </div>
   );
