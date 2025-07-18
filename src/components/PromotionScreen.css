@@ -144,15 +144,17 @@
 .phone-number {
   color: var(--primary-gold, #ffd700);
   font-weight: bold;
-  font-size: 1.3rem;
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  font-size: 2.2rem;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.9), 0 0 25px rgba(255, 215, 0, 0.6);
   animation: numberGlow 1.5s ease-in-out infinite alternate;
   display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.3rem 0.8rem;
-  background: rgba(255, 215, 0, 0.1);
-  border-radius: 8px;
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  margin-left: 0.8rem;
+  padding: 0.8rem 1.2rem;
+  background: rgba(255, 215, 0, 0.15);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 215, 0, 0.5);
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 @keyframes phoneGlow {
@@ -168,12 +170,16 @@
 
 @keyframes numberGlow {
   0% {
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
-    background: rgba(255, 215, 0, 0.1);
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.9), 0 0 25px rgba(255, 215, 0, 0.6);
+    background: rgba(255, 215, 0, 0.15);
+    border-color: rgba(255, 215, 0, 0.5);
+    transform: scale(1);
   }
   100% {
-    text-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 0 30px rgba(255, 215, 0, 0.8);
-    background: rgba(255, 215, 0, 0.2);
+    text-shadow: 0 0 25px rgba(255, 215, 0, 1), 0 0 40px rgba(255, 215, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.4);
+    background: rgba(255, 215, 0, 0.25);
+    border-color: rgba(255, 215, 0, 0.8);
+    transform: scale(1.05);
   }
 }
 
@@ -245,8 +251,9 @@
   }
 
   .phone-number {
-    font-size: 1.1rem;
-    padding: 0.2rem 0.6rem;
+    font-size: 1.8rem;
+    padding: 0.6rem 1rem;
+    margin-left: 0.5rem;
   }
 }
 
@@ -276,5 +283,12 @@
   .contact-item.phone-highlight {
     padding: 0.8rem;
     border-radius: 12px;
+  }
+
+  .phone-number {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0.3rem;
+    letter-spacing: 0.5px;
   }
 } 
