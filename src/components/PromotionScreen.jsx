@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './PromotionScreen.css';
 
 const PromotionScreen = ({ onComplete }) => {
-  const [timeLeft, setTimeLeft] = useState(15);
+  const [timeLeft, setTimeLeft] = useState(30);
 
   useEffect(() => {
     const timer = setInterval(() => {
