@@ -8,6 +8,7 @@ This is a bilingual (English/Arabic) version of "Who Wants to Be a Millionaire?"
 - 3 lifelines: 50:50, Ask the Audience, Phone a Friend
 - Configurable milestone levels and prize amounts
 - English/Arabic language toggle with full RTL support
+- **Password Protection**: Game can only be accessed once with a password
 - **File Upload System**: Upload custom questions and milestone configurations
 - **Sample File Downloads**: Download templates and examples
 - **Persistent Settings**: Uploaded files become the new defaults
@@ -30,6 +31,32 @@ The game is deployed to multiple platforms:
    ```powershell
    npm run dev
    ```
+
+## Password Protection
+
+The game includes a password protection system that allows the game to be accessed only once per session:
+
+### How It Works
+- **Every Game Start**: When the app loads or when "Play Again" is clicked, users must enter a password to access the game
+- **Session-Based**: The password is required for each new game session
+- **Automatic Reset**: When returning to the menu via "Play Again", the password screen automatically shows again
+
+### Default Password
+The default password is: `Bismellah`
+
+### Changing the Password
+To change the password, edit the `correctPassword` variable in `src/components/PasswordScreen.jsx`:
+
+```javascript
+const correctPassword = 'your-new-password';
+```
+
+### Security Features
+- **Attempt Limiting**: After 3 incorrect attempts, the system locks for 30 seconds
+- **Attempt Tracking**: Shows the number of failed attempts
+- **Lockout Timer**: Displays countdown during lockout period
+- **Session-Based**: Password is required for every new game session
+- **No Persistence**: Password screen shows every time, regardless of previous sessions
 
 ## Game Structure
 

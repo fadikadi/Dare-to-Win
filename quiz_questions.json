@@ -1,0 +1,2524 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Sample easy question 1 about kaaba destruction?",
+        "ar": "سؤال easy 1 عن kaaba destruction؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample easy question 2 about ya'juj ma'juj?",
+        "ar": "سؤال easy 2 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample easy question 3 about Al Mahdi?",
+        "ar": "سؤال easy 3 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample easy question 4 about dajjal?",
+        "ar": "سؤال easy 4 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "isa_return",
+      "question": {
+        "en": "Sample easy question 5 about isa return?",
+        "ar": "سؤال easy 5 عن isa return؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "fitnah",
+      "question": {
+        "en": "Sample easy question 6 about fitnah?",
+        "ar": "سؤال easy 6 عن fitnah؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample easy question 7 about major signs?",
+        "ar": "سؤال easy 7 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample easy question 8 about resurrection?",
+        "ar": "سؤال easy 8 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "category": "plagues",
+      "question": {
+        "en": "Sample easy question 9 about plagues?",
+        "ar": "سؤال easy 9 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Sample easy question 10 about kaaba destruction?",
+        "ar": "سؤال easy 10 عن kaaba destruction؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample easy question 11 about major signs?",
+        "ar": "سؤال easy 11 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "category": "isa_return",
+      "question": {
+        "en": "Sample easy question 12 about isa return?",
+        "ar": "سؤال easy 12 عن isa return؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample easy question 13 about ya'juj ma'juj?",
+        "ar": "سؤال easy 13 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample easy question 14 about Al Mahdi?",
+        "ar": "سؤال easy 14 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample easy question 15 about resurrection?",
+        "ar": "سؤال easy 15 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample easy question 16 about major signs?",
+        "ar": "سؤال easy 16 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample easy question 17 about dajjal?",
+        "ar": "سؤال easy 17 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample easy question 18 about ya'juj ma'juj?",
+        "ar": "سؤال easy 18 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "category": "sun_rising",
+      "question": {
+        "en": "Sample easy question 19 about sun rising?",
+        "ar": "سؤال easy 19 عن sun rising؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "category": "horn",
+      "question": {
+        "en": "Sample easy question 20 about horn?",
+        "ar": "سؤال easy 20 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample easy question 21 about resurrection?",
+        "ar": "سؤال easy 21 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample easy question 22 about ya'juj ma'juj?",
+        "ar": "سؤال easy 22 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "category": "fitnah",
+      "question": {
+        "en": "Sample easy question 23 about fitnah?",
+        "ar": "سؤال easy 23 عن fitnah؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "difficulty": "easy",
+      "category": "smoke",
+      "question": {
+        "en": "Sample easy question 24 about smoke?",
+        "ar": "سؤال easy 24 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 25,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample easy question 25 about major signs?",
+        "ar": "سؤال easy 25 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "difficulty": "easy",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample easy question 26 about Al Mahdi?",
+        "ar": "سؤال easy 26 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 27,
+      "difficulty": "easy",
+      "category": "horn",
+      "question": {
+        "en": "Sample easy question 27 about horn?",
+        "ar": "سؤال easy 27 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "category": "plagues",
+      "question": {
+        "en": "Sample easy question 28 about plagues?",
+        "ar": "سؤال easy 28 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 29,
+      "difficulty": "easy",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample easy question 29 about dajjal?",
+        "ar": "سؤال easy 29 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "difficulty": "easy",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample easy question 30 about major signs?",
+        "ar": "سؤال easy 30 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample medium question 1 about resurrection?",
+        "ar": "سؤال medium 1 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "category": "judgment_day",
+      "question": {
+        "en": "Sample medium question 2 about judgment day?",
+        "ar": "سؤال medium 2 عن judgment day؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample medium question 3 about dajjal?",
+        "ar": "سؤال medium 3 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "category": "plagues",
+      "question": {
+        "en": "Sample medium question 4 about plagues?",
+        "ar": "سؤال medium 4 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample medium question 5 about dajjal?",
+        "ar": "سؤال medium 5 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample medium question 6 about minor signs?",
+        "ar": "سؤال medium 6 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample medium question 7 about resurrection?",
+        "ar": "سؤال medium 7 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample medium question 8 about dajjal?",
+        "ar": "سؤال medium 8 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample medium question 9 about major signs?",
+        "ar": "سؤال medium 9 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample medium question 10 about ya'juj ma'juj?",
+        "ar": "سؤال medium 10 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "difficulty": "medium",
+      "category": "smoke",
+      "question": {
+        "en": "Sample medium question 11 about smoke?",
+        "ar": "سؤال medium 11 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample medium question 12 about Al Mahdi?",
+        "ar": "سؤال medium 12 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "category": "smoke",
+      "question": {
+        "en": "Sample medium question 13 about smoke?",
+        "ar": "سؤال medium 13 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample medium question 14 about minor signs?",
+        "ar": "سؤال medium 14 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 45,
+      "difficulty": "medium",
+      "category": "horn",
+      "question": {
+        "en": "Sample medium question 15 about horn?",
+        "ar": "سؤال medium 15 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "category": "judgment_day",
+      "question": {
+        "en": "Sample medium question 16 about judgment day?",
+        "ar": "سؤال medium 16 عن judgment day؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "category": "beast",
+      "question": {
+        "en": "Sample medium question 17 about beast?",
+        "ar": "سؤال medium 17 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Sample medium question 18 about kaaba destruction?",
+        "ar": "سؤال medium 18 عن kaaba destruction؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "category": "kaaba_destruction",
+      "question": {
+        "en": "Sample medium question 19 about kaaba destruction?",
+        "ar": "سؤال medium 19 عن kaaba destruction؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "category": "horn",
+      "question": {
+        "en": "Sample medium question 20 about horn?",
+        "ar": "سؤال medium 20 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "difficulty": "medium",
+      "category": "beast",
+      "question": {
+        "en": "Sample medium question 21 about beast?",
+        "ar": "سؤال medium 21 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "category": "beast",
+      "question": {
+        "en": "Sample medium question 22 about beast?",
+        "ar": "سؤال medium 22 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 53,
+      "difficulty": "medium",
+      "category": "isa_return",
+      "question": {
+        "en": "Sample medium question 23 about isa return?",
+        "ar": "سؤال medium 23 عن isa return؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample medium question 24 about ya'juj ma'juj?",
+        "ar": "سؤال medium 24 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "category": "fitnah",
+      "question": {
+        "en": "Sample medium question 25 about fitnah?",
+        "ar": "سؤال medium 25 عن fitnah؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "difficulty": "medium",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample medium question 26 about minor signs?",
+        "ar": "سؤال medium 26 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 57,
+      "difficulty": "medium",
+      "category": "smoke",
+      "question": {
+        "en": "Sample medium question 27 about smoke?",
+        "ar": "سؤال medium 27 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "category": "sun_rising",
+      "question": {
+        "en": "Sample medium question 28 about sun rising?",
+        "ar": "سؤال medium 28 عن sun rising؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "category": "plagues",
+      "question": {
+        "en": "Sample medium question 29 about plagues?",
+        "ar": "سؤال medium 29 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample medium question 30 about major signs?",
+        "ar": "سؤال medium 30 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample hard question 1 about Al Mahdi?",
+        "ar": "سؤال hard 1 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 62,
+      "difficulty": "hard",
+      "category": "resurrection",
+      "question": {
+        "en": "Sample hard question 2 about resurrection?",
+        "ar": "سؤال hard 2 عن resurrection؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "category": "beast",
+      "question": {
+        "en": "Sample hard question 3 about beast?",
+        "ar": "سؤال hard 3 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample hard question 4 about dajjal?",
+        "ar": "سؤال hard 4 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 65,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample hard question 5 about dajjal?",
+        "ar": "سؤال hard 5 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 66,
+      "difficulty": "hard",
+      "category": "horn",
+      "question": {
+        "en": "Sample hard question 6 about horn?",
+        "ar": "سؤال hard 6 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "category": "beast",
+      "question": {
+        "en": "Sample hard question 7 about beast?",
+        "ar": "سؤال hard 7 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample hard question 8 about minor signs?",
+        "ar": "سؤال hard 8 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample hard question 9 about minor signs?",
+        "ar": "سؤال hard 9 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "category": "horn",
+      "question": {
+        "en": "Sample hard question 10 about horn?",
+        "ar": "سؤال hard 10 عن horn؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 71,
+      "difficulty": "hard",
+      "category": "plagues",
+      "question": {
+        "en": "Sample hard question 11 about plagues?",
+        "ar": "سؤال hard 11 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 72,
+      "difficulty": "hard",
+      "category": "beast",
+      "question": {
+        "en": "Sample hard question 12 about beast?",
+        "ar": "سؤال hard 12 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample hard question 13 about minor signs?",
+        "ar": "سؤال hard 13 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "difficulty": "hard",
+      "category": "judgment_day",
+      "question": {
+        "en": "Sample hard question 14 about judgment day?",
+        "ar": "سؤال hard 14 عن judgment day؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "difficulty": "hard",
+      "category": "minor_signs",
+      "question": {
+        "en": "Sample hard question 15 about minor signs?",
+        "ar": "سؤال hard 15 عن minor signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "category": "smoke",
+      "question": {
+        "en": "Sample hard question 16 about smoke?",
+        "ar": "سؤال hard 16 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "difficulty": "hard",
+      "category": "Al_Mahdi",
+      "question": {
+        "en": "Sample hard question 17 about Al Mahdi?",
+        "ar": "سؤال hard 17 عن Al Mahdi؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample hard question 18 about dajjal?",
+        "ar": "سؤال hard 18 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 79,
+      "difficulty": "hard",
+      "category": "smoke",
+      "question": {
+        "en": "Sample hard question 19 about smoke?",
+        "ar": "سؤال hard 19 عن smoke؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 80,
+      "difficulty": "hard",
+      "category": "plagues",
+      "question": {
+        "en": "Sample hard question 20 about plagues?",
+        "ar": "سؤال hard 20 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "difficulty": "hard",
+      "category": "isa_return",
+      "question": {
+        "en": "Sample hard question 21 about isa return?",
+        "ar": "سؤال hard 21 عن isa return؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 82,
+      "difficulty": "hard",
+      "category": "judgment_day",
+      "question": {
+        "en": "Sample hard question 22 about judgment day?",
+        "ar": "سؤال hard 22 عن judgment day؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 83,
+      "difficulty": "hard",
+      "category": "isa_return",
+      "question": {
+        "en": "Sample hard question 23 about isa return?",
+        "ar": "سؤال hard 23 عن isa return؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "difficulty": "hard",
+      "category": "dajjal",
+      "question": {
+        "en": "Sample hard question 24 about dajjal?",
+        "ar": "سؤال hard 24 عن dajjal؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 85,
+      "difficulty": "hard",
+      "category": "major_signs",
+      "question": {
+        "en": "Sample hard question 25 about major signs?",
+        "ar": "سؤال hard 25 عن major signs؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "difficulty": "hard",
+      "category": "judgment_day",
+      "question": {
+        "en": "Sample hard question 26 about judgment day?",
+        "ar": "سؤال hard 26 عن judgment day؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "difficulty": "hard",
+      "category": "beast",
+      "question": {
+        "en": "Sample hard question 27 about beast?",
+        "ar": "سؤال hard 27 عن beast؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 88,
+      "difficulty": "hard",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample hard question 28 about ya'juj ma'juj?",
+        "ar": "سؤال hard 28 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "difficulty": "hard",
+      "category": "ya'juj_ma'juj",
+      "question": {
+        "en": "Sample hard question 29 about ya'juj ma'juj?",
+        "ar": "سؤال hard 29 عن ya'juj ma'juj؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "category": "plagues",
+      "question": {
+        "en": "Sample hard question 30 about plagues?",
+        "ar": "سؤال hard 30 عن plagues؟"
+      },
+      "options": [
+        {
+          "en": "Option A",
+          "ar": "الخيار أ"
+        },
+        {
+          "en": "Option B",
+          "ar": "الخيار ب"
+        },
+        {
+          "en": "Option C",
+          "ar": "الخيار ج"
+        },
+        {
+          "en": "Option D",
+          "ar": "الخيار د"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

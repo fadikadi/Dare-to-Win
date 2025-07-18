@@ -174,23 +174,23 @@ export default function GameScreen({
             <div className="question-confirmation">
               <div className="confirmation-content">
                 <h3 className="confirmation-title">{t('confirm_answer')}</h3>
-                <div className="selected-answer">
-                  <div className="answer-label">{t('your_answer')}:</div>
+                <div className="confirmation-row">
                   <div className="answer-option">
                     <span className="option-letter">
                       {String.fromCharCode(65 + pendingAnswer)}
-                    </span>                    <span className="option-text">
+                    </span>
+                    <span className="option-text">
                       {currentQuestion.options[pendingAnswer][i18n.language] || currentQuestion.options[pendingAnswer].en || currentQuestion.options[pendingAnswer]}
                     </span>
                   </div>
-                </div>
-                <div className="confirmation-buttons">
-                  <button className="confirm-btn" onClick={onConfirmAnswer}>
-                    {t('final_answer')}
-                  </button>
-                  <button className="cancel-btn" onClick={onCancelAnswer}>
-                    {t('change_answer')}
-                  </button>
+                  <div className="confirmation-buttons">
+                    <button className="confirm-btn" onClick={onConfirmAnswer}>
+                      {t('final_answer')}
+                    </button>
+                    <button className="cancel-btn" onClick={onCancelAnswer}>
+                      {t('change_answer')}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

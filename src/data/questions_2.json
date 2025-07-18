@@ -30,7 +30,7 @@
     },
     {
       "id": 42,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "battles",
       "question": {
         "en": "How many companions participated in the Battle of Badr?",
@@ -58,7 +58,7 @@
     },
     {
       "id": 43,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "migration",
       "question": {
         "en": "How many days did Prophet Mohammed stay in the cave of Thawr during Hijra?",
@@ -86,7 +86,7 @@
     },
     {
       "id": 44,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "children",
       "question": {
         "en": "What were the names of Prophet Mohammed's sons?",
@@ -114,7 +114,7 @@
     },
     {
       "id": 45,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "treaties",
       "question": {
         "en": "What was the significant treaty signed between Muslims and Meccan tribes?",
@@ -142,7 +142,7 @@
     },
     {
       "id": 46,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "wives",
       "question": {
         "en": "How many wives did Prophet Mohammed have in total?",
@@ -170,7 +170,7 @@
     },
     {
       "id": 47,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "physical_description",
       "question": {
         "en": "What was the distinctive mark on Prophet Mohammed's body?",
@@ -198,7 +198,7 @@
     },
     {
       "id": 48,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "companions",
       "question": {
         "en": "Who was known as 'Dhul-Nurayn' (Possessor of Two Lights)?",
@@ -226,7 +226,7 @@
     },
     {
       "id": 80,
-      "difficulty": "hard",
+      "difficulty": "easy",
       "category": "succession",
       "question": {
         "en": "Who led the funeral prayer (Salat al-Janazah) for Prophet Mohammed?",
@@ -730,7 +730,7 @@
     },
     {
       "id": 56,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "wives",
       "question": {
         "en": "Who was Prophet Mohammed's wife known as 'Umm al-Mu'minin al-Bara'a' (Mother of Believers, the Innocent)?",
@@ -758,7 +758,7 @@
     },
     {
       "id": 57,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "migration",
       "question": {
         "en": "What was the first mosque built after the Hijra?",
@@ -842,7 +842,7 @@
     },
     {
       "id": 60,
-      "difficulty": "medium",
+      "difficulty": "easy",
       "category": "night_journey",
       "question": {
         "en": "From which mosque did the Night Journey (Isra) begin?",

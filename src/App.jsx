@@ -8,7 +8,9 @@ import FileUpload from './components/FileUpload';
 import MilestoneUpload from './components/MilestoneUpload';
 import DownloadSamples from './components/DownloadSamples';
 import FileReplacer from './components/FileReplacer';
-import defaultQuestionsData from './data/questions.json';
+import PasswordScreen from './components/PasswordScreen';
+import PromotionScreen from './components/PromotionScreen';
+import defaultQuestionsData from './data/questions______OK.json';
 import defaultMilestoneData from './data/milestone.json';
 import './App.css';
 import SoundManager from './utils/SoundManager';
@@ -22,6 +24,8 @@ function AppContent() {
   
   const [language, setLanguage] = useState('en');
   const [gameState, setGameState] = useState('menu');
+  const [showPasswordScreen, setShowPasswordScreen] = useState(true);
+  const [showPromotionScreen, setShowPromotionScreen] = useState(false);
   const [isStartingGame, setIsStartingGame] = useState(false);
   const [soundPlayed, setSoundPlayed] = useState(false);
   const [showAdditionalContent, setShowAdditionalContent] = useState(false); // New state for toggling content visibility
@@ -580,6 +584,7 @@ function AppContent() {
     SoundManager.stopAll();
     
     setGameState('menu');
+    // Don't reset password screen - keep it hidden once entered correctly
     setCurrentQuestionIndex(0);
     setFinalPrize(0);
     setHiddenOptions([]);
@@ -647,117 +652,136 @@ function AppContent() {
     setGameState('ended');
   };
 
+  const handlePasswordCorrect = () => {
+    setShowPasswordScreen(false);
+    setShowPromotionScreen(true);
+  };
+
+  const handlePromotionComplete = () => {
+    setShowPromotionScreen(false);
+  };
+
   return (
     <div className="App game-container">
-      {gameState === 'menu' && (
-        <div className="game-header">
-          <div className="game-title">
-            {t('game_title')} | تجرأ واربح مع الشيخ رياض
-          </div>
-          <div className="game-controls">
-            <LanguageToggle language={language} setLanguage={setLanguage} />
-            <SoundToggle />
-          </div>
-        </div>
-      )}        {gameState === 'menu' && (
-        <div className="end-screen">
-          <h1>
-            {t('game_title')}
-          </h1>
-          <h2 style={{ color: 'var(--secondary-gold)', fontSize: '1.8rem', marginBottom: '2rem' }}>
-            {language === 'ar' ? t('game_title') : 'تجرأ واربح مع الشيخ رياض'}
-          </h2>
-          
-          {showAdditionalContent && (
-            <>
-              <FileUpload 
-                onQuestionsLoaded={handleQuestionsLoaded}
-                currentQuestionsCount={
-                  questionsData.questions 
-                    ? questionsData.questions.length 
-                    : (questionsData.easy?.length || 0) + (questionsData.medium?.length || 0) + (questionsData.hard?.length || 0)
-                }
-              />
-              
-              <MilestoneUpload 
-                onMilestoneLoaded={handleMilestoneLoaded}
-                currentMilestone={milestoneData}
-              />
-              
-              <DownloadSamples />
-              
-              <FileReplacer />
-              
-              {/* Debug controls for question randomization */}
-              <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
-                <h3 style={{ color: 'var(--primary-gold)', marginBottom: '1rem' }}>Debug Controls</h3>
-                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                  <button onClick={resetUsedQuestions} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
-                    Reset Question History
-                  </button>
-                  <button onClick={testRandomization} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
-                    Test Randomization
-                  </button>
-                </div>
-                <p style={{ fontSize: '0.8rem', marginTop: '0.5rem', color: '#666' }}>
-                  Check browser console for detailed logs
-                </p>
+      {showPasswordScreen ? (
+        <PasswordScreen onPasswordCorrect={handlePasswordCorrect} />
+      ) : showPromotionScreen ? (
+        <PromotionScreen onComplete={handlePromotionComplete} />
+      ) : (
+        <>
+          {gameState === 'menu' && (
+            <div className="game-header">
+              <div className="game-title">
+                {t('game_title')} | تجرأ واربح مع الشيخ رياض
               </div>
-            </>
+              <div className="game-controls">
+                <LanguageToggle language={language} setLanguage={setLanguage} />
+                <SoundToggle />
+              </div>
+            </div>
           )}
           
-          <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-            <button onClick={startGame} disabled={isStartingGame}>
-              {isStartingGame ? t('starting_game') : t('start_game')}
-            </button>
-            
-            <button onClick={() => setShowAdditionalContent(!showAdditionalContent)}>
-              {showAdditionalContent ? t('hide_settings') || 'Hide Settings' : t('show_settings') || 'Show Settings'}
-            </button>
-          </div>
-        </div>
-      )}
+          {gameState === 'menu' && (
+            <div className="end-screen">
+              <h1>
+                {t('game_title')}
+              </h1>
+              <h2 style={{ color: 'var(--secondary-gold)', fontSize: '1.8rem', marginBottom: '2rem' }}>
+                {language === 'ar' ? t('game_title') : 'تجرأ واربح مع الشيخ رياض'}
+              </h2>
+              
+              {showAdditionalContent && (
+                <>
+                  <FileUpload 
+                    onQuestionsLoaded={handleQuestionsLoaded}
+                    currentQuestionsCount={
+                      questionsData.questions 
+                        ? questionsData.questions.length 
+                        : (questionsData.easy?.length || 0) + (questionsData.medium?.length || 0) + (questionsData.hard?.length || 0)
+                    }
+                  />
+                  
+                  <MilestoneUpload 
+                    onMilestoneLoaded={handleMilestoneLoaded}
+                    currentMilestone={milestoneData}
+                  />
+                  
+                  <DownloadSamples />
+                  
+                  <FileReplacer />
+                  
+                  {/* Debug controls for question randomization */}
+                  <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
+                    <h3 style={{ color: 'var(--primary-gold)', marginBottom: '1rem' }}>Debug Controls</h3>
+                    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                      <button onClick={resetUsedQuestions} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                        Reset Question History
+                      </button>
+                      <button onClick={testRandomization} style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                        Test Randomization
+                      </button>
+                    </div>
+                    <p style={{ fontSize: '0.8rem', marginTop: '0.5rem', color: '#666' }}>
+                      Check browser console for detailed logs
+                    </p>
+                  </div>
+                </>
+              )}
+              
+              <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                <button onClick={startGame} disabled={isStartingGame}>
+                  {isStartingGame ? t('starting_game') : t('start_game')}
+                </button>
+                
+                <button onClick={() => setShowAdditionalContent(!showAdditionalContent)}>
+                  {showAdditionalContent ? t('hide_settings') || 'Hide Settings' : t('show_settings') || 'Show Settings'}
+                </button>
+              </div>
+            </div>
+          )}
 
-      {(gameState === 'playing' || gameState === 'ended') && (
-        <GameScreen
-          questions={shuffledQuestions}
-          currentQuestionIndex={currentQuestionIndex}
-          lifelines={lifelines}
-          onAnswer={handleAnswer}
-          onUseLifeline={handleUseLifeline}
-          gameState={gameState}
-          finalPrize={finalPrize}
-          onPlayAgain={playAgain}
-          onRestartGame={restartGame}
-          onEndGame={endGame}
-          hiddenOptions={hiddenOptions}
-          audienceResults={audienceResults}
-          friendSuggestion={friendSuggestion}
-          milestoneData={milestoneData}
-          selectedAnswer={selectedAnswer}
-          showCorrectAnswer={showCorrectAnswer}
-          isProcessingAnswer={isProcessingAnswer}
-          processingDelay={processingDelay}
-          resultDelay={resultDelay}
-          onProcessingDelayChange={setProcessingDelay}
-          onResultDelayChange={setResultDelay}
-          showMilestoneDisplay={showMilestoneDisplay}
-          milestoneReached={milestoneReached}
-          showConfirmation={showConfirmation}
-          pendingAnswer={pendingAnswer}
-          onConfirmAnswer={confirmAnswer}
-          onCancelAnswer={cancelAnswer}
-        />
-      )}
+          {(gameState === 'playing' || gameState === 'ended') && (
+            <GameScreen
+              questions={shuffledQuestions}
+              currentQuestionIndex={currentQuestionIndex}
+              lifelines={lifelines}
+              onAnswer={handleAnswer}
+              onUseLifeline={handleUseLifeline}
+              gameState={gameState}
+              finalPrize={finalPrize}
+              onPlayAgain={playAgain}
+              onRestartGame={restartGame}
+              onEndGame={endGame}
+              hiddenOptions={hiddenOptions}
+              audienceResults={audienceResults}
+              friendSuggestion={friendSuggestion}
+              milestoneData={milestoneData}
+              selectedAnswer={selectedAnswer}
+              showCorrectAnswer={showCorrectAnswer}
+              isProcessingAnswer={isProcessingAnswer}
+              processingDelay={processingDelay}
+              resultDelay={resultDelay}
+              onProcessingDelayChange={setProcessingDelay}
+              onResultDelayChange={setResultDelay}
+              showMilestoneDisplay={showMilestoneDisplay}
+              milestoneReached={milestoneReached}
+              showConfirmation={showConfirmation}
+              pendingAnswer={pendingAnswer}
+              onConfirmAnswer={confirmAnswer}
+              onCancelAnswer={cancelAnswer}
+            />
+          )}
 
-      {isStartingGame && (
-        <div className="loading-screen">
-          <div className="loading-content">
-            <h2>{t('starting_game') || 'Starting Game...'}</h2>
-            <div className="loading-spinner"></div>
-            <p>{t('preparing_questions') || 'Preparing your questions...'}</p>
-          </div>
-        </div>
+          {isStartingGame && (
+            <div className="loading-screen">
+              <div className="loading-content">
+                <h2>{t('starting_game') || 'Starting Game...'}</h2>
+                <div className="loading-spinner"></div>
+                <p>{t('preparing_questions') || 'Preparing your questions...'}</p>
+              </div>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

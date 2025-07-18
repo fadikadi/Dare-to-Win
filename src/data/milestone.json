@@ -3,5 +3,23 @@
     1, 2, 3, 5, 10, 15, 20, 25, 30, 50,
     60, 70, 80, 90, 100
   ],
-  "milestones": [4, 9, 14]
+  "milestones": [4, 9, 14],
+  "description": {
+    "en": "Prize structure for Who Wants to Be a Millionaire game. Must contain exactly 15 prize amounts. Milestones array indicates which question indices (0-based) are guaranteed money levels.",
+    "ar": "هيكل الجوائز للعبة من سيربح المليون. يجب أن يحتوي على 15 مبلغ جائزة بالضبط. مصفوفة المحطات المهمة تشير إلى فهارس الأسئلة (تبدأ من الصفر) التي تمثل مستويات الأموال المضمونة."
+  },
+  "examples": {
+    "classic": {
+      "prizeAmounts": [1, 2, 3, 5, 10, 15, 20, 25, 30, 50, 60, 70, 80, 90, 100],
+      "milestones": [4, 9, 14]
+    },
+    "simplified": {
+      "prizeAmounts": [1, 2, 3, 5, 10, 15, 20, 25, 30, 50, 60, 70, 80, 90, 100],
+      "milestones": [4, 9, 14]
+    },
+    "custom": {
+      "prizeAmounts": [1, 2, 3, 5, 10, 15, 20, 25, 30, 50, 60, 70, 80, 90, 100],
+      "milestones": [4, 9, 14]
+    }
+  }
 }

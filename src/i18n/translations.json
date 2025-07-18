@@ -36,5 +36,17 @@
   "milestone_message_with_amount": { "en": "You have reached a safe milestone! {{amount}} is now guaranteed.", "ar": "لقد وصلت إلى مرحلة الأمان! {{amount}} مضمون الآن." },
   "confirm_answer": { "en": "Confirm Your Answer", "ar": "تأكيد إجابتك" },
   "your_answer": { "en": "Your Answer", "ar": "إجابتك" },
-  "change_answer": { "en": "Change Answer", "ar": "تغيير الإجابة" }
+  "change_answer": { "en": "Change Answer", "ar": "تغيير الإجابة" },
+  "password": {
+    "title": { "en": "Password", "ar": "كلمة المرور" },
+    "subtitle": { "en": "Enter password to unlock the game", "ar": "أدخل كلمة المرور لفتح اللعبة" },
+    "placeholder": { "en": "Enter password", "ar": "أدخل كلمة المرور" },
+    "submit": { "en": "Enter Game", "ar": "دخول اللعبة" },
+    "incorrect": { "en": "Incorrect password. Please try again.", "ar": "كلمة مرور خاطئة. حاول مرة أخرى." },
+    "locked": { "en": "Too many attempts. Please wait before trying again.", "ar": "محاولات كثيرة. انتظر قبل المحاولة مرة أخرى." },
+    "lockoutMessage": { "en": "Locked for", "ar": "مقفل لمدة" },
+    "attempts": { "en": "Attempts: {{count}}", "ar": "المحاولات: {{count}}" },
+    "showPassword": { "en": "Show password", "ar": "إظهار كلمة المرور" },
+    "hidePassword": { "en": "Hide password", "ar": "إخفاء كلمة المرور" }
+  }
 }

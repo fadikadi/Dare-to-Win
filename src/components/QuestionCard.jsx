@@ -106,17 +106,17 @@ export default function QuestionCard({
       {audienceResults && (
         <div className="audience-poll">
           <h3>{t('ask_audience')} - {t('results')}:</h3>
-          <div className="poll-bars">
+          <div className="poll-bars-horizontal">
             {audienceResults.map((percentage, index) => (
-              <div key={index} className="poll-bar">
-                <div 
-                  className="bar" 
-                  style={{ height: `${Math.max(percentage * 1.5, 5)}px` }}
-                ></div>
-                <div style={{ color: 'var(--primary-gold)', fontWeight: 'bold' }}>
+              <div key={index} className="poll-bar-horizontal">
+                <div style={{ color: 'var(--primary-gold)', fontWeight: 'bold', marginBottom: '5px' }}>
                   {String.fromCharCode(65 + index)}
                 </div>
-                <div style={{ color: 'var(--text-white)', fontSize: '0.9em' }}>
+                <div 
+                  className="bar-horizontal" 
+                  style={{ width: `${percentage}%` }}
+                ></div>
+                <div style={{ color: 'var(--text-white)', fontSize: '0.9em', marginTop: '5px' }}>
                   {percentage}%
                 </div>
               </div>
